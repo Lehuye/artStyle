@@ -1,0 +1,18 @@
+﻿{
+    "label":  "手绘类",
+    "folders":  [
+                    "animeIllustration",
+                    "coloredPencil",
+                    "crayon",
+                    "inkDrawing",
+                    "oilPainting",
+                    "oilPastel",
+                    "sketch",
+                    "watercolor"
+                ],
+    "name":  "handDrawn",
+    "desc":  "物理/数字笔刷，绘画媒介质感，笔触痕迹",
+    "files":  [
+
+              ]
+}

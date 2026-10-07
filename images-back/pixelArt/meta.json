@@ -1,0 +1,13 @@
+﻿{
+    "label":  "像素画",
+    "folders":  [
+                    "bit8",
+                    "bit16",
+                    "bit32ModernPixel"
+                ],
+    "name":  "pixelArt",
+    "desc":  "像素点阵风格，复古游戏美术",
+    "files":  [
+
+              ]
+}

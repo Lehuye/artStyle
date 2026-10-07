@@ -1,0 +1,16 @@
+﻿{
+    "name":  "photography",
+    "code":  "02",
+    "folders":  [
+                    "photorealistic",
+                    "filmPhotograph",
+                    "macroPhotography",
+                    "longExposure",
+                    "bokehPortrait"
+                ],
+    "files":  [
+
+              ],
+    "label":  "摄影类",
+    "desc":  "实拍摄影，胶片、微距、人像、长曝光等真实镜头效果"
+}

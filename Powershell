@@ -1,0 +1,455 @@
+# build.ps1
+# 基础根目录
+$rootPath = Join-Path $PWD.Path "images"
+
+# 目录树定义，全部files = @()
+$tree = @{
+    name = "images"
+    label = "绘画风格素材库"
+    desc = "AI绘画视觉风格参考图集，多分类参考样图"
+    folders = @("handDrawn","mixedMedia","photography","pixelArt","procedural","threeDRender","vectorArt")
+    files = @()
+    children = @(
+        # ========= handDrawn 手绘类 =========
+        @{
+            name = "handDrawn"
+            label = "手绘类"
+            desc = "物理/数字笔刷，绘画媒介质感，笔触痕迹"
+            folders = @("animeIllustration","coloredPencil","crayon","inkDrawing","oilPainting","oilPastel","sketch","watercolor")
+            files = @()
+            children = @(
+                @{
+                    name = "animeIllustration"
+                    label = "动漫插画"
+                    desc = "日系动漫插画，平涂、厚涂二次元画风"
+                    folders = @("celShading","heavyPaint")
+                    files = @()
+                    children = @(
+                        @{
+                            name="celShading"
+                            label="赛璐璐平涂"
+                            desc="日系赛璐璐上色，硬边缘平涂"
+                            folders=@()
+                            files=@()
+                        }
+                        @{
+                            name="heavyPaint"
+                            label="厚涂插画"
+                            desc="二次元厚涂，笔触丰富明暗柔和"
+                            folders=@()
+                            files=@()
+                        }
+                    )
+                },
+                @{
+                    name="coloredPencil"
+                    label="彩色铅笔"
+                    desc="彩铅手绘，细腻叠色，柔和质感"
+                    folders=@()
+                    files=@()
+                },
+                @{
+                    name="crayon"
+                    label="蜡笔"
+                    desc="蜡笔手绘，笔触粗糙，色彩厚重"
+                    folders=@()
+                    files=@()
+                },
+                @{
+                    name = "inkDrawing"
+                    label = "墨水线稿"
+                    desc = "针管笔墨水手绘线条，黑白线稿"
+                    folders = @("penInkLineart","chineseInkWash","mangaInk")
+                    files = @()
+                    children = @(
+                        @{
+                            name="penInkLineart"
+                            label="钢笔线稿"
+                            desc="钢笔针管笔精细轮廓线稿"
+                            folders=@()
+                            files=@()
+                        }
+                        @{
+                            name="chineseInkWash"
+                            label="水墨国风"
+                            desc="中式水墨写意，浓淡墨色变化"
+                            folders=@()
+                            files=@()
+                        }
+                        @{
+                            name="mangaInk"
+                            label="漫画墨线"
+                            desc="日系漫画勾线，富有张力线条"
+                            folders=@()
+                            files=@()
+                        }
+                    )
+                },
+                @{
+                    name = "oilPainting"
+                    label = "油画"
+                    desc = "油画颜料手绘，厚重肌理质感"
+                    folders = @("impressionismOil","realisticOil","qijunStyle")
+                    files = @()
+                    children = @(
+                        @{
+                            name="impressionismOil"
+                            label="印象派油画"
+                            desc="印象派油画，光影色彩朦胧"
+                            folders=@()
+                            files=@()
+                        }
+                        @{
+                            name="realisticOil"
+                            label="写实油画"
+                            desc="超写实古典油画"
+                            folders=@()
+                            files=@()
+                        }
+                        @{
+                            name="qijunStyle"
+                            label="奇骏风格油画"
+                            desc="奇幻叙事油画质感"
+                            folders=@()
+                            files=@()
+                        }
+                    )
+                },
+                @{
+                    name="oilPastel"
+                    label="油画棒"
+                    desc="油画棒手绘，浓烈色彩，粗粝肌理"
+                    folders=@()
+                    files=@()
+                },
+                @{
+                    name = "sketch"
+                    label = "素描速写"
+                    desc = "各类素描速写体系，单色/彩色草图"
+                    folders = @("monochromeSketch","colorSketch")
+                    files = @()
+                    children = @(
+                        @{
+                            name="monochromeSketch"
+                            label="单色素描"
+                            desc="黑白单色素描速写"
+                            folders=@("pencilSketch","charcoalSketch","conteCrayonSketch")
+                            files=@()
+                            children = @(
+                                @{
+                                    name="pencilSketch"
+                                    label="铅笔素描"
+                                    desc="铅笔手绘素描，细腻线条，柔和明暗"
+                                    folders=@()
+                                    files=@()
+                                }
+                                @{
+                                    name="charcoalSketch"
+                                    label="炭笔素描"
+                                    desc="炭笔素描，对比强烈明暗层次"
+                                    folders=@()
+                                    files=@()
+                                }
+                                @{
+                                    name="conteCrayonSketch"
+                                    label="色粉笔素描"
+                                    desc="炭精条素描，厚重明暗对比"
+                                    folders=@()
+                                    files=@()
+                                }
+                            )
+                        }
+                        @{
+                            name="colorSketch"
+                            label="彩色速写"
+                            desc="彩色草图速写"
+                            folders=@("markerSketch","pastelSketch","pencilColorSketch")
+                            files=@()
+                            children = @(
+                                @{
+                                    name="markerSketch"
+                                    label="马克笔速写"
+                                    desc="马克笔手绘，色彩明快"
+                                    folders=@()
+                                    files=@()
+                                }
+                                @{
+                                    name="pastelSketch"
+                                    label="色粉速写"
+                                    desc="色粉手绘柔和过渡"
+                                    folders=@()
+                                    files=@()
+                                }
+                                @{
+                                    name="pencilColorSketch"
+                                    label="彩铅速写"
+                                    desc="彩色铅笔快速草图"
+                                    folders=@()
+                                    files=@()
+                                }
+                            )
+                        }
+                    )
+                },
+                @{
+                    name = "watercolor"
+                    label = "水彩"
+                    desc = "水彩手绘，通透水痕质感"
+                    folders = @("transparentWatercolor","gouache")
+                    files = @()
+                    children = @(
+                        @{
+                            name="transparentWatercolor"
+                            label="透明水彩"
+                            desc="透明水彩，通透水晕效果"
+                            folders=@()
+                            files=@()
+                        }
+                        @{
+                            name="gouache"
+                            label="水粉"
+                            desc="水粉不透明绘画，覆盖力强"
+                            folders=@()
+                            files=@()
+                        }
+                    )
+                }
+            )
+        },
+        # ========= photography 摄影 =========
+        @{
+            name = "photography"
+            label = "摄影类"
+            desc = "实拍摄影，胶片、微距、人像、长曝光等真实镜头效果"
+            folders = @("photorealistic","filmPhotograph","macroPhotography","longExposure","bokehPortrait")
+            files = @()
+            children = @(
+                @{
+                    name="photorealistic"
+                    label="写实摄影"
+                    desc="超写实商业实拍照片质感"
+                    folders=@()
+                    files=@()
+                },
+                @{
+                    name="filmPhotograph"
+                    label="胶片摄影"
+                    desc="各类胶片拍摄质感，颗粒与色彩偏移"
+                    folders=@("film35mm","mediumFormat","instantFilm")
+                    files=@()
+                    children = @(
+                        @{
+                            name="film35mm"
+                            label="35mm胶片"
+                            desc="35毫米胶片摄影，颗粒感自然色彩"
+                            folders=@()
+                            files=@()
+                        }
+                        @{
+                            name="mediumFormat"
+                            label="中画幅胶片"
+                            desc="中画幅胶片，细腻高解析度"
+                            folders=@()
+                            files=@()
+                        }
+                        @{
+                            name="instantFilm"
+                            label="一次成像胶片"
+                            desc="拍立得/instax即时成像胶片"
+                            folders=@("polaroid","fujifilmInstax")
+                            files=@()
+                            children = @(
+                                @{
+                                    name="polaroid"
+                                    label="Polaroid宝丽来"
+                                    desc="宝丽来拍立得，复古色彩边缘暗角"
+                                    folders=@()
+                                    files=@()
+                                }
+                                @{
+                                    name="fujifilmInstax"
+                                    label="富士instax"
+                                    desc="富士拍立得，清新柔和色调"
+                                    folders=@()
+                                    files=@()
+                                }
+                            )
+                        }
+                    )
+                },
+                @{
+                    name="macroPhotography"
+                    label="微距摄影"
+                    desc="微距特写，微小物体细节"
+                    folders=@()
+                    files=@()
+                },
+                @{
+                    name="longExposure"
+                    label="长曝光摄影"
+                    desc="长曝光拖影、光绘效果"
+                    folders=@()
+                    files=@()
+                },
+                @{
+                    name="bokehPortrait"
+                    label="散景人像"
+                    desc="大光圈人像，柔和背景虚化"
+                    folders=@()
+                    files=@()
+                }
+            )
+        },
+        # ========= pixelArt 像素画 =========
+        @{
+            name = "pixelArt"
+            label = "像素画"
+            desc = "像素点阵风格，复古游戏美术"
+            folders = @("bit8","bit16","bit32ModernPixel")
+            files = @()
+            children = @(
+                @{
+                    name="bit8"
+                    label="8bit像素"
+                    desc="8位复古像素游戏美术"
+                    folders=@()
+                    files=@()
+                }
+                @{
+                    name="bit16"
+                    label="16bit像素"
+                    desc="16位像素，SNES复古画风"
+                    folders=@()
+                    files=@()
+                }
+                @{
+                    name="bit32ModernPixel"
+                    label="现代32bit像素"
+                    desc="现代高清像素画，细腻色彩"
+                    folders=@()
+                    files=@()
+                }
+            )
+        },
+        # ========= threeDRender 3D渲染 =========
+        @{
+            name = "threeDRender"
+            label = "3D渲染"
+            desc = "三维渲染，PBR、卡通、体素等3D图像"
+            folders = @("pbrRender","nprToonRender","clayRender","voxelArt","sdfRender")
+            files = @()
+            children = @(
+                @{
+                    name="pbrRender"
+                    label="PBR物理渲染"
+                    desc="写实PBR材质，物理光照渲染"
+                    folders=@()
+                    files=@()
+                }
+                @{
+                    name="nprToonRender"
+                    label="NPR卡通渲染"
+                    desc="非真实感卡通三渲二"
+                    folders=@()
+                    files=@()
+                }
+                @{
+                    name="clayRender"
+                    label="白模黏土渲染"
+                    desc="素模黏土质感渲染，无贴图"
+                    folders=@()
+                    files=@()
+                }
+                @{
+                    name="voxelArt"
+                    label="体素Voxel"
+                    desc="方块体素，类Minecraft三维像素"
+                    folders=@()
+                    files=@()
+                }
+                @{
+                    name="sdfRender"
+                    label="SDF符号距离渲染"
+                    desc="SDF程序化平滑3D造型"
+                    folders=@()
+                    files=@()
+                }
+            )
+        },
+        # ========= vectorArt 矢量图 =========
+        @{
+            name = "vectorArt"
+            label = "矢量图形"
+            desc = "矢量无损图形，线条干净平滑"
+            folders = @("flatVector","outlineVector")
+            files = @()
+            children = @(
+                @{
+                    name="flatVector"
+                    label="扁平矢量"
+                    desc="扁平化矢量插画，纯色无渐变"
+                    folders=@()
+                    files=@()
+                }
+                @{
+                    name="outlineVector"
+                    label="轮廓线矢量"
+                    desc="描线轮廓矢量图形"
+                    folders=@()
+                    files=@()
+                }
+            )
+        },
+        # ========= mixedMedia 混合媒介 =========
+        @{
+            name = "mixedMedia"
+            label = "混合媒介"
+            desc = "多种绘画材质混合创作"
+            folders = @()
+            files = @()
+        },
+        # ========= procedural 程序化 =========
+        @{
+            name = "procedural"
+            label = "程序化生成"
+            desc = "算法程序化纹理、噪声生成图像"
+            folders = @()
+            files = @()
+        }
+    )
+}
+
+# 递归函数：创建文件夹+写入meta.json
+function Build-Tree {
+    param(
+        $node,
+        $parentPath
+    )
+    $currentFolderPath = Join-Path $parentPath $node.name
+    # 创建目录
+    if(-not (Test-Path $currentFolderPath)){
+        New-Item -ItemType Directory -Path $currentFolderPath | Out-Null
+    }
+    # 生成meta.json
+    $metaObj = @{
+        name = $node.name
+        label = $node.label
+        desc = $node.desc
+        folders = $node.folders
+        files = $node.files
+    }
+    $metaJson = $metaObj | ConvertTo-Json -Depth 10
+    $metaFile = Join-Path $currentFolderPath "meta.json"
+    Set-Content -Path $metaFile -Value $metaJson -Encoding utf8
+
+    # 递归子节点
+    if($node.children){
+        foreach($child in $node.children){
+            Build-Tree -node $child -parentPath $currentFolderPath
+        }
+    }
+}
+
+# 开始执行
+Build-Tree -node $tree -parentPath $PWD.Path
+Write-Host "✅ 全部目录与meta.json生成完成，所有files为空数组，请自行添加图片对象"

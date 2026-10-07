@@ -1,0 +1,14 @@
+﻿{
+    "name":  "filmPhotograph",
+    "code":  "02",
+    "folders":  [
+                    "film35mm",
+                    "mediumFormat",
+                    "instantFilm"
+                ],
+    "files":  [
+
+              ],
+    "label":  "胶片摄影",
+    "desc":  "各类胶片拍摄质感，颗粒与色彩偏移"
+}

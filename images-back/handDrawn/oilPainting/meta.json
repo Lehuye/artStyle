@@ -1,0 +1,13 @@
+﻿{
+    "label":  "油画",
+    "folders":  [
+                    "impressionismOil",
+                    "realisticOil",
+                    "qijunStyle"
+                ],
+    "name":  "oilPainting",
+    "desc":  "油画颜料手绘，厚重肌理质感",
+    "files":  [
+
+              ]
+}

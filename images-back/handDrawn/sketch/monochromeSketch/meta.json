@@ -1,0 +1,13 @@
+﻿{
+    "label":  "单色素描",
+    "folders":  [
+                    "pencilSketch",
+                    "charcoalSketch",
+                    "conteCrayonSketch"
+                ],
+    "name":  "monochromeSketch",
+    "desc":  "黑白单色素描速写",
+    "files":  [
+
+              ]
+}

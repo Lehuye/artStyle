@@ -1,0 +1,12 @@
+﻿{
+    "name":  "voxelArt",
+    "code":  "04",
+    "folders":  [
+
+                ],
+    "files":  [
+
+              ],
+    "label":  "体素Voxel",
+    "desc":  "方块体素，类Minecraft三维像素"
+}

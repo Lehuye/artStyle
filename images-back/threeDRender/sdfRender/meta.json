@@ -1,0 +1,11 @@
+﻿{
+    "label":  "SDF符号距离渲染",
+    "folders":  [
+
+                ],
+    "name":  "sdfRender",
+    "desc":  "SDF程序化平滑3D造型",
+    "files":  [
+
+              ]
+}

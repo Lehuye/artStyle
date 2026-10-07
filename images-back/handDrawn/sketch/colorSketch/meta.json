@@ -1,0 +1,13 @@
+﻿{
+    "label":  "彩色速写",
+    "folders":  [
+                    "markerSketch",
+                    "pastelSketch",
+                    "pencilColorSketch"
+                ],
+    "name":  "colorSketch",
+    "desc":  "彩色草图速写",
+    "files":  [
+
+              ]
+}

@@ -1,0 +1,13 @@
+﻿{
+    "label":  "墨水线稿",
+    "folders":  [
+                    "penInkLineart",
+                    "chineseInkWash",
+                    "mangaInk"
+                ],
+    "name":  "inkDrawing",
+    "desc":  "针管笔墨水手绘线条，黑白线稿",
+    "files":  [
+
+              ]
+}

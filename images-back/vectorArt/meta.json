@@ -1,0 +1,12 @@
+﻿{
+    "label":  "矢量图形",
+    "folders":  [
+                    "flatVector",
+                    "outlineVector"
+                ],
+    "name":  "vectorArt",
+    "desc":  "矢量无损图形，线条干净平滑",
+    "files":  [
+
+              ]
+}

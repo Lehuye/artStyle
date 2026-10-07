@@ -1,0 +1,57 @@
+﻿{
+    "label": "铅笔素描",
+    "code":  "04",
+    "folders": [],
+    "name": "pencilSketch",
+    "desc": "铅笔手绘素描，细腻线条，柔和明暗",
+    "files": [
+        {
+            "name": "图片名称",
+            "uuid": "xxxx-xxxx-xxxx-xxxx",
+            "code": "001",
+            "desc": "图片描述文字",
+            "tags": [ "标签1", "标签2" ],
+            "src": "1.webp"
+        },
+        {
+            "name": "图片名称",
+            "uuid": "xxxx-xxxx-xxxx-xxxx",
+            "code": "002",
+            "desc": "图片描述文字",
+            "tags": [ "标签1", "标签2" ],
+            "src": "2.webp"
+        },
+        {
+            "name": "图片名称",
+            "uuid": "xx-xxxx",
+            "code": "003",
+            "desc": "图片描述文字",
+            "tags": [ "标签1", "标签2" ],
+            "src": "3.webp"
+        },
+        {
+            "name": "图片名称",
+            "uuid": "xxxx-xxxx-xxxx-xxxx",
+            "code": "004",
+            "desc": "这只狗的图片风格可以概括为粗犷（scribble）、潦草（sketchy）、未完成感（unfinished）的手绘涂鸦（hand-drawn doodle）。它主要使用深色（深灰/黑）的线条（lines/stroke），通过密集、随意的层叠交叉（overlapping）和螺旋形线条（spiral lines）来构建形状和纹理，这种技法通常被称为涂画风格（scribble technique / art style）。",
+            "tags": [ "标签1", "标签2" ],
+            "src": "4.webp"
+        },
+        {
+            "name": "图片名称",
+            "uuid": "xxxx-xxxx-xxxx-xxxx",
+            "code": "005",
+            "desc": "图片描述文字",
+            "tags": [ "标签1", "标签2" ],
+            "src": "5.webp"
+        },
+        {
+            "name": "图片名称",
+            "uuid": "xxxx-xxxx-xxxx-xxxx",
+            "code": "006",
+            "desc": "图片描述文字",
+            "tags": [ "标签1", "标签2" ],
+            "src": "6.webp"
+        }
+    ]
+}

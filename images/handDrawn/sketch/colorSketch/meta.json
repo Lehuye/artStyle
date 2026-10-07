@@ -1,0 +1,14 @@
+﻿{
+    "name":  "colorSketch",
+    "code":  "02",
+    "folders":  [
+                    "markerSketch",
+                    "pastelSketch",
+                    "pencilColorSketch"
+                ],
+    "files":  [
+
+              ],
+    "label":  "彩色速写",
+    "desc":  "彩色草图速写"
+}

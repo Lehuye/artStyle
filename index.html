@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>模型视觉画廊</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- sticky 顶部导航 -->
+<header class="page-header">
+  <div class="header-inner">
+    <div class="title-box">
+      <!-- 全局搜索框：同时匹配code/name/tags -->
+      <input class="header-search" id="searchInput" type="text" placeholder="搜索编码 / 名称 / 标签..." />
+      <!-- 独立分类下拉，读取meta的label -->
+      <select id="categorySelect">
+        <option value="">全部分类</option>
+      </select>
+    </div>
+    <div class="header-ctrl">
+      <span class="label">列数：</span>
+      <select id="colSelect">
+        <option value="auto">自动自适应</option>
+        <option value="2">2列</option>
+        <option value="3">3列</option>
+        <option value="4">4列</option>
+        <option value="5">5列</option>
+        <option value="6">6列</option>
+      </select>
+      <span class="count-badge" id="assetCount">0 ASSETS LOADED</span>
+    </div>
+  </div>
+</header>
+<section class="gallery-section">
+  <div class="gallery-grid" id="galleryGrid"></div>
+</section>
+<!-- 提示弹窗容器 -->
+<div class="tool-remind glass" id="remindToast"></div>
+<script src="./main.js"></script>
+</body>
+</html>
