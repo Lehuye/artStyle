@@ -1,0 +1,62 @@
+[
+  {
+    "unique_code": "752185101010",
+    "country_numeric": "752",
+    "country_alpha2": "SE",
+    "country_name": "瑞典",
+    "cn_name": "恩斯特·约瑟夫松",
+    "en_name": "Ernst Josephson",
+    "birth_8": "18510101",
+    "desc": "瑞典浪漫主义与象征主义画家，强烈心理肖像与《水仙》等文学题材；注：月日占位"
+  },
+  {
+    "unique_code": "752185301010",
+    "country_numeric": "752",
+    "country_alpha2": "SE",
+    "country_name": "瑞典",
+    "cn_name": "卡尔·拉松",
+    "en_name": "Carl Larsson",
+    "birth_8": "18530101",
+    "desc": "瑞典水彩家居生活画宗师，明亮温馨的家庭与乡村场景，瑞典国民美学象征；注：月日占位"
+  },
+  {
+    "unique_code": "752186001010",
+    "country_numeric": "752",
+    "country_alpha2": "SE",
+    "country_name": "瑞典",
+    "cn_name": "安德斯·佐恩",
+    "en_name": "Anders Zorn",
+    "birth_8": "18600101",
+    "desc": "瑞典绘画巨匠，豪放笔触的人体、肖像与水乡风景，水彩与油画皆精；注：月日占位"
+  },
+  {
+    "unique_code": "752186001011",
+    "country_numeric": "752",
+    "country_alpha2": "SE",
+    "country_name": "瑞典",
+    "cn_name": "布鲁诺·利耶福斯",
+    "en_name": "Bruno Liljefors",
+    "birth_8": "18600101",
+    "desc": "瑞典动物画与自然写生大师，野生动物与北欧荒野油画，印象派光影；注：月日占位"
+  },
+  {
+    "unique_code": "752186201010",
+    "country_numeric": "752",
+    "country_alpha2": "SE",
+    "country_name": "瑞典",
+    "cn_name": "希尔玛·阿夫·克林特",
+    "en_name": "Hilma af Klint",
+    "birth_8": "18620101",
+    "desc": "早期抽象主义先驱，灵性与几何抽象组画，早于欧美抽象画派多年；注：月日占位"
+  },
+  {
+    "unique_code": "752188401010",
+    "country_numeric": "752",
+    "country_alpha2": "SE",
+    "country_name": "瑞典",
+    "cn_name": "约斯塔·阿德里安-尼尔松",
+    "en_name": "Gösta Adrian-Nilsson",
+    "birth_8": "18840101",
+    "desc": "瑞典现代主义先驱，立体主义与抽象构成，笔名GAN；注：月日占位"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "unique_code": "608185501010",
+    "country_numeric": "608",
+    "country_alpha2": "PH",
+    "country_name": "菲律宾",
+    "cn_name": "费利克斯·雷苏雷西翁·伊达尔戈",
+    "en_name": "Félix Resurrección Hidalgo",
+    "birth_8": "18550101",
+    "desc": "菲律宾殖民时期学院派历史画大家，与胡安·露娜齐名；注：月日占位"
+  },
+  {
+    "unique_code": "608185701010",
+    "country_numeric": "608",
+    "country_alpha2": "PH",
+    "country_name": "菲律宾",
+    "cn_name": "胡安·露娜",
+    "en_name": "Juan Luna",
+    "birth_8": "18570101",
+    "desc": "菲律宾殖民时期学院派历史画巨匠，《斯波里阿里乌姆》；注：月日占位"
+  },
+  {
+    "unique_code": "608189201010",
+    "country_numeric": "608",
+    "country_alpha2": "PH",
+    "country_name": "菲律宾",
+    "cn_name": "费尔南多·阿莫索洛",
+    "en_name": "Fernando Amorsolo",
+    "birth_8": "18920101",
+    "desc": "菲律宾国家画家，田园逆光与女性形象，椰子树下的阳光；注：月日占位"
+  },
+  {
+    "unique_code": "608189501010",
+    "country_numeric": "608",
+    "country_alpha2": "PH",
+    "country_name": "菲律宾",
+    "cn_name": "维克托里奥·埃达德斯",
+    "en_name": "Victorio Edades",
+    "birth_8": "18950101",
+    "desc": "菲律宾现代主义绘画之父，推动印象派与后印象派革命；注：月日占位"
+  },
+  {
+    "unique_code": "608191201010",
+    "country_numeric": "608",
+    "country_alpha2": "PH",
+    "country_name": "菲律宾",
+    "cn_name": "卡洛斯·博通·弗朗西斯科",
+    "en_name": "Carlos Botong Francisco",
+    "birth_8": "19120101",
+    "desc": "菲律宾史诗壁画大师，新艺术装饰与历史叙事；注：月日占位"
+  }
+]

@@ -1,0 +1,19 @@
+﻿{
+    "name":  "pastelSketch",
+    "code":  "02",
+    "folders":  [
+
+                ],
+    "files":  [
+        {
+            "name": "图片名称",
+            "uuid": "xxxx-xxxx-xxxx-xxxx",
+            "code": "001",
+            "desc": "图片描述文字",
+            "tags": [ "标签1", "标签2" ],
+            "src": "有色手绘,Color Hand-drawn,"
+        }
+              ],
+    "label":  "色粉速写",
+    "desc":  "色粉手绘柔和过渡"
+}

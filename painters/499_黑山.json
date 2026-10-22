@@ -1,0 +1,32 @@
+[
+  {
+    "unique_code": "499189701010",
+    "country_numeric": "499",
+    "country_alpha2": "ME",
+    "country_name": "黑山",
+    "cn_name": "米洛·米卢诺维奇",
+    "en_name": "Milo Milunović",
+    "birth_8": "18970101",
+    "desc": "南斯拉夫现代派画家，色彩构成与风景几何化，黑山画派代表；注：月日占位"
+  },
+  {
+    "unique_code": "499190701010",
+    "country_numeric": "499",
+    "country_alpha2": "ME",
+    "country_name": "黑山",
+    "cn_name": "佩塔尔·卢巴达",
+    "en_name": "Petar Lubarda",
+    "birth_8": "19070101",
+    "desc": "黑山最具国际声誉的抽象表现主义画家，粗犷笔触与熔岩式色块，洛夫琴山题材；注：月日占位"
+  },
+  {
+    "unique_code": "499192401010",
+    "country_numeric": "499",
+    "country_alpha2": "ME",
+    "country_name": "黑山",
+    "cn_name": "沃约·斯塔尼奇",
+    "en_name": "Vojo Stanić",
+    "birth_8": "19240101",
+    "desc": "黑山现代抒情写实，老城与亚得里亚海景，静谧光影；注：月日占位"
+  }
+]

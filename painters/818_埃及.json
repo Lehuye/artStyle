@@ -1,0 +1,62 @@
+[
+  {
+    "unique_code": "818188801010",
+    "country_numeric": "818",
+    "country_alpha2": "EG",
+    "country_name": "埃及",
+    "cn_name": "穆罕默德·纳吉",
+    "en_name": "Mohammed Naghi",
+    "birth_8": "18880101",
+    "desc": "埃及现代绘画先驱，东方主义与抒情风景；注：月日占位"
+  },
+  {
+    "unique_code": "818189701010",
+    "country_numeric": "818",
+    "country_alpha2": "EG",
+    "country_name": "埃及",
+    "cn_name": "马哈茂德·赛义德",
+    "en_name": "Mahmoud Said",
+    "birth_8": "18970101",
+    "desc": "埃及现代主义奠基，亚历山大城地中海光影与本地人物；注：月日占位"
+  },
+  {
+    "unique_code": "818191301010",
+    "country_numeric": "818",
+    "country_alpha2": "EG",
+    "country_name": "埃及",
+    "cn_name": "拉姆西斯·尤南",
+    "en_name": "Ramses Younan",
+    "birth_8": "19130101",
+    "desc": "埃及艺术与自由小组，超现实主义与社会批判；注：月日占位"
+  },
+  {
+    "unique_code": "818192401010",
+    "country_numeric": "818",
+    "country_alpha2": "EG",
+    "country_name": "埃及",
+    "cn_name": "英吉·阿夫拉图恩",
+    "en_name": "Inji Aflatoun",
+    "birth_8": "19240101",
+    "desc": "埃及女画家与社会活动家，工人农民题材写实；注：月日占位"
+  },
+  {
+    "unique_code": "818192501011",
+    "country_numeric": "818",
+    "country_alpha2": "EG",
+    "country_name": "埃及",
+    "cn_name": "阿卜杜勒·哈迪·加扎尔",
+    "en_name": "Abdel Hadi Al-Gazzar",
+    "birth_8": "19250101",
+    "desc": "埃及当代艺术，民间信仰与科普特—伊斯兰符号超现实；注：月日占位"
+  },
+  {
+    "unique_code": "818192501012",
+    "country_numeric": "818",
+    "country_alpha2": "EG",
+    "country_name": "埃及",
+    "cn_name": "加兹比亚·西里",
+    "en_name": "Gazbia Sirry",
+    "birth_8": "19250101",
+    "desc": "埃及女性画家，民族主义与女性题材表现主义；注：月日占位"
+  }
+]

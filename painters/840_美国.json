@@ -1,0 +1,92 @@
+[
+  {
+    "unique_code": "840173801010",
+    "country_numeric": "840",
+    "country_alpha2": "US",
+    "country_name": "美国",
+    "cn_name": "本杰明·韦斯特",
+    "en_name": "Benjamin West",
+    "birth_8": "17380101",
+    "desc": "殖民地时期历史画名家，新古典主义，曾任英国皇家美术学院院长；注：月日占位"
+  },
+  {
+    "unique_code": "840183601010",
+    "country_numeric": "840",
+    "country_alpha2": "US",
+    "country_name": "美国",
+    "cn_name": "温斯洛·霍默",
+    "en_name": "Winslow Homer",
+    "birth_8": "18360101",
+    "desc": "现实主义海景与渔民题材，水彩大家；注：月日占位"
+  },
+  {
+    "unique_code": "840184401010",
+    "country_numeric": "840",
+    "country_alpha2": "US",
+    "country_name": "美国",
+    "cn_name": "玛丽·卡萨特",
+    "en_name": "Mary Cassatt",
+    "birth_8": "18440101",
+    "desc": "印象派，母与子题材，粉彩与版画；注：月日占位"
+  },
+  {
+    "unique_code": "840185601010",
+    "country_numeric": "840",
+    "country_alpha2": "US",
+    "country_name": "美国",
+    "cn_name": "约翰·辛格·萨金特",
+    "en_name": "John Singer Sargent",
+    "birth_8": "18560101",
+    "desc": "社会名流肖像画，潇洒笔触与光影；注：月日占位"
+  },
+  {
+    "unique_code": "840188201010",
+    "country_numeric": "840",
+    "country_alpha2": "US",
+    "country_name": "美国",
+    "cn_name": "爱德华·霍珀",
+    "en_name": "Edward Hopper",
+    "birth_8": "18820101",
+    "desc": "美国场景绘画，都市疏离与孤独光影；注：月日占位"
+  },
+  {
+    "unique_code": "840188701010",
+    "country_numeric": "840",
+    "country_alpha2": "US",
+    "country_name": "美国",
+    "cn_name": "乔治亚·欧姬芙",
+    "en_name": "Georgia O'Keeffe",
+    "birth_8": "18870101",
+    "desc": "花卉与荒漠特写，现代主义抽象，新墨西哥意象；注：月日占位"
+  },
+  {
+    "unique_code": "840189401010",
+    "country_numeric": "840",
+    "country_alpha2": "US",
+    "country_name": "美国",
+    "cn_name": "诺曼·洛克威尔",
+    "en_name": "Norman Rockwell",
+    "birth_8": "18940101",
+    "desc": "美国理想化日常生活插画，通俗写实叙事；注：月日占位"
+  },
+  {
+    "unique_code": "840191201010",
+    "country_numeric": "840",
+    "country_alpha2": "US",
+    "country_name": "美国",
+    "cn_name": "杰克逊·波洛克",
+    "en_name": "Jackson Pollock",
+    "birth_8": "19120101",
+    "desc": "抽象表现主义，滴洒画（行动绘画）开创者；注：月日占位"
+  },
+  {
+    "unique_code": "840192801010",
+    "country_numeric": "840",
+    "country_alpha2": "US",
+    "country_name": "美国",
+    "cn_name": "安迪·沃霍尔",
+    "en_name": "Andy Warhol",
+    "birth_8": "19280101",
+    "desc": "波普艺术旗手，丝网印刷名人图像，消费文化批判；注：月日占位"
+  }
+]

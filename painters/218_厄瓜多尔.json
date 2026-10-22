@@ -1,0 +1,32 @@
+[
+  {
+    "unique_code": "218188901010",
+    "country_numeric": "218",
+    "country_alpha2": "EC",
+    "country_name": "厄瓜多尔",
+    "cn_name": "卡米洛·埃加斯",
+    "en_name": "Camilo Egas",
+    "birth_8": "18890101",
+    "desc": "厄瓜多尔原住民主义绘画，印第安民俗与社会题材；注：月日占位"
+  },
+  {
+    "unique_code": "218191301010",
+    "country_numeric": "218",
+    "country_alpha2": "EC",
+    "country_name": "厄瓜多尔",
+    "cn_name": "爱德华多·金曼",
+    "en_name": "Eduardo Kingman",
+    "birth_8": "19130101",
+    "desc": "厄瓜多尔社会写实，印第安劳动者粗粝造型；注：月日占位"
+  },
+  {
+    "unique_code": "218191901010",
+    "country_numeric": "218",
+    "country_alpha2": "EC",
+    "country_name": "厄瓜多尔",
+    "cn_name": "奥斯瓦尔多·瓜亚萨明",
+    "en_name": "Oswaldo Guayasamín",
+    "birth_8": "19190101",
+    "desc": "安第斯表现主义巨匠，《人类的愤怒》系列，苦难与反抗；注：月日占位"
+  }
+]

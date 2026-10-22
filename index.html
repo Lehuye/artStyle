@@ -2,40 +2,112 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>模型视觉画廊</title>
-<link rel="stylesheet" href="./style.css">
+<title>画家列表</title>
+<style>
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 1200px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+.artist-card {
+  aspect-ratio: 1 / 1;
+  border:1px solid rgba(255,255,255,0.12);
+  border-radius:12px;
+  background:#151518;
+  cursor:pointer;
+  overflow:hidden;
+  position:relative;
+}
+.artist-card:hover {
+  border-color:#00dfd8;
+}
+.artist-card .preview-img {
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+.artist-card .text-wrap {
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:100%;
+  padding:10px;
+  background:linear-gradient(transparent, rgba(0,0,0,0.85));
+  font-size:12px;
+  color:#eee;
+  box-sizing:border-box;
+}
+#fileInput {
+  display:none;
+}
+h2 {
+  text-align:center;
+  color:#fff;
+}
+body {
+  background:#0b0b0f;
+  margin:0;
+}
+</style>
 </head>
 <body>
-<!-- sticky 顶部导航 -->
-<header class="page-header">
-  <div class="header-inner">
-    <div class="title-box">
-      <!-- 全局搜索框：同时匹配code/name/tags -->
-      <input class="header-search" id="searchInput" type="text" placeholder="搜索编码 / 名称 / 标签..." />
-      <!-- 独立分类下拉，读取meta的label -->
-      <select id="categorySelect">
-        <option value="">全部分类</option>
-      </select>
-    </div>
-    <div class="header-ctrl">
-      <span class="label">列数：</span>
-      <select id="colSelect">
-        <option value="auto">自动自适应</option>
-        <option value="2">2列</option>
-        <option value="3">3列</option>
-        <option value="4">4列</option>
-        <option value="5">5列</option>
-        <option value="6">6列</option>
-      </select>
-      <span class="count-badge" id="assetCount">0 ASSETS LOADED</span>
-    </div>
-  </div>
-</header>
-<section class="gallery-section">
-  <div class="gallery-grid" id="galleryGrid"></div>
-</section>
-<!-- 提示弹窗容器 -->
-<div class="tool-remind glass" id="remindToast"></div>
-<script src="./main.js"></script>
+<h2>全球画家｜点击卡片上传图片</h2>
+<ul id="list"></ul>
+<input type="file" id="fileInput" accept="image/*">
+
+<script>
+const fileInput = document.getElementById('fileInput');
+let currentPainter = null;
+
+(async () => {
+  const resp = await fetch('/api/painters');
+  const painters_data = await resp.json();
+  const ul = document.getElementById('list');
+
+  painters_data.forEach(p => {
+    const li = document.createElement('li');
+    li.className = 'artist-card';
+    // 卡片显示缩略图
+    const thumbUrl = `/images/thumb/${p.unique_code}.webp`;
+    li.innerHTML = `
+      <img class="preview-img" src="${thumbUrl}" onerror="this.style.display='none'">
+      <div class="text-wrap">${p.cn_name}｜${p.country_name}</div>
+    `;
+    li.dataset.code = p.unique_code;
+    li.addEventListener('click', ()=>{
+      currentPainter = p;
+      fileInput.click();
+    })
+    ul.appendChild(li);
+  })
+
+  fileInput.onchange = async (e) => {
+    const file = e.target.files[0];
+    if (!file || !currentPainter) return;
+    const form = new FormData();
+    form.append('imgfile', file);
+    form.append('unique_code', currentPainter.unique_code);
+
+    const res = await fetch('/api/upload', {
+      method: 'POST',
+      body: form
+    });
+    const ret = await res.json();
+    if(ret.ok){
+      alert('上传成功！已生成原图/中图/缩略图三套webp');
+      // 无刷新更新当前卡片图片
+      const card = document.querySelector(`[data-code="${currentPainter.unique_code}"] .preview-img`);
+      if(card) card.src = ret.urls.thumb;
+    }else{
+      alert('失败：' + ret.msg);
+    }
+    fileInput.value = '';
+  }
+})()
+</script>
 </body>
 </html>

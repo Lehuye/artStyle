@@ -1,0 +1,32 @@
+[
+  {
+    "unique_code": "703188801010",
+    "country_numeric": "703",
+    "country_alpha2": "SK",
+    "country_name": "斯洛伐克",
+    "cn_name": "马丁·本卡",
+    "en_name": "Martin Benka",
+    "birth_8": "18880101",
+    "desc": "斯洛伐克现代绘画先驱，民间题材与装饰性线条；注：月日占位"
+  },
+  {
+    "unique_code": "703189901010",
+    "country_numeric": "703",
+    "country_alpha2": "SK",
+    "country_name": "斯洛伐克",
+    "cn_name": "米洛什·亚历山大·巴佐夫斯基",
+    "en_name": "Miloš Alexander Bazovský",
+    "birth_8": "18990101",
+    "desc": "表现主义与民俗母题，厚重农民形象；注：月日占位"
+  },
+  {
+    "unique_code": "703190201010",
+    "country_numeric": "703",
+    "country_alpha2": "SK",
+    "country_name": "斯洛伐克",
+    "cn_name": "卢多维特·富拉",
+    "en_name": "Ľudovít Fulla",
+    "birth_8": "19020101",
+    "desc": "现代主义装饰绘画，民间图案与立体主义融合；注：月日占位"
+  }
+]

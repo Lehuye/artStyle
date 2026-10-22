@@ -1,0 +1,102 @@
+[
+  {
+    "unique_code": "156034501010",
+    "country_numeric": "156",
+    "country_alpha2": "CN",
+    "country_name": "中国",
+    "cn_name": "顾恺之",
+    "en_name": "Gu Kaizhi",
+    "birth_8": "03450101",
+    "desc": "东晋人物画宗师，以形写神，春蚕吐丝描；注：出生年份约345，月日占位"
+  },
+  {
+    "unique_code": "156068001010",
+    "country_numeric": "156",
+    "country_alpha2": "CN",
+    "country_name": "中国",
+    "cn_name": "吴道子",
+    "en_name": "Wu Daozi",
+    "birth_8": "06800101",
+    "desc": "唐代画圣，吴带当风，兰叶描，寺观壁画气势磅礴；注：出生年份约680，月日占位"
+  },
+  {
+    "unique_code": "156095001010",
+    "country_numeric": "156",
+    "country_alpha2": "CN",
+    "country_name": "中国",
+    "cn_name": "范宽",
+    "en_name": "Fan Kuan",
+    "birth_8": "09500101",
+    "desc": "北宋山水巨擘，雨点皴与全景式雄浑山水，《溪山行旅图》；注：出生年份约950，月日占位"
+  },
+  {
+    "unique_code": "156126901010",
+    "country_numeric": "156",
+    "country_alpha2": "CN",
+    "country_name": "中国",
+    "cn_name": "黄公望",
+    "en_name": "Huang Gongwang",
+    "birth_8": "12690101",
+    "desc": "元四家之首，浅绛山水，《富春山居图》；注：月日占位"
+  },
+  {
+    "unique_code": "156152101010",
+    "country_numeric": "156",
+    "country_alpha2": "CN",
+    "country_name": "中国",
+    "cn_name": "徐渭",
+    "en_name": "Xu Wei",
+    "birth_8": "15210101",
+    "desc": "明代大写意花鸟开山，泼墨淋漓，水墨大写意；注：月日占位"
+  },
+  {
+    "unique_code": "156162601010",
+    "country_numeric": "156",
+    "country_alpha2": "CN",
+    "country_name": "中国",
+    "cn_name": "朱耷（八大山人）",
+    "en_name": "Zhu Da (Bada Shanren)",
+    "birth_8": "16260101",
+    "desc": "明末清初简笔大写意，孤冷奇崛，残山剩水；注：月日占位"
+  },
+  {
+    "unique_code": "156164201010",
+    "country_numeric": "156",
+    "country_alpha2": "CN",
+    "country_name": "中国",
+    "cn_name": "石涛",
+    "en_name": "Shi Tao",
+    "birth_8": "16420101",
+    "desc": "清初搜尽奇峰打草稿，水墨山水与画论《苦瓜和尚画语录》；注：月日占位"
+  },
+  {
+    "unique_code": "156186401010",
+    "country_numeric": "156",
+    "country_alpha2": "CN",
+    "country_name": "中国",
+    "cn_name": "齐白石",
+    "en_name": "Qi Baishi",
+    "birth_8": "18640101",
+    "desc": "近现代大写意花鸟，虾蟹传神，红花墨叶，衰年变法"
+  },
+  {
+    "unique_code": "156186501010",
+    "country_numeric": "156",
+    "country_alpha2": "CN",
+    "country_name": "中国",
+    "cn_name": "黄宾虹",
+    "en_name": "Huang Binhong",
+    "birth_8": "18650101",
+    "desc": "近现代山水国画，浑厚华滋，积墨山水；注：月日占位"
+  },
+  {
+    "unique_code": "156189901010",
+    "country_numeric": "156",
+    "country_alpha2": "CN",
+    "country_name": "中国",
+    "cn_name": "张大千",
+    "en_name": "Zhang Daqian",
+    "birth_8": "18990101",
+    "desc": "近现代泼墨泼彩山水，融汇敦煌壁画与抽象表现；注：月日占位"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "unique_code": "356184801010",
+    "country_numeric": "356",
+    "country_alpha2": "IN",
+    "country_name": "印度",
+    "cn_name": "拉贾·拉维·瓦尔马",
+    "en_name": "Raja Ravi Varma",
+    "birth_8": "18480101",
+    "desc": "印度现代绘画之父，学院派油画与印度神话史诗题材；注：月日占位"
+  },
+  {
+    "unique_code": "356187101010",
+    "country_numeric": "356",
+    "country_alpha2": "IN",
+    "country_name": "印度",
+    "cn_name": "阿巴宁德拉纳特·泰戈尔",
+    "en_name": "Abanindranath Tagore",
+    "birth_8": "18710101",
+    "desc": "孟加拉画派创始人，受莫卧儿细密画影响的抒情新艺术；注：月日占位"
+  },
+  {
+    "unique_code": "356188701010",
+    "country_numeric": "356",
+    "country_alpha2": "IN",
+    "country_name": "印度",
+    "cn_name": "贾米尼·罗伊",
+    "en_name": "Jamini Roy",
+    "birth_8": "18870101",
+    "desc": "孟加拉民俗与 Kalighat 画派转化，平涂图腾式人物；注：月日占位"
+  },
+  {
+    "unique_code": "356191301010",
+    "country_numeric": "356",
+    "country_alpha2": "IN",
+    "country_name": "印度",
+    "cn_name": "阿姆丽塔·谢尔-吉尔",
+    "en_name": "Amrita Sher-Gil",
+    "birth_8": "19130101",
+    "desc": "印度现代女性画家，欧洲后印象派与印度乡村题材融合；注：月日占位"
+  },
+  {
+    "unique_code": "356191501010",
+    "country_numeric": "356",
+    "country_alpha2": "IN",
+    "country_name": "印度",
+    "cn_name": "M. F. 侯赛因",
+    "en_name": "Maqbool Fida Husain",
+    "birth_8": "19150101",
+    "desc": "印度现代艺术巨匠，史诗叙事与活力线条，\"印度毕加索\"；注：月日占位"
+  },
+  {
+    "unique_code": "356192201010",
+    "country_numeric": "356",
+    "country_alpha2": "IN",
+    "country_name": "印度",
+    "cn_name": "S. H. 拉扎",
+    "en_name": "Sayyed Haider Raza",
+    "birth_8": "19220101",
+    "desc": "孟买画派，从风景转向 bindu（点）宇宙抽象；注：月日占位"
+  },
+  {
+    "unique_code": "356192401010",
+    "country_numeric": "356",
+    "country_alpha2": "IN",
+    "country_name": "印度",
+    "cn_name": "K. G. 苏布拉马尼扬",
+    "en_name": "Kalpathi Ganapathy Subramanyan",
+    "birth_8": "19240101",
+    "desc": "印度巴鲁达学派，民间叙事与现代主义混合媒材；注：月日占位"
+  },
+  {
+    "unique_code": "356192401011",
+    "country_numeric": "356",
+    "country_alpha2": "IN",
+    "country_name": "印度",
+    "cn_name": "F. N. 苏扎",
+    "en_name": "Francis Newton Souza",
+    "birth_8": "19240101",
+    "desc": "孟买画派创始人之一，粗野表现主义与宗教性人物；注：月日占位"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "unique_code": "040148001010",
+    "country_numeric": "040",
+    "country_alpha2": "AT",
+    "country_name": "奥地利",
+    "cn_name": "阿尔布雷希特·阿尔特多费尔",
+    "en_name": "Albrecht Altdorfer",
+    "birth_8": "14800101",
+    "desc": "多瑙河画派奠基人，早期纯风景画先驱，《伊苏斯之战》天穹全景；注：出生年份约1480，月日占位"
+  },
+  {
+    "unique_code": "040148501010",
+    "country_numeric": "040",
+    "country_alpha2": "AT",
+    "country_name": "奥地利",
+    "cn_name": "沃尔夫·胡伯",
+    "en_name": "Wolf Huber",
+    "birth_8": "14850101",
+    "desc": "多瑙河画派代表，风景式祭坛画与紧张线条人物；注：出生年份约1485，月日占位"
+  },
+  {
+    "unique_code": "040169801010",
+    "country_numeric": "040",
+    "country_alpha2": "AT",
+    "country_name": "奥地利",
+    "cn_name": "保罗·特勒格",
+    "en_name": "Paul Troger",
+    "birth_8": "16980101",
+    "desc": "奥地利洛可可天顶壁画大师，错觉主义穹顶与明亮大气色调；注：月日占位"
+  },
+  {
+    "unique_code": "040172401010",
+    "country_numeric": "040",
+    "country_alpha2": "AT",
+    "country_name": "奥地利",
+    "cn_name": "弗朗茨·安东·毛尔贝施",
+    "en_name": "Franz Anton Maulbertsch",
+    "birth_8": "17240101",
+    "desc": "南德—奥地利洛可可壁画晚期代表，轻快笔触与戏剧化宗教场景；注：月日占位"
+  },
+  {
+    "unique_code": "040180301010",
+    "country_numeric": "040",
+    "country_alpha2": "AT",
+    "country_name": "奥地利",
+    "cn_name": "弗里德里希·冯·阿梅林",
+    "en_name": "Friedrich von Amerling",
+    "birth_8": "18030101",
+    "desc": "比德迈耶时期维也纳肖像画名家，精致写实与中产阶级趣味；注：月日占位"
+  },
+  {
+    "unique_code": "040184001010",
+    "country_numeric": "040",
+    "country_alpha2": "AT",
+    "country_name": "奥地利",
+    "cn_name": "汉斯·马克特",
+    "en_name": "Hans Makart",
+    "birth_8": "18400101",
+    "desc": "维也纳历史主义学院派华丽装饰风格，宏大彩画与浮华沙龙审美；注：月日占位"
+  },
+  {
+    "unique_code": "040186201010",
+    "country_numeric": "040",
+    "country_alpha2": "AT",
+    "country_name": "奥地利",
+    "cn_name": "古斯塔夫·克里姆特",
+    "en_name": "Gustav Klimt",
+    "birth_8": "18620101",
+    "desc": "维也纳分离派领袖，金箔装饰性象征主义，《吻》；注：月日占位"
+  },
+  {
+    "unique_code": "040186801010",
+    "country_numeric": "040",
+    "country_alpha2": "AT",
+    "country_name": "奥地利",
+    "cn_name": "阿尔宾·埃格-利恩茨",
+    "en_name": "Albin Egger-Lienz",
+    "birth_8": "18680101",
+    "desc": "表现主义乡土与战争题材，厚重庄严的农民与士兵群像；注：月日占位"
+  },
+  {
+    "unique_code": "040188601010",
+    "country_numeric": "040",
+    "country_alpha2": "AT",
+    "country_name": "奥地利",
+    "cn_name": "奥斯卡·柯柯施卡",
+    "en_name": "Oskar Kokoschka",
+    "birth_8": "18860101",
+    "desc": "奥地利表现主义，心理肖像与动荡笔触风景；注：月日占位"
+  },
+  {
+    "unique_code": "040189001010",
+    "country_numeric": "040",
+    "country_alpha2": "AT",
+    "country_name": "奥地利",
+    "cn_name": "埃贡·席勒",
+    "en_name": "Egon Schiele",
+    "birth_8": "18900101",
+    "desc": "奥地利表现主义，神经质的变形人体与强烈线条、性与存在焦虑；注：月日占位"
+  }
+]

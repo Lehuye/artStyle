@@ -1,0 +1,52 @@
+[
+  {
+    "unique_code": "372187101010",
+    "country_numeric": "372",
+    "country_alpha2": "IE",
+    "country_name": "爱尔兰",
+    "cn_name": "杰克·巴特勒·叶芝",
+    "en_name": "Jack Butler Yeats",
+    "birth_8": "18710101",
+    "desc": "爱尔兰二十世纪绘画之父，象征主义爱尔兰西部风景与人物；注：月日占位"
+  },
+  {
+    "unique_code": "372187801010",
+    "country_numeric": "372",
+    "country_alpha2": "IE",
+    "country_name": "爱尔兰",
+    "cn_name": "威廉·奥彭",
+    "en_name": "William Orpen",
+    "birth_8": "18780101",
+    "desc": "爱尔兰裔肖像与战争画家，爱尔兰皇家美术学院写实肖像；注：月日占位"
+  },
+  {
+    "unique_code": "372190901010",
+    "country_numeric": "372",
+    "country_alpha2": "IE",
+    "country_name": "爱尔兰",
+    "cn_name": "弗朗西斯·培根",
+    "en_name": "Francis Bacon",
+    "birth_8": "19090101",
+    "desc": "出生于都柏林的表现主义巨匠，扭曲人物与肉感肖像；注：月日占位"
+  },
+  {
+    "unique_code": "372191601010",
+    "country_numeric": "372",
+    "country_alpha2": "IE",
+    "country_name": "爱尔兰",
+    "cn_name": "路易斯·勒·布罗基",
+    "en_name": "Louis le Brocquy",
+    "birth_8": "19160101",
+    "desc": "爱尔兰现代主义，凯尔特神话与头像系列，水彩象征；注：月日占位"
+  },
+  {
+    "unique_code": "372194501010",
+    "country_numeric": "372",
+    "country_alpha2": "IE",
+    "country_name": "爱尔兰",
+    "cn_name": "肖恩·斯库利",
+    "en_name": "Sean Scully",
+    "birth_8": "19450101",
+    "desc": "爱尔兰裔色域与条带抽象大师，多层布面条状绘画；注：月日占位"
+  }
+]

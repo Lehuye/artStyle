@@ -1,0 +1,62 @@
+[
+  {
+    "unique_code": "756170201010",
+    "country_numeric": "756",
+    "country_alpha2": "CH",
+    "country_name": "瑞士",
+    "cn_name": "让-艾蒂安·利奥塔尔",
+    "en_name": "Jean-Étienne Liotard",
+    "birth_8": "17020101",
+    "desc": "洛可可粉彩肖像大师，细腻逼真的粉彩与东方装束肖像；注：月日占位"
+  },
+  {
+    "unique_code": "756174101010",
+    "country_numeric": "756",
+    "country_alpha2": "CH",
+    "country_name": "瑞士",
+    "cn_name": "安杰莉卡·考夫曼",
+    "en_name": "Angelica Kauffman",
+    "birth_8": "17410101",
+    "desc": "新古典主义女画家，历史画与优雅肖像，英国皇家艺术学院创始女性成员；注：月日占位"
+  },
+  {
+    "unique_code": "756174101011",
+    "country_numeric": "756",
+    "country_alpha2": "CH",
+    "country_name": "瑞士",
+    "cn_name": "亨利·富塞利",
+    "en_name": "Henry Fuseli",
+    "birth_8": "17410101",
+    "desc": "浪漫主义前夜的梦幻与神经质神话画，《梦魇》奇崛光影；注：月日占位"
+  },
+  {
+    "unique_code": "756185301010",
+    "country_numeric": "756",
+    "country_alpha2": "CH",
+    "country_name": "瑞士",
+    "cn_name": "费迪南·霍德勒",
+    "en_name": "Ferdinand Hodler",
+    "birth_8": "18530101",
+    "desc": "瑞士象征主义与平行主义代表，对称构图与高山风景，壁画与象征性人物；注：月日占位"
+  },
+  {
+    "unique_code": "756187901010",
+    "country_numeric": "756",
+    "country_alpha2": "CH",
+    "country_name": "瑞士",
+    "cn_name": "保罗·克利",
+    "en_name": "Paul Klee",
+    "birth_8": "18790101",
+    "desc": "20世纪现代主义巨匠，诗意符号、童趣线条与色彩理论，包豪斯任教；注：月日占位"
+  },
+  {
+    "unique_code": "756190801010",
+    "country_numeric": "756",
+    "country_alpha2": "CH",
+    "country_name": "瑞士",
+    "cn_name": "马克斯·比尔",
+    "en_name": "Max Bill",
+    "birth_8": "19080101",
+    "desc": "瑞士具体艺术与构成主义代表，几何抽象、字体与设计一体化；注：月日占位"
+  }
+]

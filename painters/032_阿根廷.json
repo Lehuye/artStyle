@@ -1,0 +1,52 @@
+[
+  {
+    "unique_code": "032182301010",
+    "country_numeric": "032",
+    "country_alpha2": "AR",
+    "country_name": "阿根廷",
+    "cn_name": "普里利迪亚诺·普埃尔东",
+    "en_name": "Prilidiano Pueyrredón",
+    "birth_8": "18230101",
+    "desc": "阿根廷浪漫主义风俗画奠基人，高乔人与草原生活题材；注：月日占位"
+  },
+  {
+    "unique_code": "032184001010",
+    "country_numeric": "032",
+    "country_alpha2": "AR",
+    "country_name": "阿根廷",
+    "cn_name": "坎迪多·洛佩斯",
+    "en_name": "Cándido López",
+    "birth_8": "18400101",
+    "desc": "巴拉圭战争纪实画家，战场现场写实与民间军事题材；注：月日占位"
+  },
+  {
+    "unique_code": "032188701010",
+    "country_numeric": "032",
+    "country_alpha2": "AR",
+    "country_name": "阿根廷",
+    "cn_name": "苏尔·索拉尔",
+    "en_name": "Xul Solar",
+    "birth_8": "18870101",
+    "desc": "幻想主义与神秘主义画家，自创语言与符号，超现实乌托邦意象；注：月日占位"
+  },
+  {
+    "unique_code": "032189201010",
+    "country_numeric": "032",
+    "country_alpha2": "AR",
+    "country_name": "阿根廷",
+    "cn_name": "埃米利奥·佩托鲁蒂",
+    "en_name": "Emilio Pettoruti",
+    "birth_8": "18920101",
+    "desc": "阿根廷抽象现代主义先驱，立体—构成主义几何构图；注：月日占位"
+  },
+  {
+    "unique_code": "032190501010",
+    "country_numeric": "032",
+    "country_alpha2": "AR",
+    "country_name": "阿根廷",
+    "cn_name": "安东尼奥·贝尔尼",
+    "en_name": "Antonio Berni",
+    "birth_8": "19050101",
+    "desc": "社会现实主义与新现实主义，棚户区（Villa Miseria）拼贴装置；注：月日占位"
+  }
+]

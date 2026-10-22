@@ -1,0 +1,62 @@
+[
+  {
+    "unique_code": "364151001010",
+    "country_numeric": "364",
+    "country_alpha2": "IR",
+    "country_name": "伊朗",
+    "cn_name": "米尔·赛义德·阿里",
+    "en_name": "Mir Sayyid Ali",
+    "birth_8": "15100101",
+    "desc": "波斯细密画大师，后随胡马雍赴印度奠定莫卧儿画派；注：出生年份约1510，月日占位"
+  },
+  {
+    "unique_code": "364156501010",
+    "country_numeric": "364",
+    "country_alpha2": "IR",
+    "country_name": "伊朗",
+    "cn_name": "雷扎·阿巴斯",
+    "en_name": "Reza Abbasi",
+    "birth_8": "15650101",
+    "desc": "萨法维细密画宗师，优雅突厥-波斯人物肖像与速写；注：月日占位"
+  },
+  {
+    "unique_code": "364181401010",
+    "country_numeric": "364",
+    "country_alpha2": "IR",
+    "country_name": "伊朗",
+    "cn_name": "萨尼·奥尔-穆尔克",
+    "en_name": "Abu'l-Hasan Khan Ghaffari (Sani ol-Molk)",
+    "birth_8": "18140101",
+    "desc": "卡扎尔宫廷画师，欧式学院派与波斯宫廷肖像融合；注：月日占位"
+  },
+  {
+    "unique_code": "364184501010",
+    "country_numeric": "364",
+    "country_alpha2": "IR",
+    "country_name": "伊朗",
+    "cn_name": "卡马尔-奥尔-莫尔克",
+    "en_name": "Kamal-ol-molk (Mohammad Ghaffari)",
+    "birth_8": "18450101",
+    "desc": "波斯写实油画奠基人，宫廷与风景光影写实；注：月日占位"
+  },
+  {
+    "unique_code": "364192501010",
+    "country_numeric": "364",
+    "country_alpha2": "IR",
+    "country_name": "伊朗",
+    "cn_name": "马科斯·格里高利安",
+    "en_name": "Marcos Grigorian",
+    "birth_8": "19250101",
+    "desc": "伊朗现代主义与平面抽象，土地与护照系列；注：月日占位"
+  },
+  {
+    "unique_code": "364193701010",
+    "country_numeric": "364",
+    "country_alpha2": "IR",
+    "country_name": "伊朗",
+    "cn_name": "侯赛因·赞德鲁迪",
+    "en_name": "Hossein Zenderoudi",
+    "birth_8": "19370101",
+    "desc": "伊朗现代书法画派（Saqqakhaneh）开创者，书法符号与普普；注：月日占位"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "unique_code": "050191401010",
+    "country_numeric": "050",
+    "country_alpha2": "BD",
+    "country_name": "孟加拉国",
+    "cn_name": "扎伊努尔·阿贝丁",
+    "en_name": "Zainul Abedin",
+    "birth_8": "19140101",
+    "desc": "孟加拉现代绘画之父，1943年大饥荒系列版画，社会现实主义与本土民间艺术融合；注：月日占位"
+  },
+  {
+    "unique_code": "050192101010",
+    "country_numeric": "050",
+    "country_alpha2": "BD",
+    "country_name": "孟加拉国",
+    "cn_name": "夸姆鲁尔·哈桑",
+    "en_name": "Quamrul Hassan",
+    "birth_8": "19210101",
+    "desc": "孟加拉现代艺术与政治海报先驱，平涂色块与民间神像风格；注：月日占位"
+  },
+  {
+    "unique_code": "050192301010",
+    "country_numeric": "050",
+    "country_alpha2": "BD",
+    "country_name": "孟加拉国",
+    "cn_name": "S·M·苏丹",
+    "en_name": "SM Sultan",
+    "birth_8": "19230101",
+    "desc": "孟加拉田园表现主义，粗壮变形的稻农与土地生命力；注：月日占位"
+  }
+]

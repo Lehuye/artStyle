@@ -1,0 +1,62 @@
+[
+  {
+    "unique_code": "300154101010",
+    "country_numeric": "300",
+    "country_alpha2": "GR",
+    "country_name": "希腊",
+    "cn_name": "埃尔·格列柯",
+    "en_name": "El Greco (Domḗnikos Theotokópoulos)",
+    "birth_8": "15410101",
+    "desc": "克里特画派出身的矫饰主义巨匠，拉长形体、 torsion 构图与宗教狂热；注：月日占位"
+  },
+  {
+    "unique_code": "300184201010",
+    "country_numeric": "300",
+    "country_alpha2": "GR",
+    "country_name": "希腊",
+    "cn_name": "尼古拉奥斯·吉齐斯",
+    "en_name": "Nikolaos Gyzis",
+    "birth_8": "18420101",
+    "desc": "19世纪希腊学院派与 Munich 画派代表，历史题材与东方主义；注：月日占位"
+  },
+  {
+    "unique_code": "300185301010",
+    "country_numeric": "300",
+    "country_alpha2": "GR",
+    "country_name": "希腊",
+    "cn_name": "格奥尔吉奥斯·雅各比德斯",
+    "en_name": "Georgios Jakobides",
+    "birth_8": "18530101",
+    "desc": "希腊国家美术馆奠基人，儿童日常生活与风俗画；注：月日占位"
+  },
+  {
+    "unique_code": "300187801010",
+    "country_numeric": "300",
+    "country_alpha2": "GR",
+    "country_name": "希腊",
+    "cn_name": "康斯坦丁诺斯·帕特尼斯",
+    "en_name": "Konstantinos Parthenis",
+    "birth_8": "18780101",
+    "desc": "希腊现代主义先驱，拜占庭传统与表现主义融合；注：月日占位"
+  },
+  {
+    "unique_code": "300190701010",
+    "country_numeric": "300",
+    "country_alpha2": "GR",
+    "country_name": "希腊",
+    "cn_name": "尼科斯·恩贡诺普洛斯",
+    "en_name": "Nikos Engonopoulos",
+    "birth_8": "19070101",
+    "desc": "希腊超现实主义旗手，诗意字母组合与荒诞意象；注：月日占位"
+  },
+  {
+    "unique_code": "300191001010",
+    "country_numeric": "300",
+    "country_alpha2": "GR",
+    "country_name": "希腊",
+    "cn_name": "扬尼斯·察鲁希斯",
+    "en_name": "Yannis Tsarouchis",
+    "birth_8": "19100101",
+    "desc": "希腊具象现代派，男性裸体与民间符号，拜占庭与古希腊语汇；注：月日占位"
+  }
+]

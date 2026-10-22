@@ -1,8 +1,7 @@
 {
-  "uuid": "81be9e41-2d1d-4095-bc4e-68e86b0bad5b",
-  "name": "Art Style",
-  "desc": "这是一款集合视觉风格的图片",
-  "type": "工具",
-  "chargeType": "free",
-  "image": ""
+  "dependencies": {
+    "express": "^5.3.0",
+    "multer": "^2.4.0",
+    "sharp": "^0.35.5"
+  }
 }

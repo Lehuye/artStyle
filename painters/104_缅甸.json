@@ -1,0 +1,42 @@
+[
+  {
+    "unique_code": "104186701010",
+    "country_numeric": "104",
+    "country_alpha2": "MM",
+    "country_name": "缅甸",
+    "cn_name": "沙·琼",
+    "en_name": "Saya Chone",
+    "birth_8": "18670101",
+    "desc": "缅甸传统宫廷绘画最后大家，水粉与胶画描绘王室仪式与蒲甘壁画风格场景；注：月日占位"
+  },
+  {
+    "unique_code": "104189701010",
+    "country_numeric": "104",
+    "country_alpha2": "MM",
+    "country_name": "缅甸",
+    "cn_name": "巴·南",
+    "en_name": "Ba Nyan",
+    "birth_8": "18970101",
+    "desc": "西方油画技法引入缅甸者，融合缅甸题材的写实肖像与风俗油画；注：月日占位"
+  },
+  {
+    "unique_code": "104190101010",
+    "country_numeric": "104",
+    "country_alpha2": "MM",
+    "country_name": "缅甸",
+    "cn_name": "恩维·盖",
+    "en_name": "Ngwe Gaing",
+    "birth_8": "19010101",
+    "desc": "缅甸现代绘画先驱，写实油画与佛教题材，肖像功力深厚；注：月日占位"
+  },
+  {
+    "unique_code": "104191001010",
+    "country_numeric": "104",
+    "country_alpha2": "MM",
+    "country_name": "缅甸",
+    "cn_name": "欣·韩",
+    "en_name": "Thein Han",
+    "birth_8": "19100101",
+    "desc": "缅甸后印象派风格风景画与寺庙题材油画，承上启下；注：月日占位"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "unique_code": "180194601010",
+    "country_numeric": "180",
+    "country_alpha2": "CD",
+    "country_name": "刚果（金）",
+    "cn_name": "莫克",
+    "en_name": "Moké",
+    "birth_8": "19460101",
+    "desc": "金沙萨流行绘画（popular painting）代表，街头市井生活与城市风俗直白叙事；注：月日占位"
+  },
+  {
+    "unique_code": "180195601010",
+    "country_numeric": "180",
+    "country_alpha2": "CD",
+    "country_name": "刚果（金）",
+    "cn_name": "谢里·桑巴",
+    "en_name": "Chéri Samba",
+    "birth_8": "19560101",
+    "desc": "刚果（金）国际知名当代画家，图文并茂的社会批判绘画与非洲都市寓言；注：月日占位"
+  },
+  {
+    "unique_code": "180196201010",
+    "country_numeric": "180",
+    "country_alpha2": "CD",
+    "country_name": "刚果（金）",
+    "cn_name": "博多",
+    "en_name": "Bodo",
+    "birth_8": "19620101",
+    "desc": "金沙萨流行绘画代表，奇幻动物与超现实都市场景，幽默线条；注：月日占位"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "unique_code": "100181001010",
+    "country_numeric": "100",
+    "country_alpha2": "BG",
+    "country_name": "保加利亚",
+    "cn_name": "扎哈里·佐格拉夫",
+    "en_name": "Zahari Zograf",
+    "birth_8": "18100101",
+    "desc": "保加利亚民族复兴时期教堂壁画宗师，里拉修道院湿壁画，肖像式圣像画；注：月日占位"
+  },
+  {
+    "unique_code": "100188201010",
+    "country_numeric": "100",
+    "country_alpha2": "BG",
+    "country_name": "保加利亚",
+    "cn_name": "弗拉基米尔·迪米特罗夫-马伊斯托拉",
+    "en_name": "Vladimir Dimitrov-Maystora",
+    "birth_8": "18820101",
+    "desc": "保加利亚现代绘画奠基人，金黄浓郁色彩与理想化农民题材，壁画与肖像；注：月日占位"
+  },
+  {
+    "unique_code": "100189701010",
+    "country_numeric": "100",
+    "country_alpha2": "BG",
+    "country_name": "保加利亚",
+    "cn_name": "伊万·米列夫",
+    "en_name": "Ivan Milev",
+    "birth_8": "18970101",
+    "desc": "保加利亚象征主义与新艺术风格，装饰性线条与民间神话意象；注：月日占位"
+  },
+  {
+    "unique_code": "100190301010",
+    "country_numeric": "100",
+    "country_alpha2": "BG",
+    "country_name": "保加利亚",
+    "cn_name": "兹拉秋·博雅吉耶夫",
+    "en_name": "Zlatyu Boyadzhiev",
+    "birth_8": "19030101",
+    "desc": "保加利亚表现主义肖像与乡村风俗，粗犷笔触与变形人物；注：月日占位"
+  }
+]

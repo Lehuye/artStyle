@@ -1,0 +1,32 @@
+[
+  {
+    "unique_code": "012188401010",
+    "country_numeric": "012",
+    "country_alpha2": "DZ",
+    "country_name": "阿尔及利亚",
+    "cn_name": "奥马尔·拉西姆",
+    "en_name": "Omar Racim",
+    "birth_8": "18840101",
+    "desc": "阿尔及利亚奥斯曼微型画复兴者，宫廷细密画风格与阿拉伯装饰纹样；注：月日占位"
+  },
+  {
+    "unique_code": "012189601010",
+    "country_numeric": "012",
+    "country_alpha2": "DZ",
+    "country_name": "阿尔及利亚",
+    "cn_name": "穆罕默德·拉西姆",
+    "en_name": "Mohamed Racim",
+    "birth_8": "18960101",
+    "desc": "阿尔及利亚民族绘画先驱，微型画与风俗场景，复兴马格里布装饰传统；注：月日占位"
+  },
+  {
+    "unique_code": "012193101010",
+    "country_numeric": "012",
+    "country_alpha2": "DZ",
+    "country_name": "阿尔及利亚",
+    "cn_name": "巴亚",
+    "en_name": "Baya Mahieddine",
+    "birth_8": "19310101",
+    "desc": "素朴艺术（Art Brut）女画家，神秘热带人物与奇禽异兽，超现实天真风格；注：月日占位"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "unique_code": "036185601010",
+    "country_numeric": "036",
+    "country_alpha2": "AU",
+    "country_name": "澳大利亚",
+    "cn_name": "汤姆·罗伯茨",
+    "en_name": "Tom Roberts",
+    "birth_8": "18560101",
+    "desc": "海德堡画派（Australian Impressionism）创始人，澳土光影与牧场风景；注：月日占位"
+  },
+  {
+    "unique_code": "036186701010",
+    "country_numeric": "036",
+    "country_alpha2": "AU",
+    "country_name": "澳大利亚",
+    "cn_name": "阿瑟·斯特里顿",
+    "en_name": "Arthur Streeton",
+    "birth_8": "18670101",
+    "desc": "海德堡画派主将，金色阳光与蓝色港湾的澳洲印象派风景；注：月日占位"
+  },
+  {
+    "unique_code": "036187501010",
+    "country_numeric": "036",
+    "country_alpha2": "AU",
+    "country_name": "澳大利亚",
+    "cn_name": "玛格丽特·普雷斯顿",
+    "en_name": "Margaret Preston",
+    "birth_8": "18750101",
+    "desc": "澳大利亚现代主义与木刻版画先驱，融入原住民艺术符号与装饰构图；注：月日占位"
+  },
+  {
+    "unique_code": "036190201010",
+    "country_numeric": "036",
+    "country_alpha2": "AU",
+    "country_name": "澳大利亚",
+    "cn_name": "阿尔伯特·纳马吉拉",
+    "en_name": "Albert Namatjira",
+    "birth_8": "19020101",
+    "desc": "阿兰盖山脉水彩风景画，西方媒介演绎中部澳洲红土山水，原住民水彩传统开创者；注：月日占位"
+  },
+  {
+    "unique_code": "036191701010",
+    "country_numeric": "036",
+    "country_alpha2": "AU",
+    "country_name": "澳大利亚",
+    "cn_name": "西德尼·诺兰",
+    "en_name": "Sidney Nolan",
+    "birth_8": "19170101",
+    "desc": "澳大利亚现代主义，Ned Kelly草编铁盔系列神话化澳洲历史；注：月日占位"
+  }
+]

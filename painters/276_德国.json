@@ -1,0 +1,122 @@
+[
+  {
+    "unique_code": "276147001010",
+    "country_numeric": "276",
+    "country_alpha2": "DE",
+    "country_name": "德国",
+    "cn_name": "马蒂亚斯·格吕内瓦尔德",
+    "en_name": "Matthias Grünewald",
+    "birth_8": "14700101",
+    "desc": "德国南方文艺复兴表现主义，伊森海姆祭坛画强烈宗教情感；注：出生年份约1470，月日占位"
+  },
+  {
+    "unique_code": "276147101010",
+    "country_numeric": "276",
+    "country_alpha2": "DE",
+    "country_name": "德国",
+    "cn_name": "阿尔布雷希特·丢勒",
+    "en_name": "Albrecht Dürer",
+    "birth_8": "14710101",
+    "desc": "德国文艺复兴巨匠，铜版画、水彩风景与自画像；注：月日占位"
+  },
+  {
+    "unique_code": "276147201010",
+    "country_numeric": "276",
+    "country_alpha2": "DE",
+    "country_name": "德国",
+    "cn_name": "老卢卡斯·克拉纳赫",
+    "en_name": "Lucas Cranach the Elder",
+    "birth_8": "14720101",
+    "desc": "德国文艺复兴，宗教改革肖像与妩媚神话裸体；注：月日占位"
+  },
+  {
+    "unique_code": "276149701010",
+    "country_numeric": "276",
+    "country_alpha2": "DE",
+    "country_name": "德国",
+    "cn_name": "小汉斯·荷尔拜因",
+    "en_name": "Hans Holbein the Younger",
+    "birth_8": "14970101",
+    "desc": "德国文艺复兴肖像大师，英王宫廷细密肖像；注：月日占位"
+  },
+  {
+    "unique_code": "276177401010",
+    "country_numeric": "276",
+    "country_alpha2": "DE",
+    "country_name": "德国",
+    "cn_name": "卡斯帕·大卫·弗里德里希",
+    "en_name": "Caspar David Friedrich",
+    "birth_8": "17740101",
+    "desc": "德国浪漫主义旗手，逆光山影与僧侣沉思风景；注：月日占位"
+  },
+  {
+    "unique_code": "276184701010",
+    "country_numeric": "276",
+    "country_alpha2": "DE",
+    "country_name": "德国",
+    "cn_name": "马克斯·利贝曼",
+    "en_name": "Max Liebermann",
+    "birth_8": "18470101",
+    "desc": "德国印象派领袖，柏林庭院与外光人物；注：月日占位"
+  },
+  {
+    "unique_code": "276185801010",
+    "country_numeric": "276",
+    "country_alpha2": "DE",
+    "country_name": "德国",
+    "cn_name": "洛维斯·科林特",
+    "en_name": "Lovis Corinth",
+    "birth_8": "18580101",
+    "desc": "德国从印象派到表现主义，肖像与神话题材厚涂；注：月日占位"
+  },
+  {
+    "unique_code": "276187601010",
+    "country_numeric": "276",
+    "country_alpha2": "DE",
+    "country_name": "德国",
+    "cn_name": "保拉·莫德松—贝克尔",
+    "en_name": "Paula Modersohn-Becker",
+    "birth_8": "18760101",
+    "desc": "德国早期表现主义，沃普斯韦德母性与自画像；注：月日占位"
+  },
+  {
+    "unique_code": "276188001011",
+    "country_numeric": "276",
+    "country_alpha2": "DE",
+    "country_name": "德国",
+    "cn_name": "恩斯特·路德维希·基希纳",
+    "en_name": "Ernst Ludwig Kirchner",
+    "birth_8": "18800101",
+    "desc": "桥社表现主义创始人，尖锐线条与鲜艳色彩；注：月日占位"
+  },
+  {
+    "unique_code": "276188001012",
+    "country_numeric": "276",
+    "country_alpha2": "DE",
+    "country_name": "德国",
+    "cn_name": "弗朗茨·马克",
+    "en_name": "Franz Marc",
+    "birth_8": "18800101",
+    "desc": "青骑士社，动物灵性与色彩符号的抽象表现；注：月日占位"
+  },
+  {
+    "unique_code": "276188401010",
+    "country_numeric": "276",
+    "country_alpha2": "DE",
+    "country_name": "德国",
+    "cn_name": "马克斯·贝克曼",
+    "en_name": "Max Beckmann",
+    "birth_8": "18840101",
+    "desc": "德国新客观派，三联画式神话与战后世相；注：月日占位"
+  },
+  {
+    "unique_code": "276193201010",
+    "country_numeric": "276",
+    "country_alpha2": "DE",
+    "country_name": "德国",
+    "cn_name": "格哈德·里希特",
+    "en_name": "Gerhard Richter",
+    "birth_8": "19320101",
+    "desc": "德国当代艺术巨匠，照片画与刮色抽象双向实践；注：月日占位"
+  }
+]

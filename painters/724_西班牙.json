@@ -1,0 +1,112 @@
+[
+  {
+    "unique_code": "724154101010",
+    "country_numeric": "724",
+    "country_alpha2": "ES",
+    "country_name": "西班牙",
+    "cn_name": "埃尔·格列柯",
+    "en_name": "El Greco",
+    "birth_8": "15410101",
+    "desc": "矫饰主义大师，拉长形体与神秘冷光，托莱多画派；注：月日占位"
+  },
+  {
+    "unique_code": "724159801010",
+    "country_numeric": "724",
+    "country_alpha2": "ES",
+    "country_name": "西班牙",
+    "cn_name": "弗朗西斯科·德·苏尔瓦兰",
+    "en_name": "Francisco de Zurbarán",
+    "birth_8": "15980101",
+    "desc": "西班牙巴洛克宗教画，僧侣苦修与明暗法；注：月日占位"
+  },
+  {
+    "unique_code": "724159901010",
+    "country_numeric": "724",
+    "country_alpha2": "ES",
+    "country_name": "西班牙",
+    "cn_name": "迭戈·委拉斯开兹",
+    "en_name": "Diego Velázquez",
+    "birth_8": "15990101",
+    "desc": "西班牙巴洛克宫廷画巨匠，《宫娥》与空气透视；注：月日占位"
+  },
+  {
+    "unique_code": "724161701010",
+    "country_numeric": "724",
+    "country_alpha2": "ES",
+    "country_name": "西班牙",
+    "cn_name": "巴托洛梅·埃斯特万·穆里略",
+    "en_name": "Bartolomé Esteban Murillo",
+    "birth_8": "16170101",
+    "desc": "塞维利亚巴洛克，温情圣母与乞儿风俗；注：月日占位"
+  },
+  {
+    "unique_code": "724174601010",
+    "country_numeric": "724",
+    "country_alpha2": "ES",
+    "country_name": "西班牙",
+    "cn_name": "弗朗西斯科·戈雅",
+    "en_name": "Francisco Goya",
+    "birth_8": "17460101",
+    "desc": "浪漫主义先驱，从宫廷肖像到黑色绘画；注：月日占位"
+  },
+  {
+    "unique_code": "724186301010",
+    "country_numeric": "724",
+    "country_alpha2": "ES",
+    "country_name": "西班牙",
+    "cn_name": "华金·索罗亚",
+    "en_name": "Joaquín Sorolla",
+    "birth_8": "18630101",
+    "desc": "西班牙外光印象派，海滩阳光与渔民；注：月日占位"
+  },
+  {
+    "unique_code": "724188101010",
+    "country_numeric": "724",
+    "country_alpha2": "ES",
+    "country_name": "西班牙",
+    "cn_name": "巴勃罗·毕加索",
+    "en_name": "Pablo Picasso",
+    "birth_8": "18810101",
+    "desc": "立体主义开创者，20世纪现代艺术巨匠；注：月日占位"
+  },
+  {
+    "unique_code": "724188701010",
+    "country_numeric": "724",
+    "country_alpha2": "ES",
+    "country_name": "西班牙",
+    "cn_name": "胡安·格里斯",
+    "en_name": "Juan Gris",
+    "birth_8": "18870101",
+    "desc": "分析与综合立体主义，纸拼贴与和谐色彩；注：月日占位"
+  },
+  {
+    "unique_code": "724189301010",
+    "country_numeric": "724",
+    "country_alpha2": "ES",
+    "country_name": "西班牙",
+    "cn_name": "胡安·米罗",
+    "en_name": "Joan Miró",
+    "birth_8": "18930101",
+    "desc": "超现实诗意抽象，符号化星空与孩童世界；注：月日占位"
+  },
+  {
+    "unique_code": "724190401010",
+    "country_numeric": "724",
+    "country_alpha2": "ES",
+    "country_name": "西班牙",
+    "cn_name": "萨尔瓦多·达利",
+    "en_name": "Salvador Dalí",
+    "birth_8": "19040101",
+    "desc": "超现实主义，偏执批判与精准照相式梦境；注：月日占位"
+  },
+  {
+    "unique_code": "724192301010",
+    "country_numeric": "724",
+    "country_alpha2": "ES",
+    "country_name": "西班牙",
+    "cn_name": "安东尼·塔皮埃斯",
+    "en_name": "Antoni Tàpies",
+    "birth_8": "19230101",
+    "desc": "非形式主义材质绘画，墙皮与物质肌理；注：月日占位"
+  }
+]

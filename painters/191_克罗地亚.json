@@ -1,0 +1,42 @@
+[
+  {
+    "unique_code": "191185501010",
+    "country_numeric": "191",
+    "country_alpha2": "HR",
+    "country_name": "克罗地亚",
+    "cn_name": "弗拉霍·布科瓦茨",
+    "en_name": "Vlaho Bukovac",
+    "birth_8": "18550101",
+    "desc": "克罗地亚现代绘画先驱，巴黎沙龙风格肖像与象征主义，色彩华丽；注：月日占位"
+  },
+  {
+    "unique_code": "191188501010",
+    "country_numeric": "191",
+    "country_alpha2": "HR",
+    "country_name": "克罗地亚",
+    "cn_name": "约瑟普·拉契奇",
+    "en_name": "Josip Račić",
+    "birth_8": "18850101",
+    "desc": "克罗地亚现代主义画派，受巴黎影响的静物与肖像，深色色调与紧凑构图；注：月日占位"
+  },
+  {
+    "unique_code": "191188501011",
+    "country_numeric": "191",
+    "country_alpha2": "HR",
+    "country_name": "克罗地亚",
+    "cn_name": "米罗斯拉夫·克拉列维奇",
+    "en_name": "Miroslav Kraljević",
+    "birth_8": "18850101",
+    "desc": "克罗地亚现代主义（慕尼黑画派）代表，野兽派色彩与人物、自画像；注：月日占位"
+  },
+  {
+    "unique_code": "191192101010",
+    "country_numeric": "191",
+    "country_alpha2": "HR",
+    "country_name": "克罗地亚",
+    "cn_name": "埃多·穆尔蒂奇",
+    "en_name": "Edo Murtić",
+    "birth_8": "19210101",
+    "desc": "克罗地亚抽象表现主义与彩色抽象壁画，浓烈色彩与 gesture 笔触；注：月日占位"
+  }
+]

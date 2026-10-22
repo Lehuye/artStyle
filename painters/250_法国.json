@@ -1,0 +1,112 @@
+[
+  {
+    "unique_code": "250142001010",
+    "country_numeric": "250",
+    "country_alpha2": "FR",
+    "country_name": "法国",
+    "cn_name": "让·富凯",
+    "en_name": "Jean Fouquet",
+    "birth_8": "14200101",
+    "desc": "法国早期文艺复兴绘画先驱，细密画与祭坛画；注：出生年份约1420，月日占位"
+  },
+  {
+    "unique_code": "250159401010",
+    "country_numeric": "250",
+    "country_alpha2": "FR",
+    "country_name": "法国",
+    "cn_name": "尼古拉·普桑",
+    "en_name": "Nicolas Poussin",
+    "birth_8": "15940101",
+    "desc": "17世纪法国古典主义奠基人，理性构图与庄严风景；注：月日占位"
+  },
+  {
+    "unique_code": "250168401010",
+    "country_numeric": "250",
+    "country_alpha2": "FR",
+    "country_name": "法国",
+    "cn_name": "让-安托万·华托",
+    "en_name": "Jean-Antoine Watteau",
+    "birth_8": "16840101",
+    "desc": "洛可可艺术代表，雅宴画（fête galante）创始；注：月日占位"
+  },
+  {
+    "unique_code": "250174801010",
+    "country_numeric": "250",
+    "country_alpha2": "FR",
+    "country_name": "法国",
+    "cn_name": "雅克-路易·大卫",
+    "en_name": "Jacques-Louis David",
+    "birth_8": "17480101",
+    "desc": "新古典主义旗手，历史题材宏大叙事；注：月日占位"
+  },
+  {
+    "unique_code": "250179801010",
+    "country_numeric": "250",
+    "country_alpha2": "FR",
+    "country_name": "法国",
+    "cn_name": "欧仁·德拉克洛瓦",
+    "en_name": "Eugène Delacroix",
+    "birth_8": "17980101",
+    "desc": "浪漫主义主将，激情色彩与动态笔触，《自由引导人民》；注：月日占位"
+  },
+  {
+    "unique_code": "250181901010",
+    "country_numeric": "250",
+    "country_alpha2": "FR",
+    "country_name": "法国",
+    "cn_name": "居斯塔夫·库尔贝",
+    "en_name": "Gustave Courbet",
+    "birth_8": "18190101",
+    "desc": "现实主义开创者，直面日常与劳动者题材；注：月日占位"
+  },
+  {
+    "unique_code": "250183901010",
+    "country_numeric": "250",
+    "country_alpha2": "FR",
+    "country_name": "法国",
+    "cn_name": "保罗·塞尚",
+    "en_name": "Paul Cézanne",
+    "birth_8": "18390101",
+    "desc": "后印象派，几何化结构与色彩造型，现代艺术之父；注：月日占位"
+  },
+  {
+    "unique_code": "250184001010",
+    "country_numeric": "250",
+    "country_alpha2": "FR",
+    "country_name": "法国",
+    "cn_name": "克劳德·莫奈",
+    "en_name": "Claude Monet",
+    "birth_8": "18400101",
+    "desc": "印象派创始人，光影与色彩瞬间，《日出·印象》《睡莲》；注：月日占位"
+  },
+  {
+    "unique_code": "250184801010",
+    "country_numeric": "250",
+    "country_alpha2": "FR",
+    "country_name": "法国",
+    "cn_name": "保罗·高更",
+    "en_name": "Paul Gauguin",
+    "birth_8": "18480101",
+    "desc": "后印象派，塔希提原始主义，平涂色彩与象征性；注：月日占位"
+  },
+  {
+    "unique_code": "250186901010",
+    "country_numeric": "250",
+    "country_alpha2": "FR",
+    "country_name": "法国",
+    "cn_name": "亨利·马蒂斯",
+    "en_name": "Henri Matisse",
+    "birth_8": "18690101",
+    "desc": "野兽派领袖，高饱和平涂色彩与装饰性线条；注：月日占位"
+  },
+  {
+    "unique_code": "250188101010",
+    "country_numeric": "250",
+    "country_alpha2": "FR",
+    "country_name": "法国",
+    "cn_name": "巴勃罗·毕加索",
+    "en_name": "Pablo Picasso",
+    "birth_8": "18810101",
+    "desc": "立体主义开创者，20世纪现代艺术巨匠，风格多变；注：月日占位"
+  }
+]

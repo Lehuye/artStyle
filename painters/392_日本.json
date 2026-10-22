@@ -1,0 +1,112 @@
+[
+  {
+    "unique_code": "392154301010",
+    "country_numeric": "392",
+    "country_alpha2": "JP",
+    "country_name": "日本",
+    "cn_name": "狩野永德",
+    "en_name": "Kanō Eitoku",
+    "birth_8": "15430101",
+    "desc": "安土桃山时代障屏画大师，金碧浓绘，《唐狮子图屏风》撑起武将书院雄浑气象；注：月日占位"
+  },
+  {
+    "unique_code": "392165801010",
+    "country_numeric": "392",
+    "country_alpha2": "JP",
+    "country_name": "日本",
+    "cn_name": "尾形光琳",
+    "en_name": "Ogata Kōrin",
+    "birth_8": "16580101",
+    "desc": "江户琳派宗师，《红白梅图屏风》以装饰性曲线与金箔几何纹样集大和绘装饰之大成；注：月日占位"
+  },
+  {
+    "unique_code": "392173301010",
+    "country_numeric": "392",
+    "country_alpha2": "JP",
+    "country_name": "日本",
+    "cn_name": "圆山应举",
+    "en_name": "Maruyama Ōkyo",
+    "birth_8": "17330101",
+    "desc": "江户圆山派开创者，结合中国写生与西洋透视的写实写生画派；注：月日占位"
+  },
+  {
+    "unique_code": "392175301010",
+    "country_numeric": "392",
+    "country_alpha2": "JP",
+    "country_name": "日本",
+    "cn_name": "喜多川歌麿",
+    "en_name": "Kitagawa Utamaro",
+    "birth_8": "17530101",
+    "desc": "浮世绘美人画巨擘，大首绘（头部特写）首创，细腻线条勾勒游女风俗；注：出生年份约1753，月日占位"
+  },
+  {
+    "unique_code": "392176001010",
+    "country_numeric": "392",
+    "country_alpha2": "JP",
+    "country_name": "日本",
+    "cn_name": "葛饰北斋",
+    "en_name": "Katsushika Hokusai",
+    "birth_8": "17600101",
+    "desc": "浮世绘风景版画大成者，《富岳三十六景·神奈川冲浪里》影响欧洲印象派；注：月日占位"
+  },
+  {
+    "unique_code": "392179701010",
+    "country_numeric": "392",
+    "country_alpha2": "JP",
+    "country_name": "日本",
+    "cn_name": "歌川广重",
+    "en_name": "Utagawa Hiroshige",
+    "birth_8": "17970101",
+    "desc": "浮世绘风景大师，《东海道五十三次》以雨雾雪景抒情旅情见长；注：月日占位"
+  },
+  {
+    "unique_code": "392186801010",
+    "country_numeric": "392",
+    "country_alpha2": "JP",
+    "country_name": "日本",
+    "cn_name": "横山大观",
+    "en_name": "Yokoyama Taikan",
+    "birth_8": "18680101",
+    "desc": "近代日本画大师，朦胧体（没骨线）与新古典日本画，以大幅山水与神话题材闻名；注：月日占位"
+  },
+  {
+    "unique_code": "392188401010",
+    "country_numeric": "392",
+    "country_alpha2": "JP",
+    "country_name": "日本",
+    "cn_name": "竹久梦二",
+    "en_name": "Takehisa Yumeji",
+    "birth_8": "18840101",
+    "desc": "大正浪漫代表，梦二式美人（哀愁纤细少女）与抒情插画，结合浮世绘与西洋装饰；注：月日占位"
+  },
+  {
+    "unique_code": "392190801010",
+    "country_numeric": "392",
+    "country_alpha2": "JP",
+    "country_name": "日本",
+    "cn_name": "东山魁夷",
+    "en_name": "Higashiyama Kaii",
+    "birth_8": "19080101",
+    "desc": "战后日本画大师，静谧青绿色调的日本风景与障壁画，诗意抒情；注：月日占位"
+  },
+  {
+    "unique_code": "392192901010",
+    "country_numeric": "392",
+    "country_alpha2": "JP",
+    "country_name": "日本",
+    "cn_name": "草间弥生",
+    "en_name": "Yayoi Kusama",
+    "birth_8": "19290101",
+    "desc": "日本前卫艺术旗手，无限波点与南瓜装置，波普与极简结合的圆点母题无限重复的视觉语言；注：月日占位"
+  },
+  {
+    "unique_code": "392196201010",
+    "country_numeric": "392",
+    "country_alpha2": "JP",
+    "country_name": "日本",
+    "cn_name": "村上隆",
+    "en_name": "Murakami Takashi",
+    "birth_8": "19620101",
+    "desc": "超扁平（Superflat）运动开创者，融合御宅漫画、御宅文化与波普艺术；注：月日占位"
+  }
+]

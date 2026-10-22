@@ -1,0 +1,62 @@
+[
+  {
+    "unique_code": "620142001010",
+    "country_numeric": "620",
+    "country_alpha2": "PT",
+    "country_name": "葡萄牙",
+    "cn_name": "努诺·贡萨尔维斯",
+    "en_name": "Nuno Gonçalves",
+    "birth_8": "14200101",
+    "desc": "15世纪葡萄牙绘画奠基人，《圣维森特 panels》祭坛群像；注：出生年份约1420，月日占位"
+  },
+  {
+    "unique_code": "620185501010",
+    "country_numeric": "620",
+    "country_alpha2": "PT",
+    "country_name": "葡萄牙",
+    "cn_name": "若泽·马略阿",
+    "en_name": "José Malhoa",
+    "birth_8": "18550101",
+    "desc": "葡萄牙光影主义（Luminismo）代表，外光风俗与女性肖像；注：月日占位"
+  },
+  {
+    "unique_code": "620185701010",
+    "country_numeric": "620",
+    "country_alpha2": "PT",
+    "country_name": "葡萄牙",
+    "cn_name": "科伦比亚诺·博尔达洛·皮涅罗",
+    "en_name": "Columbano Bordalo Pinheiro",
+    "birth_8": "18570101",
+    "desc": "现实主义肖像画，深色基调与犀利心理刻画；注：月日占位"
+  },
+  {
+    "unique_code": "620188701010",
+    "country_numeric": "620",
+    "country_alpha2": "PT",
+    "country_name": "葡萄牙",
+    "cn_name": "阿马德奥·德·索萨·卡多索",
+    "en_name": "Amadeo de Souza Cardoso",
+    "birth_8": "18870101",
+    "desc": "葡萄牙现代主义先驱，立体—未来主义动感色彩；注：月日占位"
+  },
+  {
+    "unique_code": "620189301010",
+    "country_numeric": "620",
+    "country_alpha2": "PT",
+    "country_name": "葡萄牙",
+    "cn_name": "阿尔马达·内格雷罗斯",
+    "en_name": "José de Almada Negreiros",
+    "birth_8": "18930101",
+    "desc": "未来主义与立体主义，葡萄牙现代文艺旗手；注：月日占位"
+  },
+  {
+    "unique_code": "620193501010",
+    "country_numeric": "620",
+    "country_alpha2": "PT",
+    "country_name": "葡萄牙",
+    "cn_name": "保拉·雷戈",
+    "en_name": "Paula Rego",
+    "birth_8": "19350101",
+    "desc": "当代具象叙事绘画，女性主义童话与怪诞人物造型；注：月日占位"
+  }
+]

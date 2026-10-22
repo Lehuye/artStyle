@@ -1,0 +1,52 @@
+[
+  {
+    "unique_code": "233182601010",
+    "country_numeric": "233",
+    "country_alpha2": "EE",
+    "country_name": "爱沙尼亚",
+    "cn_name": "约翰·科勒",
+    "en_name": "Johann Köler",
+    "birth_8": "18260101",
+    "desc": "爱沙尼亚民族绘画奠基人，肖像与民族浪漫风景；注：月日占位"
+  },
+  {
+    "unique_code": "233186501010",
+    "country_numeric": "233",
+    "country_alpha2": "EE",
+    "country_name": "爱沙尼亚",
+    "cn_name": "克里斯蒂安·劳德",
+    "en_name": "Kristjan Raud",
+    "birth_8": "18650101",
+    "desc": "爱沙尼亚民族浪漫与象征主义，民间传说插画；注：月日占位"
+  },
+  {
+    "unique_code": "233186601010",
+    "country_numeric": "233",
+    "country_alpha2": "EE",
+    "country_name": "爱沙尼亚",
+    "cn_name": "安茨·莱克曼",
+    "en_name": "Ants Laikmaa",
+    "birth_8": "18660101",
+    "desc": "爱沙尼亚印象派，明快色彩与肖像；注：月日占位"
+  },
+  {
+    "unique_code": "233187801010",
+    "country_numeric": "233",
+    "country_alpha2": "EE",
+    "country_name": "爱沙尼亚",
+    "cn_name": "康拉德·迈吉",
+    "en_name": "Konrad Mägi",
+    "birth_8": "18780101",
+    "desc": "爱沙尼亚表现主义，强烈色彩与挪威—意大利风景；注：月日占位"
+  },
+  {
+    "unique_code": "233188401010",
+    "country_numeric": "233",
+    "country_alpha2": "EE",
+    "country_name": "爱沙尼亚",
+    "cn_name": "尼古拉·特里伊克",
+    "en_name": "Nikolai Triik",
+    "birth_8": "18840101",
+    "desc": "爱沙尼亚表现主义与象征，港口与北方风景；注：月日占位"
+  }
+]

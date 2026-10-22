@@ -1,0 +1,112 @@
+[
+  {
+    "unique_code": "643136001010",
+    "country_numeric": "643",
+    "country_alpha2": "RU",
+    "country_name": "俄罗斯",
+    "cn_name": "安德烈·鲁布廖夫",
+    "en_name": "Andrei Rublev",
+    "birth_8": "13600101",
+    "desc": "俄罗斯圣像画宗师，《三圣像》宁静空灵；注：出生年份约1360，月日占位"
+  },
+  {
+    "unique_code": "643162601010",
+    "country_numeric": "643",
+    "country_alpha2": "RU",
+    "country_name": "俄罗斯",
+    "cn_name": "西蒙·乌沙科夫",
+    "en_name": "Simon Ushakov",
+    "birth_8": "16260101",
+    "desc": "17世纪圣像画改革者，西洋写实与传统圣像融合；注：月日占位"
+  },
+  {
+    "unique_code": "643179901010",
+    "country_numeric": "643",
+    "country_alpha2": "RU",
+    "country_name": "俄罗斯",
+    "cn_name": "卡尔·布留洛夫",
+    "en_name": "Karl Briullov",
+    "birth_8": "17990101",
+    "desc": "俄罗斯浪漫主义历史画，《庞贝末日》；注：月日占位"
+  },
+  {
+    "unique_code": "643183201010",
+    "country_numeric": "643",
+    "country_alpha2": "RU",
+    "country_name": "俄罗斯",
+    "cn_name": "伊万·希什金",
+    "en_name": "Ivan Shishkin",
+    "birth_8": "18320101",
+    "desc": "巡回展览画派，森林风景与树木写实；注：月日占位"
+  },
+  {
+    "unique_code": "643184401010",
+    "country_numeric": "643",
+    "country_alpha2": "RU",
+    "country_name": "俄罗斯",
+    "cn_name": "伊利亚·列宾",
+    "en_name": "Ilya Repin",
+    "birth_8": "18440101",
+    "desc": "巡回展览画派现实主义主将，历史与社会题材，《伏尔加河上的纤夫》；注：月日占位"
+  },
+  {
+    "unique_code": "643185601010",
+    "country_numeric": "643",
+    "country_alpha2": "RU",
+    "country_name": "俄罗斯",
+    "cn_name": "米哈伊尔·弗鲁贝尔",
+    "en_name": "Mikhail Vrubel",
+    "birth_8": "18560101",
+    "desc": "俄罗斯象征主义，破碎色块与恶魔题材；注：月日占位"
+  },
+  {
+    "unique_code": "643186001010",
+    "country_numeric": "643",
+    "country_alpha2": "RU",
+    "country_name": "俄罗斯",
+    "cn_name": "伊萨克·列维坦",
+    "en_name": "Isaac Levitan",
+    "birth_8": "18600101",
+    "desc": "抒情情绪风景（Лирический пейзаж），俄罗斯自然的忧郁诗意；注：月日占位"
+  },
+  {
+    "unique_code": "643186501010",
+    "country_numeric": "643",
+    "country_alpha2": "RU",
+    "country_name": "俄罗斯",
+    "cn_name": "瓦伦丁·谢洛夫",
+    "en_name": "Valentin Serov",
+    "birth_8": "18650101",
+    "desc": "卓越肖像画，优雅笔触与贵族气质；注：月日占位"
+  },
+  {
+    "unique_code": "643186601010",
+    "country_numeric": "643",
+    "country_alpha2": "RU",
+    "country_name": "俄罗斯",
+    "cn_name": "瓦西里·康定斯基",
+    "en_name": "Wassily Kandinsky",
+    "birth_8": "18660101",
+    "desc": "抽象艺术先驱，抒情抽象与包豪斯；注：月日占位"
+  },
+  {
+    "unique_code": "643187901010",
+    "country_numeric": "643",
+    "country_alpha2": "RU",
+    "country_name": "俄罗斯",
+    "cn_name": "卡济米尔·马列维奇",
+    "en_name": "Kazimir Malevich",
+    "birth_8": "18790101",
+    "desc": "至上主义开创者，《黑色正方形》；注：月日占位"
+  },
+  {
+    "unique_code": "643188701010",
+    "country_numeric": "643",
+    "country_alpha2": "RU",
+    "country_name": "俄罗斯",
+    "cn_name": "马克·夏加尔",
+    "en_name": "Marc Chagall",
+    "birth_8": "18870101",
+    "desc": "诗意超现实主义，维捷布斯克梦境与飘浮恋人；注：月日占位"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "unique_code": "124187101010",
+    "country_numeric": "124",
+    "country_alpha2": "CA",
+    "country_name": "加拿大",
+    "cn_name": "艾米莉·卡尔",
+    "en_name": "Emily Carr",
+    "birth_8": "18710101",
+    "desc": "加拿大西海岸印第安图腾柱与古老森林意象，融合后印象派与原住民精神；注：月日占位"
+  },
+  {
+    "unique_code": "124187701010",
+    "country_numeric": "124",
+    "country_alpha2": "CA",
+    "country_name": "加拿大",
+    "cn_name": "汤姆·汤姆森",
+    "en_name": "Tom Thomson",
+    "birth_8": "18770101",
+    "desc": "七人画派精神先驱，加拿大北方荒野与阿尔冈昆公园风景，浓烈油彩与装饰性笔触；注：月日占位"
+  },
+  {
+    "unique_code": "124188501010",
+    "country_numeric": "124",
+    "country_alpha2": "CA",
+    "country_name": "加拿大",
+    "cn_name": "劳伦斯·哈里斯",
+    "en_name": "Lawren Harris",
+    "birth_8": "18850101",
+    "desc": "七人画派核心，简化几何化的落基山与北极山水，走向抽象的精神风景；注：月日占位"
+  },
+  {
+    "unique_code": "124192001010",
+    "country_numeric": "124",
+    "country_alpha2": "CA",
+    "country_name": "加拿大",
+    "cn_name": "亚历克斯·科尔维尔",
+    "en_name": "Alex Colville",
+    "birth_8": "19200101",
+    "desc": "加拿大魔幻现实主义，精确写实与静态悬疑的日常场景；注：月日占位"
+  },
+  {
+    "unique_code": "124192301010",
+    "country_numeric": "124",
+    "country_alpha2": "CA",
+    "country_name": "加拿大",
+    "cn_name": "让-保罗·里奥佩尔",
+    "en_name": "Jean-Paul Riopelle",
+    "birth_8": "19230101",
+    "desc": "魁北克抽象表现主义，马赛克式厚涂色彩（mosaic abstraction）；注：月日占位"
+  }
+]

@@ -1,0 +1,19 @@
+﻿{
+    "name":  "flatVector",
+    "code":  "01",
+    "folders":  [
+
+                ],
+    "files":  [
+        {
+            "name": "图片名称",
+            "uuid": "xxxx-xxxx-xxxx-xxxx",
+            "code": "001",
+            "desc": "图片描述文字",
+            "tags": [ "标签1", "标签2" ],
+            "src": "1.webp"
+        }
+              ],
+    "label":  "扁平矢量",
+    "desc":  "扁平化矢量插画，纯色无渐变"
+}

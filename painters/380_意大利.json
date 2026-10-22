@@ -1,0 +1,112 @@
+[
+  {
+    "unique_code": "380126701010",
+    "country_numeric": "380",
+    "country_alpha2": "IT",
+    "country_name": "意大利",
+    "cn_name": "乔托·迪·邦多内",
+    "en_name": "Giotto di Bondone",
+    "birth_8": "12670101",
+    "desc": "文艺复兴绘画先驱，佛罗伦萨画派奠基人，斯克罗维尼礼拜堂湿壁画以写实人物与戏剧情感突破中世纪程式；注：出生年份约1267，月日占位"
+  },
+  {
+    "unique_code": "380139701010",
+    "country_numeric": "380",
+    "country_alpha2": "IT",
+    "country_name": "意大利",
+    "cn_name": "保罗·乌切洛",
+    "en_name": "Paolo Uccello",
+    "birth_8": "13970101",
+    "desc": "早期文艺复兴透视法探索者，《圣罗马诺之战》以线性透视与装饰性色彩著称；注：出生年份约1397，月日占位"
+  },
+  {
+    "unique_code": "380144501010",
+    "country_numeric": "380",
+    "country_alpha2": "IT",
+    "country_name": "意大利",
+    "cn_name": "桑德罗·波提切利",
+    "en_name": "Sandro Botticelli",
+    "birth_8": "14450101",
+    "desc": "早期文艺复兴佛罗伦萨画派，《维纳斯的诞生》《春》以优雅线描与新柏拉图主义神话题材闻名；注：月日占位"
+  },
+  {
+    "unique_code": "380145201010",
+    "country_numeric": "380",
+    "country_alpha2": "IT",
+    "country_name": "意大利",
+    "cn_name": "列奥纳多·达·芬奇",
+    "en_name": "Leonardo da Vinci",
+    "birth_8": "14520101",
+    "desc": "文艺复兴三杰之一，渐隐法（晕涂法）与科学观察结合，《蒙娜丽莎》《最后的晚餐》；注：月日占位"
+  },
+  {
+    "unique_code": "380147501010",
+    "country_numeric": "380",
+    "country_alpha2": "IT",
+    "country_name": "意大利",
+    "cn_name": "米开朗基罗·博那罗蒂",
+    "en_name": "Michelangelo Buonarroti",
+    "birth_8": "14750101",
+    "desc": "文艺复兴三杰之一，西斯廷礼拜堂天顶壁画与《最后的审判》雄浑人体结构；注：月日占位"
+  },
+  {
+    "unique_code": "380148301010",
+    "country_numeric": "380",
+    "country_alpha2": "IT",
+    "country_name": "意大利",
+    "cn_name": "拉斐尔·桑西",
+    "en_name": "Raffaello Sanzio",
+    "birth_8": "14830101",
+    "desc": "文艺复兴三杰之一，《雅典学院》与圣母像以和谐构图、典雅理想化人物著称；注：月日占位"
+  },
+  {
+    "unique_code": "380148801010",
+    "country_numeric": "380",
+    "country_alpha2": "IT",
+    "country_name": "意大利",
+    "cn_name": "提香·韦切利奥",
+    "en_name": "Tiziano Vecellio",
+    "birth_8": "14880101",
+    "desc": "威尼斯画派色彩大师，油画笔触与色彩层次丰富，神话题材与贵族肖像；注：出生年份约1488，月日占位"
+  },
+  {
+    "unique_code": "380157101010",
+    "country_numeric": "380",
+    "country_alpha2": "IT",
+    "country_name": "意大利",
+    "cn_name": "米开朗基罗·梅里西·达·卡拉瓦乔",
+    "en_name": "Caravaggio",
+    "birth_8": "15710101",
+    "desc": "巴洛克绘画开创者，强烈明暗对照法（chiaroscuro）与底层平民入画，宗教戏剧化；注：月日占位"
+  },
+  {
+    "unique_code": "380169701010",
+    "country_numeric": "380",
+    "country_alpha2": "IT",
+    "country_name": "意大利",
+    "cn_name": "卡纳莱托",
+    "en_name": "Canaletto",
+    "birth_8": "16970101",
+    "desc": "18世纪威尼斯风景写实画家，水城景观与建筑透视精确，观景图（veduta）；注：月日占位"
+  },
+  {
+    "unique_code": "380188401010",
+    "country_numeric": "380",
+    "country_alpha2": "IT",
+    "country_name": "意大利",
+    "cn_name": "阿梅代奥·莫迪利亚尼",
+    "en_name": "Amedeo Modigliani",
+    "birth_8": "18840101",
+    "desc": "巴黎画派，拉长颈项与椭圆面孔的肖像，受非洲雕塑影响的现代主义人像；注：月日占位"
+  },
+  {
+    "unique_code": "380188801010",
+    "country_numeric": "380",
+    "country_alpha2": "IT",
+    "country_name": "意大利",
+    "cn_name": "乔治·德·基里科",
+    "en_name": "Giorgio de Chirico",
+    "birth_8": "18880101",
+    "desc": "形而上画派创始人，空旷意大利广场与诡异光影，影响超现实主义；注：月日占位"
+  }
+]

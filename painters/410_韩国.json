@@ -1,0 +1,52 @@
+[
+  {
+    "unique_code": "410191301010",
+    "country_numeric": "410",
+    "country_alpha2": "KR",
+    "country_name": "韩国",
+    "cn_name": "金焕基",
+    "en_name": "Kim Whan-ki",
+    "birth_8": "19130101",
+    "desc": "韩国抽象绘画先驱，以色点与网状肌理融汇韩国屏风美学与抽象表现主义；注：月日占位"
+  },
+  {
+    "unique_code": "410191401010",
+    "country_numeric": "410",
+    "country_alpha2": "KR",
+    "country_name": "韩国",
+    "cn_name": "朴寿根",
+    "en_name": "Park Su-geun",
+    "birth_8": "19140101",
+    "desc": "韩国乡土风俗画家，以细密点画法绘山村妇女与孩童生活，朴实温暖；注：月日占位"
+  },
+  {
+    "unique_code": "410191601010",
+    "country_numeric": "410",
+    "country_alpha2": "KR",
+    "country_name": "韩国",
+    "cn_name": "李仲燮",
+    "en_name": "Lee Jung-seob",
+    "birth_8": "19160101",
+    "desc": "韩国现代表现主义代表，以公牛题材象征民族生命力，稚拙笔触与强烈色彩；注：月日占位"
+  },
+  {
+    "unique_code": "410193201010",
+    "country_numeric": "410",
+    "country_alpha2": "KR",
+    "country_name": "韩国",
+    "cn_name": "白南准",
+    "en_name": "Nam June Paik",
+    "birth_8": "19320101",
+    "desc": "视频艺术之父，激浪派代表，以电视机与卫星影像装置开创媒介艺术；注：月日占位"
+  },
+  {
+    "unique_code": "410193601010",
+    "country_numeric": "410",
+    "country_alpha2": "KR",
+    "country_name": "韩国",
+    "cn_name": "李禹焕",
+    "en_name": "Lee U-fan",
+    "birth_8": "19360101",
+    "desc": "日本物派代表， mono-ha 物派理论与极简绘画，以空与余白、石头与钢板并置著称；注：月日占位"
+  }
+]

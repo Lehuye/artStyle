@@ -1,0 +1,52 @@
+[
+  {
+    "unique_code": "804181401010",
+    "country_numeric": "804",
+    "country_alpha2": "UA",
+    "country_name": "乌克兰",
+    "cn_name": "塔拉斯·舍甫琴科",
+    "en_name": "Taras Shevchenko",
+    "birth_8": "18140101",
+    "desc": "乌克兰民族艺术奠基人，铜版画与油画中的民间史诗、农民肖像与社会批判；注：月日占位"
+  },
+  {
+    "unique_code": "804187501010",
+    "country_numeric": "804",
+    "country_alpha2": "UA",
+    "country_name": "乌克兰",
+    "cn_name": "亚历山大·穆拉什科",
+    "en_name": "Oleksandr Murashko",
+    "birth_8": "18750101",
+    "desc": "乌克兰现代主义绘画先驱，融合印象派光色与装饰性肖像；注：月日占位"
+  },
+  {
+    "unique_code": "804188201010",
+    "country_numeric": "804",
+    "country_alpha2": "UA",
+    "country_name": "乌克兰",
+    "cn_name": "米哈伊洛·博伊丘克",
+    "en_name": "Mykhailo Boychuk",
+    "birth_8": "18820101",
+    "desc": "乌克兰纪念碑绘画流派（博伊丘克主义）开创者，复兴拜占庭式壁画与圣像传统；注：月日占位"
+  },
+  {
+    "unique_code": "804190001010",
+    "country_numeric": "804",
+    "country_alpha2": "UA",
+    "country_name": "乌克兰",
+    "cn_name": "叶卡捷琳娜·比洛库尔",
+    "en_name": "Kateryna Bilokur",
+    "birth_8": "19000101",
+    "desc": "乌克兰民间素人画家，田园花卉蔬果的细腻装饰性画风；注：月日占位"
+  },
+  {
+    "unique_code": "804193601010",
+    "country_numeric": "804",
+    "country_alpha2": "UA",
+    "country_name": "乌克兰",
+    "cn_name": "伊万·马尔丘克",
+    "en_name": "Ivan Marchuk",
+    "birth_8": "19360101",
+    "desc": "乌克兰当代绘画代表，自创细密交错线条（pliontanism）的风景与心理肖像；注：月日占位"
+  }
+]

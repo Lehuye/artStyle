@@ -1,0 +1,72 @@
+[
+  {
+    "unique_code": "484171501010",
+    "country_numeric": "484",
+    "country_alpha2": "MX",
+    "country_name": "墨西哥",
+    "cn_name": "米格尔·卡布雷拉",
+    "en_name": "Miguel Cabrera",
+    "birth_8": "17150101",
+    "desc": "新西班牙殖民地绘画宗师，卡斯塔（casta）人种系列画与宗教祭坛画；注：月日占位"
+  },
+  {
+    "unique_code": "484184001010",
+    "country_numeric": "484",
+    "country_alpha2": "MX",
+    "country_name": "墨西哥",
+    "cn_name": "何塞·玛丽亚·贝拉斯科",
+    "en_name": "José María Velasco",
+    "birth_8": "18400101",
+    "desc": "墨西哥风景画之父，谷地上空与火山地貌，科学观察式全景风景；注：月日占位"
+  },
+  {
+    "unique_code": "484187501010",
+    "country_numeric": "484",
+    "country_alpha2": "MX",
+    "country_name": "墨西哥",
+    "cn_name": "阿特尔博士",
+    "en_name": "Dr. Atl (Gerardo Murillo)",
+    "birth_8": "18750101",
+    "desc": "墨西哥火山风景与紫外色绘画，壁画运动先驱，倡导本土民族艺术；注：月日占位"
+  },
+  {
+    "unique_code": "484188601010",
+    "country_numeric": "484",
+    "country_alpha2": "MX",
+    "country_name": "墨西哥",
+    "cn_name": "迭戈·里维拉",
+    "en_name": "Diego Rivera",
+    "birth_8": "18860101",
+    "desc": "墨西哥壁画运动三杰之首，印第安与工人历史叙事巨幅壁画，立体主义与本土写实融合；注：月日占位"
+  },
+  {
+    "unique_code": "484189601010",
+    "country_numeric": "484",
+    "country_alpha2": "MX",
+    "country_name": "墨西哥",
+    "cn_name": "大卫·阿尔法罗·西凯罗斯",
+    "en_name": "David Alfaro Siqueiros",
+    "birth_8": "18960101",
+    "desc": "壁画运动三杰之一，社会革命题材，工业材料与动态透视；注：月日占位"
+  },
+  {
+    "unique_code": "484189901010",
+    "country_numeric": "484",
+    "country_alpha2": "MX",
+    "country_name": "墨西哥",
+    "cn_name": "鲁菲诺·塔马约",
+    "en_name": "Rufino Tamayo",
+    "birth_8": "18990101",
+    "desc": "墨西哥现代主义，融合前哥伦布艺术符号与抽象，强烈色块与原始造型；注：月日占位"
+  },
+  {
+    "unique_code": "484190701010",
+    "country_numeric": "484",
+    "country_alpha2": "MX",
+    "country_name": "墨西哥",
+    "cn_name": "弗里达·卡罗",
+    "en_name": "Frida Kahlo",
+    "birth_8": "19070101",
+    "desc": "超现实主义风格自画像，墨西哥民间艺术符号，身体痛苦与身份认同；注：月日占位"
+  }
+]

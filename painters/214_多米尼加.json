@@ -1,0 +1,52 @@
+[
+  {
+    "unique_code": "214189101010",
+    "country_numeric": "214",
+    "country_alpha2": "DO",
+    "country_name": "多米尼加",
+    "cn_name": "塞莱斯特·沃斯·希尔",
+    "en_name": "Celeste Woss y Gil",
+    "birth_8": "18910101",
+    "desc": "多米尼加早期女性画家，肖像与风俗印象派；注：月日占位"
+  },
+  {
+    "unique_code": "214190101010",
+    "country_numeric": "214",
+    "country_alpha2": "DO",
+    "country_name": "多米尼加",
+    "cn_name": "海梅·科尔松",
+    "en_name": "Jaime Colson",
+    "birth_8": "19010101",
+    "desc": "多米尼加现代主义，立体—超现实与加勒比本土融合；注：月日占位"
+  },
+  {
+    "unique_code": "214190601010",
+    "country_numeric": "214",
+    "country_alpha2": "DO",
+    "country_name": "多米尼加",
+    "cn_name": "约里·莫雷尔",
+    "en_name": "Yoryi Morel",
+    "birth_8": "19060101",
+    "desc": "多米尼加乡土风俗画，山区村民与日常生活；注：月日占位"
+  },
+  {
+    "unique_code": "214191701010",
+    "country_numeric": "214",
+    "country_alpha2": "DO",
+    "country_name": "多米尼加",
+    "cn_name": "达里奥·苏罗",
+    "en_name": "Darío Suro",
+    "birth_8": "19170101",
+    "desc": "多米尼加现代派，从表现主义到抽象抒情；注：月日占位"
+  },
+  {
+    "unique_code": "214192301010",
+    "country_numeric": "214",
+    "country_alpha2": "DO",
+    "country_name": "多米尼加",
+    "cn_name": "吉约·佩雷斯",
+    "en_name": "Guillo Pérez",
+    "birth_8": "19230101",
+    "desc": "多米尼加象征写实，历史与民俗叙事壁画式油画；注：月日占位"
+  }
+]

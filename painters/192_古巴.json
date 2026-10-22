@@ -1,0 +1,52 @@
+[
+  {
+    "unique_code": "192176201010",
+    "country_numeric": "192",
+    "country_alpha2": "CU",
+    "country_name": "古巴",
+    "cn_name": "维森特·埃斯科瓦尔",
+    "en_name": "Vicente Escobar",
+    "birth_8": "17620101",
+    "desc": "古巴殖民时期肖像画家，新古典主义风格，克里奥尔精英肖像；注：月日占位"
+  },
+  {
+    "unique_code": "192189501010",
+    "country_numeric": "192",
+    "country_alpha2": "CU",
+    "country_name": "古巴",
+    "cn_name": "菲德利奥·庞塞·莱昂",
+    "en_name": "Fidelio Ponce de León",
+    "birth_8": "18950101",
+    "desc": "古巴原始主义与感伤主义，苍白朦胧人物与贫穷儿童题材；注：月日占位"
+  },
+  {
+    "unique_code": "192189601010",
+    "country_numeric": "192",
+    "country_alpha2": "CU",
+    "country_name": "古巴",
+    "cn_name": "阿米莉亚·佩莱斯",
+    "en_name": "Amelia Peláez",
+    "birth_8": "18960101",
+    "desc": "古巴现代主义，融合立体主义与殖民建筑装饰纹样的桌面静物；注：月日占位"
+  },
+  {
+    "unique_code": "192190201010",
+    "country_numeric": "192",
+    "country_alpha2": "CU",
+    "country_name": "古巴",
+    "cn_name": "维弗雷多·林",
+    "en_name": "Wifredo Lam",
+    "birth_8": "19020101",
+    "desc": "古巴最著名画家，超现实主义融合非洲-古巴萨满意象，《丛林》；注：月日占位"
+  },
+  {
+    "unique_code": "192191201010",
+    "country_numeric": "192",
+    "country_alpha2": "CU",
+    "country_name": "古巴",
+    "cn_name": "雷内·波托卡雷罗",
+    "en_name": "René Portocarrero",
+    "birth_8": "19120101",
+    "desc": "古巴现代主义，哈瓦那建筑与殖民装饰的抒情抽象，湿壁画与挂毯；注：月日占位"
+  }
+]

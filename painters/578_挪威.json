@@ -1,0 +1,52 @@
+[
+  {
+    "unique_code": "578185501010",
+    "country_numeric": "578",
+    "country_alpha2": "NO",
+    "country_name": "挪威",
+    "cn_name": "埃里克·韦伦舍尔德",
+    "en_name": "Erik Werenskiold",
+    "birth_8": "18550101",
+    "desc": "挪威民族浪漫主义，农民肖像与童话插画；注：月日占位"
+  },
+  {
+    "unique_code": "578185701010",
+    "country_numeric": "578",
+    "country_alpha2": "NO",
+    "country_name": "挪威",
+    "cn_name": "特奥多尔·基特森",
+    "en_name": "Theodor Kittelsen",
+    "birth_8": "18570101",
+    "desc": "挪威民间传说与山妖童话插画大师，森林幻想；注：月日占位"
+  },
+  {
+    "unique_code": "578186312120",
+    "country_numeric": "578",
+    "country_alpha2": "NO",
+    "country_name": "挪威",
+    "cn_name": "爱德华·蒙克",
+    "en_name": "Edvard Munch",
+    "birth_8": "18631212",
+    "desc": "表现主义先驱，《呐喊》，生命焦虑与性心理象征"
+  },
+  {
+    "unique_code": "578186901010",
+    "country_numeric": "578",
+    "country_alpha2": "NO",
+    "country_name": "挪威",
+    "cn_name": "哈拉尔·索尔贝格",
+    "en_name": "Harald Sohlberg",
+    "birth_8": "18690101",
+    "desc": "挪威新浪漫主义夜景画家，罗弗敦山脉冬日与玫瑰城；注：月日占位"
+  },
+  {
+    "unique_code": "578188001010",
+    "country_numeric": "578",
+    "country_alpha2": "NO",
+    "country_name": "挪威",
+    "cn_name": "尼古拉·阿斯特鲁普",
+    "en_name": "Nikolai Astrup",
+    "birth_8": "18800101",
+    "desc": "挪威峡湾乡土风景画家，鲜明轮廓与仲夏夜意象；注：月日占位"
+  }
+]

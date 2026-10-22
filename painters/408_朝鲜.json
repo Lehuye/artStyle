@@ -1,0 +1,42 @@
+[
+  {
+    "unique_code": "408140001010",
+    "country_numeric": "408",
+    "country_alpha2": "KP",
+    "country_name": "朝鲜",
+    "cn_name": "安坚",
+    "en_name": "An Gyeon",
+    "birth_8": "14000101",
+    "desc": "朝鲜王朝早期山水画大家，《梦游桃源图》以中国北宋全景山水法绘东方理想境；注：出生年份约1400，月日占位"
+  },
+  {
+    "unique_code": "408174501010",
+    "country_numeric": "408",
+    "country_alpha2": "KP",
+    "country_name": "朝鲜",
+    "cn_name": "金弘道",
+    "en_name": "Kim Hong-do",
+    "birth_8": "17450101",
+    "desc": "朝鲜王朝风俗画宗师，《檀园风俗图帖》以简练笔致绘市井百姓与农作生活；注：月日占位"
+  },
+  {
+    "unique_code": "408175801010",
+    "country_numeric": "408",
+    "country_alpha2": "KP",
+    "country_name": "朝鲜",
+    "cn_name": "申润福",
+    "en_name": "Shin Yun-bok",
+    "birth_8": "17580101",
+    "desc": "朝鲜王朝晚期风俗画女画家（蕙园），男女情爱与游街宴乐题材，色彩柔丽；注：月日占位"
+  },
+  {
+    "unique_code": "408184301010",
+    "country_numeric": "408",
+    "country_alpha2": "KP",
+    "country_name": "朝鲜",
+    "cn_name": "张承业",
+    "en_name": "Jang Seung-eop",
+    "birth_8": "18430101",
+    "desc": "朝鲜王朝晚期最后一位职业画员（吾园），水墨花鸟与猛虎图，气势狂放；注：月日占位"
+  }
+]

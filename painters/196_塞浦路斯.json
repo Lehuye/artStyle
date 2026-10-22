@@ -1,0 +1,32 @@
+[
+  {
+    "unique_code": "196188401010",
+    "country_numeric": "196",
+    "country_alpha2": "CY",
+    "country_name": "塞浦路斯",
+    "cn_name": "尼科斯·尼克莱迪斯",
+    "en_name": "Nicos Nicolaides",
+    "birth_8": "18840101",
+    "desc": "希腊裔塞浦路斯画家，后印象派肖像与风俗画；注：月日占位"
+  },
+  {
+    "unique_code": "196190001010",
+    "country_numeric": "196",
+    "country_alpha2": "CY",
+    "country_name": "塞浦路斯",
+    "cn_name": "阿达曼蒂奥斯·迪亚曼蒂斯",
+    "en_name": "Adamantios Diamantis",
+    "birth_8": "19000101",
+    "desc": "塞浦路斯现代绘画先驱，乡土风景与社会写实；注：月日占位"
+  },
+  {
+    "unique_code": "196191001010",
+    "country_numeric": "196",
+    "country_alpha2": "CY",
+    "country_name": "塞浦路斯",
+    "cn_name": "特勒马科斯·坎托斯",
+    "en_name": "Telemachos Kanthos",
+    "birth_8": "19100101",
+    "desc": "塞浦路斯乡村风景画家，地中海光色与田园题材；注：月日占位"
+  }
+]

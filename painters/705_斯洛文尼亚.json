@@ -1,0 +1,42 @@
+[
+  {
+    "unique_code": "705186101010",
+    "country_numeric": "705",
+    "country_alpha2": "SI",
+    "country_name": "斯洛文尼亚",
+    "cn_name": "伊万娜·科比尔察",
+    "en_name": "Ivana Kobilca",
+    "birth_8": "18610101",
+    "desc": "斯洛文尼亚现实主义，肖像与都市风俗；注：月日占位"
+  },
+  {
+    "unique_code": "705186701010",
+    "country_numeric": "705",
+    "country_alpha2": "SI",
+    "country_name": "斯洛文尼亚",
+    "cn_name": "伊万·格罗哈尔",
+    "en_name": "Ivan Grohar",
+    "birth_8": "18670101",
+    "desc": "斯洛文尼亚印象派，《播种者》与点彩笔触；注：月日占位"
+  },
+  {
+    "unique_code": "705186901010",
+    "country_numeric": "705",
+    "country_alpha2": "SI",
+    "country_name": "斯洛文尼亚",
+    "cn_name": "里哈德·雅科皮奇",
+    "en_name": "Rihard Jakopič",
+    "birth_8": "18690101",
+    "desc": "斯洛文尼亚印象派先驱，抒情风景；注：月日占位"
+  },
+  {
+    "unique_code": "705187201010",
+    "country_numeric": "705",
+    "country_alpha2": "SI",
+    "country_name": "斯洛文尼亚",
+    "cn_name": "马蒂亚·亚马",
+    "en_name": "Matija Jama",
+    "birth_8": "18720101",
+    "desc": "印象派风景画，多瑙河与傍晚光色；注：月日占位"
+  }
+]

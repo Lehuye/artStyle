@@ -1,0 +1,72 @@
+[
+  {
+    "unique_code": "862185701010",
+    "country_numeric": "862",
+    "country_alpha2": "VE",
+    "country_name": "委内瑞拉",
+    "cn_name": "克里斯托瓦尔·罗哈斯",
+    "en_name": "Cristóbal Rojas",
+    "birth_8": "18570101",
+    "desc": "19世纪委内瑞拉学院派浪漫主义，忧郁室内与历史题材油画；注：月日占位"
+  },
+  {
+    "unique_code": "862186301010",
+    "country_numeric": "862",
+    "country_alpha2": "VE",
+    "country_name": "委内瑞拉",
+    "cn_name": "阿图罗·米切莱纳",
+    "en_name": "Arturo Michelena",
+    "birth_8": "18630101",
+    "desc": "委内瑞拉学院派肖像与历史画，光影细腻的写实主义；注：月日占位"
+  },
+  {
+    "unique_code": "862188901010",
+    "country_numeric": "862",
+    "country_alpha2": "VE",
+    "country_name": "委内瑞拉",
+    "cn_name": "阿曼多·雷韦隆",
+    "en_name": "Armando Reverón",
+    "birth_8": "18890101",
+    "desc": "委内瑞拉表现主义代表，「白色时期」热带光晕下的海滩人物与茅屋；注：月日占位"
+  },
+  {
+    "unique_code": "862192101010",
+    "country_numeric": "862",
+    "country_alpha2": "VE",
+    "country_name": "委内瑞拉",
+    "cn_name": "亚历杭德罗·奥特罗",
+    "en_name": "Alejandro Otero",
+    "birth_8": "19210101",
+    "desc": "委内瑞拉具体艺术与几何抽象代表，彩色条纹计时画与都市空间装置；注：月日占位"
+  },
+  {
+    "unique_code": "862192301010",
+    "country_numeric": "862",
+    "country_alpha2": "VE",
+    "country_name": "委内瑞拉",
+    "cn_name": "赫苏斯·拉斐尔·索托",
+    "en_name": "Jesús Rafael Soto",
+    "birth_8": "19230101",
+    "desc": "欧普与动态艺术大师，视觉振动的悬挂金属线条绘画与装置；注：月日占位"
+  },
+  {
+    "unique_code": "862192301011",
+    "country_numeric": "862",
+    "country_alpha2": "VE",
+    "country_name": "委内瑞拉",
+    "cn_name": "卡洛斯·克鲁斯-迭斯",
+    "en_name": "Carlos Cruz-Diez",
+    "birth_8": "19230101",
+    "desc": "动态艺术与色彩物理研究代表，叠加色纸带来的色彩感知变化绘画；注：月日占位"
+  },
+  {
+    "unique_code": "862193101010",
+    "country_numeric": "862",
+    "country_alpha2": "VE",
+    "country_name": "委内瑞拉",
+    "cn_name": "哈科沃·博尔赫斯",
+    "en_name": "Jacobo Borges",
+    "birth_8": "19310101",
+    "desc": "委内瑞拉新表现主义，都市暴力与社会批判题材；注：月日占位"
+  }
+]

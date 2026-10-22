@@ -1,0 +1,13 @@
+﻿{
+    "name":  "images",
+    "code":  "00",
+    "folders":  [
+                    "AestheticStyle",
+                    "RenderingStyle"
+                ],
+    "files":  [
+
+              ],
+    "label":  "绘画风格素材库",
+    "desc":  "AI绘画视觉风格参考图集，多分类参考样图"
+}

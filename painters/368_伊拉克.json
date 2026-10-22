@@ -1,0 +1,32 @@
+[
+  {
+    "unique_code": "368192401010",
+    "country_numeric": "368",
+    "country_alpha2": "IQ",
+    "country_name": "伊拉克",
+    "cn_name": "贾米尔·哈穆迪",
+    "en_name": "Jamil Hamoudi",
+    "birth_8": "19240101",
+    "desc": "伊拉克现代艺术先驱， Baghdad Modern Art Group，几何雕塑与绘画；注：月日占位"
+  },
+  {
+    "unique_code": "368192501010",
+    "country_numeric": "368",
+    "country_alpha2": "IQ",
+    "country_name": "伊拉克",
+    "cn_name": "沙基尔·哈桑·赛义德",
+    "en_name": "Shakir Hassan Al Said",
+    "birth_8": "19250101",
+    "desc": "伊拉克现代艺术与\"视觉联结\"运动主将，阿拉伯字母抽象；注：月日占位"
+  },
+  {
+    "unique_code": "368193901010",
+    "country_numeric": "368",
+    "country_alpha2": "IQ",
+    "country_name": "伊拉克",
+    "cn_name": "迪亚·阿扎维",
+    "en_name": "Dia Azzawi",
+    "birth_8": "19390101",
+    "desc": "伊拉克现代绘画旗手，苏美尔神话与阿拉伯书法拼贴；注：月日占位"
+  }
+]

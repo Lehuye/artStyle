@@ -1,0 +1,32 @@
+[
+  {
+    "unique_code": "008150001010",
+    "country_numeric": "008",
+    "country_alpha2": "AL",
+    "country_name": "阿尔巴尼亚",
+    "cn_name": "奥努夫里",
+    "en_name": "Onufri (Onouphrios)",
+    "birth_8": "15000101",
+    "desc": "16世纪东正教圣像壁画大师，Berat画派开创者，人物面部个性与鲜妍色彩；注：出生年份约1500，月日占位"
+  },
+  {
+    "unique_code": "008186001010",
+    "country_numeric": "008",
+    "country_alpha2": "AL",
+    "country_name": "阿尔巴尼亚",
+    "cn_name": "科勒·伊德罗莫诺",
+    "en_name": "Kolë Idromeno",
+    "birth_8": "18600101",
+    "desc": "阿尔巴尼亚现代绘画之父，融合浪漫主义与现实主义，本土风俗与肖像；注：月日占位"
+  },
+  {
+    "unique_code": "008189101010",
+    "country_numeric": "008",
+    "country_alpha2": "AL",
+    "country_name": "阿尔巴尼亚",
+    "cn_name": "万久什·米奥",
+    "en_name": "Vangjush Mio",
+    "birth_8": "18910101",
+    "desc": "阿尔巴尼亚现实主义风景画代表，抒情山水与乡村题材；注：月日占位"
+  }
+]

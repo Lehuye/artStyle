@@ -1,0 +1,32 @@
+[
+  {
+    "unique_code": "152184501010",
+    "country_numeric": "152",
+    "country_alpha2": "CL",
+    "country_name": "智利",
+    "cn_name": "佩德罗·利拉",
+    "en_name": "Pedro Lira",
+    "birth_8": "18450101",
+    "desc": "智利学院派绘画奠基人，历史题材与浪漫主义肖像，推动智利美术教育；注：月日占位"
+  },
+  {
+    "unique_code": "152186201010",
+    "country_numeric": "152",
+    "country_alpha2": "CL",
+    "country_name": "智利",
+    "cn_name": "阿尔弗雷多·赫尔西",
+    "en_name": "Alfredo Helsby",
+    "birth_8": "18620101",
+    "desc": "智利印象派风景画家，瓦尔帕莱索港与地中海式光影；注：月日占位"
+  },
+  {
+    "unique_code": "152191101010",
+    "country_numeric": "152",
+    "country_alpha2": "CL",
+    "country_name": "智利",
+    "cn_name": "罗伯托·马塔",
+    "en_name": "Roberto Matta",
+    "birth_8": "19110101",
+    "desc": "南美最具影响力的超现实主义画家，心理空间（inscapes）与抽象宇宙形态；注：月日占位"
+  }
+]

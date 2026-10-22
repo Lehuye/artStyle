@@ -1,0 +1,92 @@
+[
+  {
+    "unique_code": "528145001010",
+    "country_numeric": "528",
+    "country_alpha2": "NL",
+    "country_name": "荷兰",
+    "cn_name": "希罗尼穆斯·博斯",
+    "en_name": "Hieronymus Bosch",
+    "birth_8": "14500101",
+    "desc": "尼德兰北方文艺复兴怪诞幻想画宗师，地狱与道德幻象；注：出生年份约1450，月日占位"
+  },
+  {
+    "unique_code": "528152501010",
+    "country_numeric": "528",
+    "country_alpha2": "NL",
+    "country_name": "荷兰",
+    "cn_name": "老彼得·勃鲁盖尔",
+    "en_name": "Pieter Bruegel the Elder",
+    "birth_8": "15250101",
+    "desc": "尼德兰文艺复兴风俗画巨擘，农民生活与全景式寓言风景；注：出生年份约1525，月日占位"
+  },
+  {
+    "unique_code": "528158001010",
+    "country_numeric": "528",
+    "country_alpha2": "NL",
+    "country_name": "荷兰",
+    "cn_name": "弗兰斯·哈尔斯",
+    "en_name": "Frans Hals",
+    "birth_8": "15800101",
+    "desc": "荷兰黄金时代肖像画大家，奔放快速笔触与市民群像；注：出生年份约1580，月日占位"
+  },
+  {
+    "unique_code": "528160607150",
+    "country_numeric": "528",
+    "country_alpha2": "NL",
+    "country_name": "荷兰",
+    "cn_name": "伦勃朗·范·莱因",
+    "en_name": "Rembrandt van Rijn",
+    "birth_8": "16060715",
+    "desc": "荷兰黄金时代巨匠，明暗对照法与心理肖像，《夜巡》"
+  },
+  {
+    "unique_code": "528162801010",
+    "country_numeric": "528",
+    "country_alpha2": "NL",
+    "country_name": "荷兰",
+    "cn_name": "雅各布·范·雷斯达尔",
+    "en_name": "Jacob van Ruisdael",
+    "birth_8": "16280101",
+    "desc": "荷兰黄金时代风景画宗师，云层、林木与旷野；注：出生年份约1628，月日占位"
+  },
+  {
+    "unique_code": "528163210310",
+    "country_numeric": "528",
+    "country_alpha2": "NL",
+    "country_name": "荷兰",
+    "cn_name": "约翰内斯·维米尔",
+    "en_name": "Johannes Vermeer",
+    "birth_8": "16321031",
+    "desc": "荷兰黄金时代室内风俗画大师，静谧窗光与日常女性"
+  },
+  {
+    "unique_code": "528185303300",
+    "country_numeric": "528",
+    "country_alpha2": "NL",
+    "country_name": "荷兰",
+    "cn_name": "文森特·梵高",
+    "en_name": "Vincent van Gogh",
+    "birth_8": "18530330",
+    "desc": "后印象派巨匠，厚涂笔触与强烈色彩情感，《星月夜》《向日葵》"
+  },
+  {
+    "unique_code": "528187201010",
+    "country_numeric": "528",
+    "country_alpha2": "NL",
+    "country_name": "荷兰",
+    "cn_name": "皮特·蒙德里安",
+    "en_name": "Piet Mondrian",
+    "birth_8": "18720101",
+    "desc": "荷兰风格派（De Stijl）创始人，新造型主义几何网格与三原色；注：月日占位"
+  },
+  {
+    "unique_code": "528189801010",
+    "country_numeric": "528",
+    "country_alpha2": "NL",
+    "country_name": "荷兰",
+    "cn_name": "莫里茨·科内利斯·埃舍尔",
+    "en_name": "M. C. Escher",
+    "birth_8": "18980101",
+    "desc": "视错觉与镶嵌版画，不可能结构、无限递归与 tessellation；注：月日占位"
+  }
+]

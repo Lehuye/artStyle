@@ -1,0 +1,52 @@
+[
+  {
+    "unique_code": "332189201010",
+    "country_numeric": "332",
+    "country_alpha2": "HT",
+    "country_name": "海地",
+    "cn_name": "菲洛梅·奥班",
+    "en_name": "Philomé Obin",
+    "birth_8": "18920101",
+    "desc": "海地海地画派（Artibonite）奠基人，朴素写实的都市与历史场景；注：月日占位"
+  },
+  {
+    "unique_code": "332189401010",
+    "country_numeric": "332",
+    "country_alpha2": "HT",
+    "country_name": "海地",
+    "cn_name": "埃克托尔·伊波利特",
+    "en_name": "Hector Hippolyte",
+    "birth_8": "18940101",
+    "desc": "海地朴素派宗师，伏都教神灵与丛林奇幻图像；注：月日占位"
+  },
+  {
+    "unique_code": "332191101010",
+    "country_numeric": "332",
+    "country_alpha2": "HT",
+    "country_name": "海地",
+    "cn_name": "里戈·伯努瓦",
+    "en_name": "Rigaud Benoit",
+    "birth_8": "19110101",
+    "desc": "海地画派代表，伏都仪式与神话叙事，细腻装饰性；注：月日占位"
+  },
+  {
+    "unique_code": "332192301010",
+    "country_numeric": "332",
+    "country_alpha2": "HT",
+    "country_name": "海地",
+    "cn_name": "卡斯特拉·巴齐尔",
+    "en_name": "Castera Bazile",
+    "birth_8": "19230101",
+    "desc": "海地朴素派，宗教与民间神话题材，浓烈平涂；注：月日占位"
+  },
+  {
+    "unique_code": "332194701010",
+    "country_numeric": "332",
+    "country_alpha2": "HT",
+    "country_name": "海地",
+    "cn_name": "普罗斯佩·皮埃尔-路易",
+    "en_name": "Prosper Pierre-Louis",
+    "birth_8": "19470101",
+    "desc": "海地圣索菲亚画派，伏都宇宙论与斑斓丛林构图；注：月日占位"
+  }
+]

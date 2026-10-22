@@ -1,0 +1,42 @@
+[
+  {
+    "unique_code": "604179001010",
+    "country_numeric": "604",
+    "country_alpha2": "PE",
+    "country_name": "秘鲁",
+    "cn_name": "潘乔·菲耶罗",
+    "en_name": "Pancho Fierro",
+    "birth_8": "17900101",
+    "desc": "秘鲁殖民末期利马民俗水彩画，costumbrista风俗场景；注：出生年份约1790，月日占位"
+  },
+  {
+    "unique_code": "604188801010",
+    "country_numeric": "604",
+    "country_alpha2": "PE",
+    "country_name": "秘鲁",
+    "cn_name": "何塞·萨博加尔",
+    "en_name": "José Sabogal",
+    "birth_8": "18880101",
+    "desc": "秘鲁印第安主义（Indigenismo）绘画运动创始人，安第斯原住民形象；注：月日占位"
+  },
+  {
+    "unique_code": "604189201010",
+    "country_numeric": "604",
+    "country_alpha2": "PE",
+    "country_name": "秘鲁",
+    "cn_name": "朱莉娅·科迪塞多",
+    "en_name": "Julia Codesido",
+    "birth_8": "18920101",
+    "desc": "秘鲁印第安主义女画家，安第斯人物与地域风景；注：月日占位"
+  },
+  {
+    "unique_code": "604192501010",
+    "country_numeric": "604",
+    "country_alpha2": "PE",
+    "country_name": "秘鲁",
+    "cn_name": "费尔南多·德·西斯洛",
+    "en_name": "Fernando de Szyszlo",
+    "birth_8": "19250101",
+    "desc": "秘鲁抽象表现主义大师，融合印加宇宙观与色域绘画；注：月日占位"
+  }
+]

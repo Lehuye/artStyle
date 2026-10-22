@@ -1,0 +1,62 @@
+[
+  {
+    "unique_code": "642183801010",
+    "country_numeric": "642",
+    "country_alpha2": "RO",
+    "country_name": "罗马尼亚",
+    "cn_name": "尼古拉·格里戈雷斯库",
+    "en_name": "Nicolae Grigorescu",
+    "birth_8": "18380101",
+    "desc": "罗马尼亚外光派与印象派先驱，乡村少女与军事题材；注：月日占位"
+  },
+  {
+    "unique_code": "642185001010",
+    "country_numeric": "642",
+    "country_alpha2": "RO",
+    "country_name": "罗马尼亚",
+    "cn_name": "伊翁·安德烈埃斯库",
+    "en_name": "Ion Andreescu",
+    "birth_8": "18500101",
+    "desc": "印象派风景与花卉，受法国外光派影响；注：月日占位"
+  },
+  {
+    "unique_code": "642186801010",
+    "country_numeric": "642",
+    "country_alpha2": "RO",
+    "country_name": "罗马尼亚",
+    "cn_name": "斯特凡·卢基安",
+    "en_name": "Ștefan Luchian",
+    "birth_8": "18680101",
+    "desc": "象征主义与综合主义，浓烈色彩的花卉与肖像；注：月日占位"
+  },
+  {
+    "unique_code": "642187101010",
+    "country_numeric": "642",
+    "country_alpha2": "RO",
+    "country_name": "罗马尼亚",
+    "cn_name": "特奥多尔·帕拉迪",
+    "en_name": "Theodor Pallady",
+    "birth_8": "18710101",
+    "desc": "巴黎画派，后印象派静物与几何化人物；注：月日占位"
+  },
+  {
+    "unique_code": "642190301010",
+    "country_numeric": "642",
+    "country_alpha2": "RO",
+    "country_name": "罗马尼亚",
+    "cn_name": "维克托·布劳内",
+    "en_name": "Victor Brauner",
+    "birth_8": "19030101",
+    "desc": "超现实主义，神秘象征与自传式肖像；注：月日占位"
+  },
+  {
+    "unique_code": "642190601010",
+    "country_numeric": "642",
+    "country_alpha2": "RO",
+    "country_name": "罗马尼亚",
+    "cn_name": "科尔内留·巴巴",
+    "en_name": "Corneliu Baba",
+    "birth_8": "19060101",
+    "desc": "表现主义现实主义肖像，厚重笔触与心理深度；注：月日占位"
+  }
+]

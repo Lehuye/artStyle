@@ -1,0 +1,62 @@
+[
+  {
+    "unique_code": "710182001010",
+    "country_numeric": "710",
+    "country_alpha2": "ZA",
+    "country_name": "南非",
+    "cn_name": "托马斯·贝恩斯",
+    "en_name": "Thomas Baines",
+    "birth_8": "18200101",
+    "desc": "殖民探险画家，南非风景、金矿与动物写生；注：月日占位"
+  },
+  {
+    "unique_code": "710188601010",
+    "country_numeric": "710",
+    "country_alpha2": "ZA",
+    "country_name": "南非",
+    "cn_name": "玛吉·劳布瑟",
+    "en_name": "Maggie Laubser",
+    "birth_8": "18860101",
+    "desc": "南非表现主义先驱，粗犷色彩与农民肖像；注：月日占位"
+  },
+  {
+    "unique_code": "710189401010",
+    "country_numeric": "710",
+    "country_alpha2": "ZA",
+    "country_name": "南非",
+    "cn_name": "伊尔玛·斯特恩",
+    "en_name": "Irma Stern",
+    "birth_8": "18940101",
+    "desc": "表现主义，非洲与阿拉伯人物及浓烈色彩；注：月日占位"
+  },
+  {
+    "unique_code": "710191101010",
+    "country_numeric": "710",
+    "country_alpha2": "ZA",
+    "country_name": "南非",
+    "cn_name": "亚历克西斯·普雷勒",
+    "en_name": "Alexis Preller",
+    "birth_8": "19110101",
+    "desc": "象征主义与超现实，非洲神话与个人宇宙；注：月日占位"
+  },
+  {
+    "unique_code": "710191301010",
+    "country_numeric": "710",
+    "country_alpha2": "ZA",
+    "country_name": "南非",
+    "cn_name": "热拉尔·塞科托",
+    "en_name": "Gerard Sekoto",
+    "birth_8": "19130101",
+    "desc": "南非黑人绘画先驱，索韦托城镇日常生活；注：月日占位"
+  },
+  {
+    "unique_code": "710195501010",
+    "country_numeric": "710",
+    "country_alpha2": "ZA",
+    "country_name": "南非",
+    "cn_name": "威廉·肯特里奇",
+    "en_name": "William Kentridge",
+    "birth_8": "19550101",
+    "desc": "当代综合媒介，炭笔素描动画与种族历史反思；注：月日占位"
+  }
+]

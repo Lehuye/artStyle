@@ -1,0 +1,72 @@
+[
+  {
+    "unique_code": "203186001010",
+    "country_numeric": "203",
+    "country_alpha2": "CZ",
+    "country_name": "捷克",
+    "cn_name": "阿尔丰斯·慕夏",
+    "en_name": "Alfons Mucha",
+    "birth_8": "18600101",
+    "desc": "新艺术运动海报与装饰绘画大师，柔美曲线与斯拉夫史诗；注：月日占位"
+  },
+  {
+    "unique_code": "203187001010",
+    "country_numeric": "203",
+    "country_alpha2": "CZ",
+    "country_name": "捷克",
+    "cn_name": "安东尼·斯拉维切克",
+    "en_name": "Antonín Slavíček",
+    "birth_8": "18700101",
+    "desc": "捷克现代风景画开拓者，印象派外光写生；注：月日占位"
+  },
+  {
+    "unique_code": "203187101010",
+    "country_numeric": "203",
+    "country_alpha2": "CZ",
+    "country_name": "捷克",
+    "cn_name": "弗朗齐歇克·库普卡",
+    "en_name": "František Kupka",
+    "birth_8": "18710101",
+    "desc": "欧洲抽象绘画先驱，几何抽象与色彩音乐性；注：月日占位"
+  },
+  {
+    "unique_code": "203188501010",
+    "country_numeric": "203",
+    "country_alpha2": "CZ",
+    "country_name": "捷克",
+    "cn_name": "瓦茨拉夫·什帕拉",
+    "en_name": "Václav Špála",
+    "birth_8": "18850101",
+    "desc": "捷克立体—表现主义，浓烈色块与静物风景；注：月日占位"
+  },
+  {
+    "unique_code": "203188701010",
+    "country_numeric": "203",
+    "country_alpha2": "CZ",
+    "country_name": "捷克",
+    "cn_name": "约瑟夫·恰佩克",
+    "en_name": "Josef Čapek",
+    "birth_8": "18870101",
+    "desc": "捷克现代派，立体主义与儿童绘本，'机器人'一词发明者；注：月日占位"
+  },
+  {
+    "unique_code": "203189001010",
+    "country_numeric": "203",
+    "country_alpha2": "CZ",
+    "country_name": "捷克",
+    "cn_name": "扬·兹拉扎维",
+    "en_name": "Jan Zrzavý",
+    "birth_8": "18900101",
+    "desc": "捷克象征主义与超现实抒情，精致线描与梦幻风景；注：月日占位"
+  },
+  {
+    "unique_code": "203190201010",
+    "country_numeric": "203",
+    "country_alpha2": "CZ",
+    "country_name": "捷克",
+    "cn_name": "托延",
+    "en_name": "Toyen (Marie Čermínová)",
+    "birth_8": "19020101",
+    "desc": "捷克超现实主义代表，诗意情色意象与拼贴；注：月日占位"
+  }
+]

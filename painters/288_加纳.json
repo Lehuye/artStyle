@@ -1,0 +1,32 @@
+[
+  {
+    "unique_code": "288192001010",
+    "country_numeric": "288",
+    "country_alpha2": "GH",
+    "country_name": "加纳",
+    "cn_name": "阿塔·奥科",
+    "en_name": "Ataa Oko",
+    "birth_8": "19200101",
+    "desc": "加纳居万尼（Fantasy Coffin）绘画先驱，阿克拉风格棺材与图像叙事；注：月日占位"
+  },
+  {
+    "unique_code": "288192201010",
+    "country_numeric": "288",
+    "country_alpha2": "GH",
+    "country_name": "加纳",
+    "cn_name": "科菲·安图巴姆",
+    "en_name": "Kofi Antubam",
+    "birth_8": "19220101",
+    "desc": "加纳现代绘画奠基人，融合阿肯雕塑符号与西方写实；注：月日占位"
+  },
+  {
+    "unique_code": "288196401010",
+    "country_numeric": "288",
+    "country_alpha2": "GH",
+    "country_name": "加纳",
+    "cn_name": "戈德弗里德·唐科尔",
+    "en_name": "Godfried Donkor",
+    "birth_8": "19640101",
+    "desc": "当代加纳混合媒材，拼贴海报与殖民贸易图像；注：月日占位"
+  }
+]

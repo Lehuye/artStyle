@@ -1,0 +1,42 @@
+[
+  {
+    "unique_code": "376189301010",
+    "country_numeric": "376",
+    "country_alpha2": "IL",
+    "country_name": "以色列",
+    "cn_name": "鲁文·鲁宾",
+    "en_name": "Reuven Rubin",
+    "birth_8": "18930101",
+    "desc": "以色列以色列画派（École de Paris 在地化）先驱，加利利风景与圣经题材；注：月日占位"
+  },
+  {
+    "unique_code": "376189601010",
+    "country_numeric": "376",
+    "country_alpha2": "IL",
+    "country_name": "以色列",
+    "cn_name": "莫迪盖·阿尔东",
+    "en_name": "Mordecai Ardon",
+    "birth_8": "18960101",
+    "desc": "以色列国家画派宗师，神秘主义与犹太象征主义抽象；注：月日占位"
+  },
+  {
+    "unique_code": "376192801010",
+    "country_numeric": "376",
+    "country_alpha2": "IL",
+    "country_name": "以色列",
+    "cn_name": "雅科夫·阿加姆",
+    "en_name": "Yaacov Agam",
+    "birth_8": "19280101",
+    "desc": "以色列动态艺术（Kinetic Art）与视觉诗开创者；注：月日占位"
+  },
+  {
+    "unique_code": "376192901010",
+    "country_numeric": "376",
+    "country_alpha2": "IL",
+    "country_name": "以色列",
+    "cn_name": "阿维格多·阿里卡",
+    "en_name": "Avigdor Arikha",
+    "birth_8": "19290101",
+    "desc": "以色列-巴黎写实画家，即时写生肖像与静物；注：月日占位"
+  }
+]

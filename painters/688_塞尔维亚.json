@@ -1,0 +1,62 @@
+[
+  {
+    "unique_code": "688181101010",
+    "country_numeric": "688",
+    "country_alpha2": "RS",
+    "country_name": "塞尔维亚",
+    "cn_name": "卡塔琳娜·伊万诺维奇",
+    "en_name": "Katarina Ivanović",
+    "birth_8": "18110101",
+    "desc": "塞尔维亚最早的女性职业画家，新古典肖像；注：月日占位"
+  },
+  {
+    "unique_code": "688185701010",
+    "country_numeric": "688",
+    "country_alpha2": "RS",
+    "country_name": "塞尔维亚",
+    "cn_name": "乌罗什·普雷迪奇",
+    "en_name": "Uroš Predić",
+    "birth_8": "18570101",
+    "desc": "学院派现实主义，风俗与历史绘画；注：月日占位"
+  },
+  {
+    "unique_code": "688185901010",
+    "country_numeric": "688",
+    "country_alpha2": "RS",
+    "country_name": "塞尔维亚",
+    "cn_name": "帕雅·约万诺维奇",
+    "en_name": "Paja Jovanović",
+    "birth_8": "18590101",
+    "desc": "塞尔维亚历史画与肖像巨匠，细腻写实；注：月日占位"
+  },
+  {
+    "unique_code": "688187301010",
+    "country_numeric": "688",
+    "country_alpha2": "RS",
+    "country_name": "塞尔维亚",
+    "cn_name": "娜杰日达·彼得罗维奇",
+    "en_name": "Nadežda Petrović",
+    "birth_8": "18730101",
+    "desc": "塞尔维亚印象派与表现主义，绚烂色彩；注：月日占位"
+  },
+  {
+    "unique_code": "688189601010",
+    "country_numeric": "688",
+    "country_alpha2": "RS",
+    "country_name": "塞尔维亚",
+    "cn_name": "萨瓦·舒马诺维奇",
+    "en_name": "Sava Šumanović",
+    "birth_8": "18960101",
+    "desc": "塞尔维亚现代主义，立体主义转向抒情具象；注：月日占位"
+  },
+  {
+    "unique_code": "688190701010",
+    "country_numeric": "688",
+    "country_alpha2": "RS",
+    "country_name": "塞尔维亚",
+    "cn_name": "佩塔尔·卢巴尔达",
+    "en_name": "Petar Lubarda",
+    "birth_8": "19070101",
+    "desc": "表现主义抽象，粗犷笔触与黑山山地；注：月日占位"
+  }
+]

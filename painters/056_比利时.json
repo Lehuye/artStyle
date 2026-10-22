@@ -1,0 +1,102 @@
+[
+  {
+    "unique_code": "056139001010",
+    "country_numeric": "056",
+    "country_alpha2": "BE",
+    "country_name": "比利时",
+    "cn_name": "扬·凡·艾克",
+    "en_name": "Jan van Eyck",
+    "birth_8": "13900101",
+    "desc": "尼德兰油画技法奠基者，极致写实细节与光学透明色，《根特祭坛》《阿尔诺芬尼夫妇》；注：出生年份约1390，月日占位"
+  },
+  {
+    "unique_code": "056139901010",
+    "country_numeric": "056",
+    "country_alpha2": "BE",
+    "country_name": "比利时",
+    "cn_name": "罗吉尔·凡·德尔·维登",
+    "en_name": "Rogier van der Weyden",
+    "birth_8": "13990101",
+    "desc": "早期尼德兰宗教画大师，悲悯抒情的圣母与十字架下人物；注：出生年份约1399—1400，月日占位"
+  },
+  {
+    "unique_code": "056143001010",
+    "country_numeric": "056",
+    "country_alpha2": "BE",
+    "country_name": "比利时",
+    "cn_name": "汉斯·梅姆林",
+    "en_name": "Hans Memling",
+    "birth_8": "14300101",
+    "desc": "布鲁日画派抒情宗教画，宁静优雅的圣母像与肖像；注：出生年份约1430—1435，月日占位"
+  },
+  {
+    "unique_code": "056152501010",
+    "country_numeric": "056",
+    "country_alpha2": "BE",
+    "country_name": "比利时",
+    "cn_name": "老彼得·勃鲁盖尔",
+    "en_name": "Pieter Bruegel the Elder",
+    "birth_8": "15250101",
+    "desc": "尼德兰文艺复兴风俗画宗师，农民生活与全景式寓言，《盲人的寓言》《雪中猎人》；注：出生年份约1525—1530，月日占位"
+  },
+  {
+    "unique_code": "056157701010",
+    "country_numeric": "056",
+    "country_alpha2": "BE",
+    "country_name": "比利时",
+    "cn_name": "彼得·保罗·鲁本斯",
+    "en_name": "Peter Paul Rubens",
+    "birth_8": "15770101",
+    "desc": "佛兰德斯巴洛克旗手，动势饱满、肉感色彩与宏大构图；注：月日占位"
+  },
+  {
+    "unique_code": "056159301010",
+    "country_numeric": "056",
+    "country_alpha2": "BE",
+    "country_name": "比利时",
+    "cn_name": "雅各布·约尔丹斯",
+    "en_name": "Jacob Jordaens",
+    "birth_8": "15930101",
+    "desc": "佛兰德斯巴洛克，热闹丰饶的市民宴会与神话题材；注：月日占位"
+  },
+  {
+    "unique_code": "056159901010",
+    "country_numeric": "056",
+    "country_alpha2": "BE",
+    "country_name": "比利时",
+    "cn_name": "安东尼·凡·戴克",
+    "en_name": "Anthony van Dyck",
+    "birth_8": "15990101",
+    "desc": "佛兰德斯巴洛克肖像画大师，优雅飘逸的英国王室肖像；注：月日占位"
+  },
+  {
+    "unique_code": "056186001010",
+    "country_numeric": "056",
+    "country_alpha2": "BE",
+    "country_name": "比利时",
+    "cn_name": "詹姆斯·恩索尔",
+    "en_name": "James Ensor",
+    "birth_8": "18600101",
+    "desc": "比利时象征主义与表现主义先驱，面具、骷髅与怪诞狂欢场景；注：月日占位"
+  },
+  {
+    "unique_code": "056189701010",
+    "country_numeric": "056",
+    "country_alpha2": "BE",
+    "country_name": "比利时",
+    "cn_name": "保罗·德尔沃",
+    "en_name": "Paul Delvaux",
+    "birth_8": "18970101",
+    "desc": "比利时超现实主义，静穆裸体女性与古典废墟、月夜城市的梦幻场景；注：月日占位"
+  },
+  {
+    "unique_code": "056189801010",
+    "country_numeric": "056",
+    "country_alpha2": "BE",
+    "country_name": "比利时",
+    "cn_name": "勒内·马格利特",
+    "en_name": "René Magritte",
+    "birth_8": "18980101",
+    "desc": "比利时超现实主义，日常物的错位并置与图像哲学，《戴黑帽的男人》《背叛的意象》；注：月日占位"
+  }
+]

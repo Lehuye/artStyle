@@ -1,0 +1,52 @@
+[
+  {
+    "unique_code": "246185401010",
+    "country_numeric": "246",
+    "country_alpha2": "FI",
+    "country_name": "芬兰",
+    "cn_name": "阿尔贝特·埃德费尔特",
+    "en_name": "Albert Edelfelt",
+    "birth_8": "18540101",
+    "desc": "芬兰现实主义代表，历史画与户外肖像；注：月日占位"
+  },
+  {
+    "unique_code": "246186201010",
+    "country_numeric": "246",
+    "country_alpha2": "FI",
+    "country_name": "芬兰",
+    "cn_name": "海伦·谢尔夫贝克",
+    "en_name": "Helene Schjerfbeck",
+    "birth_8": "18620101",
+    "desc": "芬兰现代主义女性画家，孤寂肖像与极简内省；注：月日占位"
+  },
+  {
+    "unique_code": "246186301010",
+    "country_numeric": "246",
+    "country_alpha2": "FI",
+    "country_name": "芬兰",
+    "cn_name": "埃罗·耶内费尔特",
+    "en_name": "Eero Järnefelt",
+    "birth_8": "18630101",
+    "desc": "芬兰民族现实主义，垦荒者与湖泊风景；注：月日占位"
+  },
+  {
+    "unique_code": "246186501010",
+    "country_numeric": "246",
+    "country_alpha2": "FI",
+    "country_name": "芬兰",
+    "cn_name": "阿克塞利·加伦—卡勒拉",
+    "en_name": "Akseli Gallen-Kallela",
+    "birth_8": "18650101",
+    "desc": "芬兰卡勒瓦拉史诗插画，民族浪漫与象征壁画；注：月日占位"
+  },
+  {
+    "unique_code": "246187301010",
+    "country_numeric": "246",
+    "country_alpha2": "FI",
+    "country_name": "芬兰",
+    "cn_name": "雨果·西姆贝里",
+    "en_name": "Hugo Simberg",
+    "birth_8": "18730101",
+    "desc": "芬兰象征主义，童话般死神与花园意象；注：月日占位"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "unique_code": "360181101010",
+    "country_numeric": "360",
+    "country_alpha2": "ID",
+    "country_name": "印度尼西亚",
+    "cn_name": "拉登·萨勒",
+    "en_name": "Raden Saleh",
+    "birth_8": "18110101",
+    "desc": "印尼现代绘画先驱，浪漫主义狮子题材与爪哇风景；注：月日占位"
+  },
+  {
+    "unique_code": "360187801010",
+    "country_numeric": "360",
+    "country_alpha2": "ID",
+    "country_name": "印度尼西亚",
+    "cn_name": "阿卜杜拉·苏布鲁托",
+    "en_name": "Abdullah Suriosubroto",
+    "birth_8": "18780101",
+    "desc": "印尼抒情风景画派，爪哇田园与火山景观；注：月日占位"
+  },
+  {
+    "unique_code": "360191501010",
+    "country_numeric": "360",
+    "country_alpha2": "ID",
+    "country_name": "印度尼西亚",
+    "cn_name": "巴苏基·阿卜杜拉",
+    "en_name": "Basuki Abdullah",
+    "birth_8": "19150101",
+    "desc": "印尼民族写实肖像大师，外交官肖像与官方艺术；注：月日占位"
+  }
+]

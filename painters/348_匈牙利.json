@@ -1,0 +1,62 @@
+[
+  {
+    "unique_code": "348184401010",
+    "country_numeric": "348",
+    "country_alpha2": "HU",
+    "country_name": "匈牙利",
+    "cn_name": "米哈伊·蒙卡奇",
+    "en_name": "Mihály Munkácsy",
+    "birth_8": "18440101",
+    "desc": "19世纪匈牙利现实主义旗手，《抽大麻的人》与历史宏大画；注：月日占位"
+  },
+  {
+    "unique_code": "348184601010",
+    "country_numeric": "348",
+    "country_alpha2": "HU",
+    "country_name": "匈牙利",
+    "cn_name": "拉斯洛·保罗维奇",
+    "en_name": "László Paál",
+    "birth_8": "18460101",
+    "desc": "匈牙利外光派风景画家，巴比松式森林光影；注：月日占位"
+  },
+  {
+    "unique_code": "348185301010",
+    "country_numeric": "348",
+    "country_alpha2": "HU",
+    "country_name": "匈牙利",
+    "cn_name": "蒂瓦达尔·丘尔利",
+    "en_name": "Tivadar Csontváry Kosztka",
+    "birth_8": "18530101",
+    "desc": "匈牙利表现主义先驱，迷幻大风景与孤独树母题；注：月日占位"
+  },
+  {
+    "unique_code": "348186101010",
+    "country_numeric": "348",
+    "country_alpha2": "HU",
+    "country_name": "匈牙利",
+    "cn_name": "约瑟夫·里普尔-罗奈",
+    "en_name": "József Rippl-Rónai",
+    "birth_8": "18610101",
+    "desc": "匈牙利纳比派与装饰绘画代表，平面色块与室内景；注：月日占位"
+  },
+  {
+    "unique_code": "348188501010",
+    "country_numeric": "348",
+    "country_alpha2": "HU",
+    "country_name": "匈牙利",
+    "cn_name": "拉约什·蒂豪尼",
+    "en_name": "Lajos Tihanyi",
+    "birth_8": "18850101",
+    "desc": "匈牙利巴黎画派肖像与表现主义，八人画派（Nyolcak）；注：月日占位"
+  },
+  {
+    "unique_code": "348190601010",
+    "country_numeric": "348",
+    "country_alpha2": "HU",
+    "country_name": "匈牙利",
+    "cn_name": "维克托·瓦萨雷里",
+    "en_name": "Victor Vasarely",
+    "birth_8": "19060101",
+    "desc": "欧普艺术（Op Art）之父，几何视错觉与动态图案；注：月日占位"
+  }
+]

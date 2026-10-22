@@ -1,0 +1,32 @@
+[
+  {
+    "unique_code": "504193001010",
+    "country_numeric": "504",
+    "country_alpha2": "MA",
+    "country_name": "摩洛哥",
+    "cn_name": "吉拉利·加尔巴维",
+    "en_name": "Jilali Gharbaoui",
+    "birth_8": "19300101",
+    "desc": "摩洛哥抽象绘画先驱，书法性笔触与阿拉伯书法符号，非斯画派；注：月日占位"
+  },
+  {
+    "unique_code": "504193401010",
+    "country_numeric": "504",
+    "country_alpha2": "MA",
+    "country_name": "摩洛哥",
+    "cn_name": "艾哈迈德·谢尔卡维",
+    "en_name": "Ahmed Cherkaoui",
+    "birth_8": "19340101",
+    "desc": "摩洛哥现代抽象代表，结合苏菲符号与柏柏尔纹饰，细密线条与刺绣感色块；注：月日占位"
+  },
+  {
+    "unique_code": "504193401011",
+    "country_numeric": "504",
+    "country_alpha2": "MA",
+    "country_name": "摩洛哥",
+    "cn_name": "法里德·贝尔卡希亚",
+    "en_name": "Farid Belkahia",
+    "birth_8": "19340101",
+    "desc": "摩洛哥现代艺术旗手，以皮革、铜器等本土工艺媒材作画，前伊斯兰与柏柏尔美学；注：月日占位"
+  }
+]
