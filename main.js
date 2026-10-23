@@ -251,6 +251,7 @@ app.put('/api/putpainter', async (req, res) => {
 });
 
 
+/*
 app.delete('/api/delpainter', (req, res) => {
   console.log('\n===== DELETE /api/delpainter =====');
   try {
@@ -277,6 +278,40 @@ app.delete('/api/delpainter', (req, res) => {
     if (fs.existsSync(fOrigin)) fs.unlinkSync(fOrigin);
     if (fs.existsSync(fMid)) fs.unlinkSync(fMid);
     if (fs.existsSync(fThumb)) fs.unlinkSync(fThumb);
+
+    console.log('[删除成功]', item);
+    res.json({ ok: true, msg: '删除成功', deleted: item });
+  } catch (err) {
+    console.error('[EXCEPTION delpainter]', err);
+    res.status(500).json({ ok: false, msg: '删除失败', error: err.stack });
+  }
+});
+*/
+app.delete('/api/delpainter', async (req, res) => {
+  console.log('\n===== DELETE /api/delpainter =====');
+  try {
+    const body = req.body;
+    console.log('[BODY]', JSON.stringify(body));
+    const { unique_code } = body;
+    if (!unique_code) {
+      return res.status(400).json({ ok: false, msg: '缺少 unique_code' });
+    }
+    const found = findPainterByCode(unique_code);
+    if (!found) {
+      console.log('[找不到条目]', unique_code);
+      return res.status(404).json({ ok: false, msg: '找不到该条目' });
+    }
+    const { fp, list, idx, item } = found;
+    list.splice(idx, 1);
+    fs.writeFileSync(fp, JSON.stringify(list, null, 2), 'utf8');
+
+    const ext = '.webp';
+    const fOrigin = path.join(DIR_ORIGIN, unique_code + ext);
+    const fMid = path.join(DIR_MID, unique_code + ext);
+    const fThumb = path.join(DIR_THUMB, unique_code + ext);
+    if (await fs.promises.exists(fOrigin)) await fs.promises.unlink(fOrigin);
+    if (await fs.promises.exists(fMid)) await fs.promises.unlink(fMid);
+    if (await fs.promises.exists(fThumb)) await fs.promises.unlink(fThumb);
 
     console.log('[删除成功]', item);
     res.json({ ok: true, msg: '删除成功', deleted: item });
