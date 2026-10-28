@@ -4,8 +4,9 @@ const express = require('express');
 const multer = require('multer');
 const sharp = require('sharp');
 const app = express();
-const PORT = 3331;
-const IMG_ROOT = path.join(__dirname, 'images');
+const PORT = process.env.ARTSTYLE_PORT ? Number(process.env.ARTSTYLE_PORT) : 3331;
+const DATA_ROOT = process.env.ARTSTYLE_DATA_DIR || __dirname;
+const IMG_ROOT = path.join(DATA_ROOT, 'images');
 const DIR_ORIGIN = path.join(IMG_ROOT, 'origin');
 const DIR_MID = path.join(IMG_ROOT, 'mid');
 const DIR_THUMB = path.join(IMG_ROOT, 'thumb');
@@ -15,7 +16,7 @@ const DIR_THUMB = path.join(IMG_ROOT, 'thumb');
 app.use(express.json());
 app.use('/images', express.static(IMG_ROOT));
 const upload = multer({ storage: multer.memoryStorage() });
-const PAINTERS_DIR = path.join(__dirname, 'painters');
+const PAINTERS_DIR = path.join(DATA_ROOT, 'painters');
 let countryMap = new Map();
 
 function refreshCountryMap() {
@@ -352,7 +353,7 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, '127.0.0.1', () => {
   console.log(`\n✅ 服务启动：http://127.0.0.1:${PORT}`);
   refreshCountryMap();
 });

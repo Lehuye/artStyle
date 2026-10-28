@@ -1,7 +1,72 @@
 {
+  "name": "art-style",
+  "version": "1.0.0",
+  "description": "全球艺术家/画家视觉风格数据库管理系统（ArtStyle · Lehuye Artist List）",
+  "main": "electron/main.js",
+  "author": "Lehuye",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "web": "node main.js",
+    "dist": "electron-builder",
+    "dist:win": "electron-builder --win",
+    "dist:mac": "electron-builder --mac",
+    "dist:linux": "electron-builder --linux"
+  },
   "dependencies": {
     "express": "^5.3.0",
     "multer": "^2.4.0",
     "sharp": "^0.35.5"
+  },
+  "build": {
+    "appId": "com.lehuye.artstyle",
+    "productName": "ArtStyle",
+    "asar": true,
+    "asarUnpack": [
+      "**/node_modules/sharp/**",
+      "**/node_modules/@img/**"
+    ],
+    "files": [
+      "main.js",
+      "index.html",
+      "style.css",
+      "lehuye.config.json",
+      "electron/**/*",
+      "painters/**/*",
+      "images/**/*"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "ArtStyle"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.graphics-design"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Graphics"
+    }
+  },
+  "devDependencies": {
+    "electron": "^45.1.0",
+    "electron-builder": "^26.18.0"
   }
 }

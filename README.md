@@ -2,9 +2,9 @@
 
 > 全球艺术家 / 画家视觉风格数据库管理系统 · Global Artist / Painter Visual Style Database
 
-一个基于 **Node.js + Express + Sharp** 的轻量级 Web 应用，用于按国家管理全球艺术家档案（中英文名、出生日期、简介），并为每位艺术家自动生成 **原图 / 中图 / 缩略图** 三尺寸 WebP 图片，支持检索、新增、编辑、删除与图片上传。
+一个基于 **Node.js + Express + Sharp + Electron** 的轻量级应用，用于按国家管理全球艺术家档案（中英文名、出生日期、简介），并为每位艺术家自动生成 **原图 / 中图 / 缩略图** 三尺寸 WebP 图片，支持检索、新增、编辑、删除与图片上传。既可作为 Web 服务运行，也可打包为 **Windows / macOS / Linux** 桌面应用。
 
-A lightweight web app built with **Node.js + Express + Sharp** that manages global artist profiles (Chinese/English names, birth date, description) by country, auto-generates **origin / mid / thumb** three-size WebP images for each artist, and supports search, add, edit, delete and image upload.
+A lightweight app built with **Node.js + Express + Sharp + Electron** that manages global artist profiles (Chinese/English names, birth date, description) by country, auto-generates **origin / mid / thumb** three-size WebP images for each artist, and supports search, add, edit, delete and image upload. It runs both as a web service and as a packaged **Windows / macOS / Linux** desktop application.
 
 ---
 
@@ -16,6 +16,7 @@ A lightweight web app built with **Node.js + Express + Sharp** that manages glob
 - [目录结构 · Directory Structure](#目录结构--directory-structure)
 - [快速开始 · Quick Start](#快速开始--quick-start)
 - [使用指南 · Usage Guide](#使用指南--usage-guide)
+- [打包桌面应用 · Package as Desktop App](#打包桌面应用--package-as-desktop-app)
 - [API 文档 · API Reference](#api-文档--api-reference)
 - [数据格式 · Data Format](#数据格式--data-format)
 - [图片处理说明 · Image Processing](#图片处理说明--image-processing)
@@ -48,6 +49,7 @@ The system ships with **150 country/region** data files and **505** artist recor
 | 图片上传 | 点击卡片缩略图即可上传，Sharp 自动生成原图 / 中图 / 缩略图 Click card thumbnail to upload; Sharp auto-generates origin/mid/thumb |
 | 一键复制 | 点击 UID / 姓名 / 国家文本即可复制到剪贴板 Click UID / name / country text to copy to clipboard |
 | 图片自动重命名 | 编辑生日后关联图片随新编码同步改名 Images auto-renamed to match new code after birth-date edits |
+| 桌面应用 | Electron 壳内嵌启动本地服务，三平台安装包，开箱即用 Desktop app with embedded local server and installers for all three platforms |
 
 ---
 
@@ -55,9 +57,11 @@ The system ships with **150 country/region** data files and **505** artist recor
 
 | 层 Layer | 技术 Technology |
 | --- | --- |
+| 桌面壳 Desktop Shell | Electron `^45.1.0`（主进程内嵌 Express 服务） |
 | 后端 Backend | Node.js + Express `^5.3.0` |
 | 图片处理 Image | Sharp `^0.35.5`（WebP 编解码、缩放、裁剪） |
 | 文件上传 Upload | Multer `^2.4.0`（内存存储 memory storage） |
+| 打包 Build | electron-builder `^26.18.0`（NSIS / dmg / AppImage+deb） |
 | 前端 Frontend | 原生 HTML + CSS + JavaScript（无框架，内联样式） |
 | 数据存储 Data | JSON 文件系统（`painters/` 目录按国家分文件） |
 
@@ -70,9 +74,11 @@ The system ships with **150 country/region** data files and **505** artist recor
 ```
 artStyle/
 ├── main.js                  # Express 服务端入口（端口 3331）Server entry (port 3331)
+├── electron/
+│   └── main.js              # Electron 主进程入口（启动服务 + 桌面窗口）Desktop entry
 ├── index.html               # 前端页面（卡片画廊 + 弹窗表单）Front-end UI
 ├── style.css                # 备用画廊样式表（深色玻璃拟态风格）Alternative gallery stylesheet
-├── package.json             # 依赖声明 Dependencies
+├── package.json             # 依赖声明 + 打包配置 Dependencies & electron-builder config
 ├── package-lock.json        # 依赖锁定文件 Lock file
 ├── lehuye.config.json       # 应用元数据（名称/描述/类型）App metadata
 ├── Powershell               # build.ps1：生成绘画风格素材库目录树脚本 Style-library tree generator
@@ -84,7 +90,9 @@ artStyle/
 │   ├── origin/              # 原图（原始尺寸 WebP）
 │   ├── mid/                 # 中图（最长边 ≤1200px）
 │   └── thumb/               # 缩略图（400×400 居中裁剪）
-└── node_modules/            # 安装的依赖
+└── dist/                    # 打包产物（安装包 + 免安装版）Build output
+    ├── ArtStyle Setup 1.0.0.exe   # Windows NSIS 安装包
+    └── win-unpacked/              # 免安装绿色版目录
 ```
 
 ---
@@ -104,7 +112,7 @@ artStyle/
 npm install
 ```
 
-> 将安装 `express`、`multer`、`sharp` 三个依赖。
+> 将安装 `express`、`multer`、`sharp` 三个运行时依赖，以及 `electron`、`electron-builder` 两个开发依赖。
 
 ### 3. 启动服务 Start the server
 
@@ -124,6 +132,19 @@ node main.js
 
 服务启动时会自动创建 `images/origin`、`images/mid`、`images/thumb` 目录；`painters/` 目录不存在时也会自动创建。
 
+### 5. 以桌面应用模式运行 Run as a desktop app（开发模式）
+
+```bash
+npm start
+```
+
+等价于 `electron .`：自动启动内嵌 Express 服务并打开桌面窗口。端口 `3331` 被占用时自动顺延。
+
+### 6. 直接运行打包好的桌面应用 Run the packaged app
+
+- 双击 `dist/ArtStyle Setup 1.0.0.exe` 安装（Windows），或直接运行 `dist/win-unpacked/ArtStyle.exe`（免安装绿色版）
+- 打包版首次启动会把种子数据（`painters/`、`images/`）复制到用户数据目录 `%APPDATA%\art-style\data`，之后的增删改全部写入该目录，卸载或重装不会丢失数据
+
 ---
 
 ## 使用指南 · Usage Guide
@@ -139,6 +160,34 @@ node main.js
 | 复制 Copy | 点击卡片上的 UID / 姓名 / 国家文本，一键复制到剪贴板 |
 
 **说明**：新添加的艺术家在首次上传图片前，卡片缩略图区域显示占位提示；上传成功后立即刷新为缩略图。
+
+---
+
+## 打包桌面应用 · Package as Desktop App
+
+使用 `electron-builder` 一键打包三平台安装包（配置已写入 `package.json` 的 `build` 字段）。
+
+| 平台 Platform | 命令 Command | 产物 Output |
+| --- | --- | --- |
+| Windows | `npm run dist:win` | `dist/ArtStyle Setup 1.0.0.exe`（NSIS 安装包）+ `dist/win-unpacked/`（绿色版） |
+| macOS | `npm run dist:mac`（需在 macOS 上执行） | `dist/ArtStyle-1.0.0.dmg` |
+| Linux | `npm run dist:linux`（需在 Linux 上执行） | `dist/ArtStyle-1.0.0.AppImage` + `.deb` |
+| 全部 | `npm run dist` | 当前平台默认目标 |
+
+### 打包要点 Notes
+
+- **平台限制**：macOS 安装包只能在 macOS 上构建（Apple 签名与工具链限制），Windows 与 Linux 同理；如需一次产出三平台包，可配置 GitHub Actions 流水线在对应 runner 上构建。
+- **国内网络**：`electron` 与构建工具从 GitHub 下载易超时，建议设置镜像后打包：
+
+```powershell
+$env:ELECTRON_MIRROR="https://npmmirror.com/mirrors/electron/"
+$env:ELECTRON_BUILDER_BINARIES_MIRROR="https://npmmirror.com/mirrors/electron-builder-binaries/"
+npm run dist:win
+```
+
+- **数据目录**：打包版将可写数据（`painters/`、`images/`）存放于用户数据目录（Windows 为 `%APPDATA%\art-style\data`），首次运行自动从应用包复制种子数据，卸载重装不影响已录入数据。
+- **端口**：桌面版监听 `127.0.0.1:3331`，被占用时自动顺延到空闲端口。
+- **应用图标**：当前使用 Electron 默认图标；如需自定义，在 `build` 配置的 `win.icon` / `mac.icon` / `linux.icon` 中指定图标文件后重新打包。
 
 ---
 
