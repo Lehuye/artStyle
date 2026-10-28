@@ -281,25 +281,6 @@ unique_code = {country_numeric} + {birth_8} + {seq:2位}
 
 ---
 
-## 辅助工具 · Helper Script
-
-根目录下的 `Powershell` 文件实际是 **build.ps1**（PowerShell 脚本），用于生成「绘画风格素材库」目录树：
-
-- 一级分类：`handDrawn`（手绘）、`photography`（摄影）、`pixelArt`（像素画）、`threeDRender`（3D 渲染）、`vectorArt`（矢量图）、`mixedMedia`（混合媒介）、`procedural`（程序化生成）
-- 递归创建子分类目录，并在每个目录写入 `meta.json`（含 name / label / desc / folders / files）
-- 适合用于搭建 AI 绘画视觉风格参考图集的分类骨架
-
-运行方式：
-
-```powershell
-# 在项目根目录执行
-./Powershell
-```
-
-> 该脚本只创建目录骨架与 `meta.json`，`files` 字段为空数组，需自行填充图片对象。
-
----
-
 ## 常见问题 · FAQ
 
 **Q：启动报 `Cannot find module 'express'`？**
