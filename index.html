@@ -1,235 +1,13 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
   <meta charset="UTF-8">
   <title>Lehuye Artist List</title>
-  <style>
-    :root {
-      --header-hight: 120px;
-      --footer-hight: 52px;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-      max-width: 1200px;
-      margin: 16px auto 30px;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-      gap: 16px;
-    }
-    .artist-card {
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      border-radius: 12px;
-      background: #151518;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-    }
-    .artist-card:hover {
-      border-color: #00dfd8;
-    }
-    .artist-card .preview-img {
-      width: 100%;
-      aspect-ratio: 1/1;
-      overflow: hidden;
-      object-fit: cover;
-      cursor: pointer;
-      background: #0b0b0f;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #777;
-      font-size: 13px;
-    }
-    .artist-card .text-item {
-      font-size: 12px;
-      color: #eee;
-      padding: 4px 10px;
-    }
-    .artist-card .uid-item {
-      font-size: 18px;
-      color: #eee;
-      padding: 4px 10px;
-    }
-    .copy {
-      cursor: copy;
-      transition: all .3s ease-in-out;
-    }
-    .copy:hover {
-      background-color: rgb(66, 66, 66);
-    }
-    .btn-row {
-      display: flex;
-      gap: 8px;
-      padding: 6px 10px 10px;
-    }
-    .-btn {
-      flex:1;
-      border: none;
-      border-radius: 6px;
-      padding: 5px 0;
-      cursor: pointer;
-      font-size: 12px;
-    }
-    .-btn-edit {
-      background:#224455;
-      color:#fff;
-    }
-    .-btn-del {
-      background:#552222;
-      color:#fff;
-    }
-    #fileInput {
-      display: none;
-    }
-    header {
-      width: 100vw;
-      backdrop-filter: blur(10px);
-      background-color: rgba(255, 255, 255, 0.12);
-      height: var(--header-hight);
-    }
-    .header {
-      font-size: 14px;
-      font-weight: lighter;
-      width: 1200px;
-      margin: auto;
-      display: flex;
-      padding: 32px 0 12px;
-      justify-content: space-between;
-      color: #fff;
-    }
-    main {
-      height: calc(100vh - var(--header-hight) - var(--footer-hight));
-      overflow: auto;
-    }
-    main::-webkit-scrollbar {
-      width: 6px;
-      height: 6px;
-    }
-    main::-webkit-scrollbar-track {
-      background: transparent;
-    }
-    main::-webkit-scrollbar-thumb {
-      background: transparent;
-      border-radius: 3px;
-    }
-    main:hover::-webkit-scrollbar-thumb {
-      background: rgba(255,255,255,0.22);
-    }
-    main::-webkit-scrollbar-thumb:hover {
-      background: rgba(255,255,255,0.35);
-    }
-    footer {
-      height: var(--footer-hight);
-    }
-    body {
-      background: #0b0b0f;
-      margin: 0;
-      font-family: system-ui, sans-serif;
-    }
-    .bar {
-      display: flex;
-      gap: 16px;
-    }
-    .bar span {
-      display: flex;
-      border-radius: 8px;
-      background: rgb(3, 49, 83);
-      padding: 4px 16px;
-      cursor: pointer;
-    }
-    .filter-wrap {
-      max-width: 1200px;
-      margin: 0 auto 16px;
-    }
-    #searchInput {
-      width: 100%;
-      box-sizing: border-box;
-      background: #151518;
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      border-radius: 10px;
-      color: #eee;
-      padding: 10px 14px;
-      outline: none;
-      font-size: 13px;
-    }
-    #searchInput:focus {
-      border-color: #00dfd8;
-    }
-    #searchInput::placeholder {
-      color: #64748b;
-    }
-    .remind {
-      color:#aaa;
-      padding:12px;
-      font-size:13px;
-    }
-    /* 弹窗样式 */
-    .modal-mask {
-      position: fixed;
-      inset: 0;
-      background: rgba(0,0,0,0.7);
-      display: none;
-      align-items: center;
-      justify-content: center;
-      z-index: 999;
-    }
-    .modal-box {
-      width: 460px;
-      background: #151518;
-      border: 1px solid rgba(255,255,255,0.18);
-      border-radius: 14px;
-      padding: 20px;
-    }
-    .modal-box h3 {
-      margin-top:0;
-      color:#fff;
-    }
-    .form-row {
-      margin-bottom:12px;
-    }
-    .form-row label {
-      display:block;
-      color:#ccc;
-      font-size:13px;
-      margin-bottom:4px;
-    }
-    .form-row input, .form-row select, .form-row textarea {
-      width:100%;
-      box-sizing: border-box;
-      background:#0b0b0f;
-      border:1px solid rgba(255,255,255,0.12);
-      border-radius:8px;
-      color:#eee;
-      padding:9px 12px;
-      outline:none;
-    }
-    .form-row input:focus, .form-row select:focus, .form-row textarea:focus {
-      border-color:#00dfd8;
-    }
-    .modal-actions {
-      display:flex;
-      gap:10px;
-      justify-content:flex-end;
-      margin-top:16px;
-    }
-    .modal-actions button {
-      padding:8px 16px;
-      border-radius:8px;
-      border:none;
-      cursor:pointer;
-    }
-    .btn-cancel {
-      background:#333;
-      color:#fff;
-    }
-    .btn-submit {
-      background:#00dfd8;
-      color:#000;
-      font-weight:500;
-    }
-  </style>
+  <link rel="stylesheet" href="/style.css">
+
 </head>
+
 <body>
   <header>
     <div class="header">
@@ -260,36 +38,49 @@
     <div class="remind" id="remind"></div>
   </footer>
   <input type="file" id="fileInput" accept="image/*">
+
+
   <!-- 添加/编辑画家弹窗 -->
   <div class="modal-mask" id="modal">
+    <h3 id="modalTitle">新增艺术家</h3>
     <div class="modal-box">
-      <h3 id="modalTitle">新增艺术家</h3>
-      <div class="form-row">
-        <label>国家</label>
-        <select id="selCountry"></select>
-      </div>
-      <div class="form-row">
-        <label>中文名</label>
-        <input id="cnName" type="text">
-      </div>
-      <div class="form-row">
-        <label>英文名</label>
-        <input id="enName" type="text">
-      </div>
-      <div class="form-row">
-        <label>birth_8（8位数字，例如 14550101）</label>
-        <input id="birth8" type="text">
-      </div>
-      <div class="form-row">
-        <label>简介 desc</label>
-        <textarea id="desc" rows="3"></textarea>
-      </div>
-      <div class="modal-actions">
-        <button class="btn-cancel" id="btnCancel">取消</button>
-        <button class="btn-submit" id="btnSubmit">提交</button>
+      <div class="modal-left">
+      <textarea id="jsonImport" rows="8" placeholder=""></textarea>
+</div>
+      <div class="modal-right">
+        <div class="form-row">
+          <label>国家</label>
+          <div class="combobox-wrap">
+            <input id="selCountryInput" type="text" autocomplete="off" placeholder="输入筛选国家">
+            <div class="combobox-dropdown" id="countryDropdown"></div>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label>中文名</label>
+          <input id="cnName" type="text">
+        </div>
+        <div class="form-row">
+          <label>英文名</label>
+          <input id="enName" type="text">
+        </div>
+        <div class="form-row">
+          <label>birth_8（8位数字，例如 14550101）</label>
+          <input id="birth8" type="text">
+        </div>
+        <div class="form-row">
+          <label>简介 desc</label>
+          <textarea id="desc" rows="3"></textarea>
+        </div>
+        <div class="modal-actions">
+          <button class="btn-cancel" id="btnCancel">取消</button>
+          <button class="btn-submit" id="btnSubmit">提交</button>
+        </div>
       </div>
     </div>
   </div>
+
+
   <script>
     const fileInput = document.getElementById('fileInput');
     const searchInput = document.getElementById('searchInput');
@@ -297,7 +88,8 @@
     const ul = document.getElementById('list');
     const modal = document.getElementById('modal');
     const modalTitle = document.getElementById('modalTitle');
-    const selCountry = document.getElementById('selCountry');
+    const selCountryInput = document.getElementById('selCountryInput');
+    const countryDropdown = document.getElementById('countryDropdown');
     const cnName = document.getElementById('cnName');
     const enName = document.getElementById('enName');
     const birth8 = document.getElementById('birth8');
@@ -305,238 +97,322 @@
     const btnAdd = document.getElementById('btnAdd');
     const btnCancel = document.getElementById('btnCancel');
     const btnSubmit = document.getElementById('btnSubmit');
+    const jsonImport = document.getElementById('jsonImport');
     let currentPainter = null; // 上传图片用
     let editTarget = null; // 编辑模式：不为 null 代表编辑，存 painter 对象
     let painters_data = [];
     let countryList = [];
     let remindTimer = null;
+    let selectedCountryName = '';
 
     async function copyText(txt) {
-        try {
-            await navigator.clipboard.writeText(txt);
-            remind.innerText = '已复制：' + txt
-        } catch (err) {
-            remind.innerText = '复制失败：' + txt
-        }
-        clearTimeout(remindTimer);
-        remindTimer = setTimeout(()=> remind.innerText = '', 3000);
+      try {
+        await navigator.clipboard.writeText(txt);
+        remind.innerText = '已复制：' + txt
+      } catch (err) {
+        remind.innerText = '复制失败：' + txt
+      }
+      clearTimeout(remindTimer);
+      remindTimer = setTimeout(() => remind.innerText = '', 3000);
     }
     function showRemind(text) {
-        remind.innerText = text;
-        clearTimeout(remindTimer);
-        remindTimer = setTimeout(()=> remind.innerText = '', 3000);
+      remind.innerText = text;
+      clearTimeout(remindTimer);
+      remindTimer = setTimeout(() => remind.innerText = '', 3000);
     }
+
+    // 渲染下拉选项
+    function renderCountryDropdown(filterTxt = '') {
+      countryDropdown.innerHTML = '';
+      const kw = filterTxt.toLowerCase().trim();
+      const filtered = countryList.filter(c => {
+        const label = `${c.country_numeric} - ${c.country_name} (${c.country_alpha2})`.toLowerCase();
+        return label.includes(kw);
+      });
+      if (filtered.length === 0) {
+        countryDropdown.classList.remove('show');
+        return;
+      }
+      filtered.forEach(c => {
+        const div = document.createElement('div');
+        div.className = 'opt-item';
+        div.innerText = `${c.country_numeric} - ${c.country_name} (${c.country_alpha2})`;
+        div.dataset.name = c.country_name;
+        div.onclick = () => {
+          selectedCountryName = c.country_name;
+          selCountryInput.value = div.innerText;
+          countryDropdown.classList.remove('show');
+        };
+        countryDropdown.appendChild(div);
+      })
+      countryDropdown.classList.add('show');
+    }
+
     async function loadCountries() {
-        const res = await fetch('/api/countries');
-        countryList = await res.json();
-        selCountry.innerHTML = '';
-        countryList.forEach(c => {
-            const opt = document.createElement('option');
-            opt.value = c.country_name;
-            opt.textContent = `${c.country_numeric} - ${c.country_name} (${c.country_alpha2})`;
-            selCountry.appendChild(opt);
-        })
+      const res = await fetch('/api/countries');
+      countryList = await res.json();
     }
+
     async function loadPainters() {
-        const resp = await fetch('/api/painters');
-        painters_data = await resp.json();
-        painters_data.sort((a, b) => Number(b.birth_8) - Number(a.birth_8));
-        renderList(painters_data);
+      const resp = await fetch('/api/painters');
+      painters_data = await resp.json();
+      painters_data.sort((a, b) => Number(b.birth_8) - Number(a.birth_8));
+      renderList(painters_data);
     }
     function renderList(list) {
-        ul.innerHTML = '';
-        list.forEach(p => {
-            const li = document.createElement('li');
-            li.className = 'artist-card';
-            const thumbUrl = `/images/thumb/${p.unique_code}.webp`;
-            li.innerHTML = `
-                <div class="preview-img" data-code="${p.unique_code}">
-                    <img src="${thumbUrl}" onerror="this.style.display='none'">
-                </div>
-                <div class="uid-item copy">${p.unique_code}</div>
-                <div class="text-item copy">${p.en_name}</div>
-                <div class="text-item copy">${p.cn_name}</div>
-                <div class="text-item copy">${p.country_name}</div>
-                <div class="btn-row">
-                    <button class="-btn btn-edit" data-uid="${p.unique_code}">编辑</button>
-                    <button class="-btn btn-del" data-uid="${p.unique_code}">删除</button>
-                </div>
-            `;
-            li.querySelector('.preview-img').onclick = () => {
-                currentPainter = p;
-                fileInput.click();
-            };
-            li.querySelectorAll('.copy').forEach(el => {
-                el.onclick = (ev) => {
-                    ev.stopPropagation();
-                    copyText(el.innerText.trim());
-                };
+      ul.innerHTML = '';
+      list.forEach(p => {
+        const li = document.createElement('li');
+        li.className = 'artist-card';
+        const thumbUrl = `/images/thumb/${p.unique_code}.webp`;
+        li.innerHTML = `
+            <div class="preview-img" data-code="${p.unique_code}">
+                <img src="${thumbUrl}" onerror="this.style.display='none'">
+            </div>
+            <div class="uid-item copy">${p.unique_code}</div>
+            <div class="text-item copy">${p.en_name}</div>
+            <div class="text-item copy">${p.cn_name}</div>
+            <div class="text-item copy">${p.country_name}</div>
+            <div class="btn-row">
+                <button class="-btn btn-edit" data-uid="${p.unique_code}">编辑</button>
+                <button class="-btn btn-del" data-uid="${p.unique_code}">删除</button>
+            </div>
+          `;
+        li.querySelector('.preview-img').onclick = () => {
+          currentPainter = p;
+          fileInput.click();
+        };
+        li.querySelectorAll('.copy').forEach(el => {
+          el.onclick = (ev) => {
+            ev.stopPropagation();
+            copyText(el.innerText.trim());
+          };
+        });
+        // 编辑按钮
+        li.querySelector('.btn-edit').onclick = () => {
+          openEdit(p);
+        };
+        // 删除按钮
+        li.querySelector('.btn-del').onclick = async () => {
+          if (!confirm(`确认删除【${p.cn_name} / ${p.en_name}】？`)) return;
+          try {
+            const res = await fetch('/api/delpainter', {
+              method: 'DELETE',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ unique_code: p.unique_code })
             });
-            // 编辑按钮
-            li.querySelector('.btn-edit').onclick = () => {
-                openEdit(p);
-            };
-            // 删除按钮
-            li.querySelector('.btn-del').onclick = async () => {
-                if(!confirm(`确认删除【${p.cn_name} / ${p.en_name}】？`)) return;
-                try {
-                    const res = await fetch('/api/delpainter', {
-                        method: 'DELETE',
-                        headers: {'Content-Type':'application/json'},
-                        body: JSON.stringify({ unique_code: p.unique_code })
-                    });
-                    const ret = await res.json();
-                    if(ret.ok) {
-                        showRemind('删除成功');
-                        await loadPainters();
-                    } else {
-                        showRemind('删除失败：' + ret.msg);
-                    }
-                } catch(e) {
-                    showRemind('删除请求异常');
-                }
-            };
-            ul.appendChild(li);
-        })
+            const ret = await res.json();
+            if (ret.ok) {
+              showRemind('删除成功');
+              await loadPainters();
+            } else {
+              showRemind('删除失败：' + ret.msg);
+            }
+          } catch (e) {
+            showRemind('删除请求异常');
+          }
+        };
+        ul.appendChild(li);
+      })
     }
     // 打开编辑弹窗，回填数据
     function openEdit(p) {
-        editTarget = p;
-        modalTitle.innerText = '编辑艺术家';
-        selCountry.value = p.country_name;
-        cnName.value = p.cn_name;
-        enName.value = p.en_name;
-        birth8.value = p.birth_8;
-        desc.value = p.desc;
-        modal.style.display = 'flex';
+      editTarget = p;
+      modalTitle.innerText = '编辑艺术家';
+      jsonImport.value = '';
+      selectedCountryName = p.country_name;
+      // 找到对应国家展示文本回填输入框
+      const findItem = countryList.find(c => c.country_name === p.country_name);
+      if (findItem) {
+        selCountryInput.value = `${findItem.country_numeric} - ${findItem.country_name} (${findItem.country_alpha2})`;
+      } else {
+        selCountryInput.value = p.country_name;
+      }
+      cnName.value = p.cn_name;
+      enName.value = p.en_name;
+      birth8.value = p.birth_8;
+      desc.value = p.desc;
+      countryDropdown.classList.remove('show');
+      modal.style.display = 'flex';
     }
     // 打开新增弹窗
     function openAdd() {
-        editTarget = null;
-        modalTitle.innerText = '新增艺术家';
-        cnName.value = '';
-        enName.value = '';
-        birth8.value = '';
-        desc.value = '';
-        selCountry.value = countryList[0]?.country_name || '';
-        modal.style.display = 'flex';
+      editTarget = null;
+      modalTitle.innerText = '新增艺术家';
+      jsonImport.value = '';
+      cnName.value = '';
+      enName.value = '';
+      birth8.value = '';
+      desc.value = '';
+      if (countryList.length > 0) {
+        const first = countryList[0];
+        selectedCountryName = first.country_name;
+        selCountryInput.value = `${first.country_numeric} - ${first.country_name} (${first.country_alpha2})`;
+      } else {
+        selectedCountryName = '';
+        selCountryInput.value = '';
+      }
+      countryDropdown.classList.remove('show');
+      modal.style.display = 'flex';
     }
+    // JSON解析函数
+    function parseJsonFillForm() {
+      const raw = jsonImport.value.trim();
+      if (!raw) return;
+      try {
+        const fixJson = raw.replace(/,\s*}/g, '}').replace(/,\s*]/g, ']');
+        const data = JSON.parse(fixJson);
+
+        const countryItem = countryList.find(c => c.country_name === data.country_name);
+        if (countryItem) {
+          selectedCountryName = countryItem.country_name;
+          selCountryInput.value = `${countryItem.country_numeric} - ${countryItem.country_name} (${countryItem.country_alpha2})`;
+        } else {
+          selectedCountryName = data.country_name;
+          selCountryInput.value = data.country_name;
+        }
+
+        cnName.value = data.cn_name || '';
+        enName.value = data.en_name || '';
+        birth8.value = data.birth_8 || '';
+        desc.value = data.desc || '';
+        showRemind("✅ JSON解析成功，已自动填充表单");
+      } catch (e) {
+        showRemind("❌ JSON格式错误，请检查语法");
+        console.error("json parse error:", e);
+      }
+    }
+    // 失焦触发解析
+    jsonImport.onblur = parseJsonFillForm;
+
     // 弹窗控制
     btnAdd.onclick = openAdd;
     btnCancel.onclick = () => {
-        modal.style.display = 'none';
+      modal.style.display = 'none';
     }
-    // 点击遮罩关闭
-    modal.onclick = (e) => {
-        if(e.target === modal) modal.style.display = 'none';
+    // 输入框过滤
+    selCountryInput.oninput = () => {
+      renderCountryDropdown(selCountryInput.value);
     }
+    selCountryInput.onfocus = () => {
+      renderCountryDropdown(selCountryInput.value);
+    }
+    // 点击页面空白关闭下拉
+    document.addEventListener('click', (e) => {
+      if (!selCountryInput.parentElement.contains(e.target)) {
+        countryDropdown.classList.remove('show');
+      }
+    })
     // 提交：区分新增 / 编辑
     btnSubmit.onclick = async () => {
-        const payload = {
-            country_name: selCountry.value,
-            cn_name: cnName.value.trim(),
-            en_name: enName.value.trim(),
-            birth_8: birth8.value.trim(),
-            desc: desc.value.trim()
-        };
-        if(!payload.cn_name || !payload.en_name || !payload.birth_8 || !payload.desc) {
-            showRemind('中文名、英文名、birth_8、简介 必填');
-            return;
+      if (!selectedCountryName) {
+        showRemind('请选择国家');
+        return;
+      }
+      const payload = {
+        country_name: selectedCountryName,
+        cn_name: cnName.value.trim(),
+        en_name: enName.value.trim(),
+        birth_8: birth8.value.trim(),
+        desc: desc.value.trim()
+      };
+      if (!payload.cn_name || !payload.en_name || !payload.birth_8 || !payload.desc) {
+        showRemind('中文名、英文名、birth_8、简介 必填');
+        return;
+      }
+      if (!/^\d{8}$/.test(payload.birth_8)) {
+        showRemind('birth_8 必须是8位数字');
+        return;
+      }
+      try {
+        let res, ret;
+        if (editTarget) {
+          res = await fetch('/api/putpainter', {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              unique_code: editTarget.unique_code,
+              cn_name: payload.cn_name,
+              en_name: payload.en_name,
+              birth_8: payload.birth_8,
+              desc: payload.desc
+            })
+          });
+          ret = await res.json();
+        } else {
+          res = await fetch('/api/addpainter', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+          });
+          ret = await res.json();
         }
-        if(!/^\d{8}$/.test(payload.birth_8)) {
-            showRemind('birth_8 必须是8位数字');
-            return;
+        if (ret.ok) {
+          showRemind(editTarget ? '编辑成功' : `新增成功，UID：${ret.data.unique_code}`);
+          modal.style.display = 'none';
+          if (editTarget) {
+            const idx = painters_data.findIndex(x => x.unique_code === editTarget.unique_code);
+            if (idx > -1) painters_data[idx] = ret.data;
+            editTarget = null;
+          } else {
+            painters_data.push(ret.data);
+          }
+          painters_data.sort((a, b) => Number(b.birth_8) - Number(a.birth_8));
+          renderList(painters_data);
+        } else {
+          showRemind('失败：' + ret.msg);
         }
-        try {
-            let res, ret;
-            if(editTarget) {
-                res = await fetch('/api/putpainter', {
-                    method: 'PUT',
-                    headers: {'Content-Type':'application/json'},
-                    body: JSON.stringify({
-                        unique_code: editTarget.unique_code,
-                        cn_name: payload.cn_name,
-                        en_name: payload.en_name,
-                        birth_8: payload.birth_8,
-                        desc: payload.desc
-                    })
-                });
-                ret = await res.json();
-            } else {
-                res = await fetch('/api/addpainter', {
-                    method: 'POST',
-                    headers: {'Content-Type':'application/json'},
-                    body: JSON.stringify(payload)
-                });
-                ret = await res.json();
-            }
-            if(ret.ok) {
-                showRemind(editTarget ? '编辑成功' : `新增成功，UID：${ret.data.unique_code}`);
-                modal.style.display = 'none';
-                if (editTarget) {
-                    // 编辑：替换本地旧条目
-                    const idx = painters_data.findIndex(x => x.unique_code === editTarget.unique_code);
-                    if(idx > -1) painters_data[idx] = ret.data;
-                    editTarget = null;
-                } else {
-                    // 新增：push
-                    painters_data.push(ret.data);
-                }
-                // 重排 + 渲染
-                painters_data.sort((a, b) => Number(b.birth_8) - Number(a.birth_8));
-                renderList(painters_data);
-            } else {
-                showRemind('失败：' + ret.msg);
-            }
-        } catch(err) {
-            console.error(err);
-            showRemind('网络请求异常：' + err.message);
-        }
+      } catch (err) {
+        console.error(err);
+        showRemind('网络请求异常：' + err.message);
+      }
     }
     // 图片上传
     fileInput.onchange = async (e) => {
-        const file = e.target.files[0];
-        if (!file || !currentPainter) return;
-        const form = new FormData();
-        form.append('img', file);
-        form.append('unique_code', currentPainter.unique_code);
-        const res = await fetch('/api/upload', {
-            method: 'POST',
-            body: form
-        });
-        const ret = await res.json();
-        if (ret.ok) {
-            showRemind('上传成功，已生成缩略图');
-            const newCode = ret.unique_code;
-            const cardImgWrap = document.querySelector(`.preview-img[data-code="${newCode}"]`);
-            if (cardImgWrap) {
-                cardImgWrap.innerHTML = `<img src="/images/thumb/${newCode}.webp" onerror="this.style.display='none'">`;
-            }
-        } else {
-            showRemind('上传失败：' + ret.msg);
+      const file = e.target.files[0];
+      if (!file || !currentPainter) return;
+      const form = new FormData();
+      form.append('img', file);
+      form.append('unique_code', currentPainter.unique_code);
+      const res = await fetch('/api/upload', {
+        method: 'POST',
+        body: form
+      });
+      const ret = await res.json();
+      if (ret.ok) {
+        showRemind('上传成功，已生成缩略图');
+        const newCode = ret.unique_code;
+        const cardImgWrap = document.querySelector(`.preview-img[data-code="${newCode}"]`);
+        if (cardImgWrap) {
+          cardImgWrap.innerHTML = `<img src="/images/thumb/${newCode}.webp" onerror="this.style.display='none'">`;
         }
-        fileInput.value = '';
+      } else {
+        showRemind('上传失败：' + ret.msg);
+      }
+      fileInput.value = '';
     }
     // 搜索
     searchInput.oninput = (e) => {
-        const kw = e.target.value.trim().toLowerCase();
-        if (!kw) {
-            renderList(painters_data);
-            return;
-        }
-        let filtered = painters_data.filter(p => {
-            const str = `${p.unique_code} ${p.en_name} ${p.cn_name} ${p.country_name}`.toLowerCase();
-            return str.includes(kw);
-        });
-        filtered.sort((a, b) => Number(b.birth_8) - Number(a.birth_8));
-        renderList(filtered);
+      const kw = e.target.value.trim().toLowerCase();
+      if (!kw) {
+        renderList(painters_data);
+        return;
+      }
+      let filtered = painters_data.filter(p => {
+        const str = `${p.unique_code} ${p.en_name} ${p.cn_name} ${p.country_name}`.toLowerCase();
+        return str.includes(kw);
+      });
+      filtered.sort((a, b) => Number(b.birth_8) - Number(a.birth_8));
+      renderList(filtered);
     }
     // 初始化
     (async () => {
-        await loadCountries();
-        await loadPainters();
+      await loadCountries();
+      await loadPainters();
     })()
-</script>
+
+  </script>
 
 </body>
+
 </html>

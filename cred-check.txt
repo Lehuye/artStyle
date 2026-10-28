@@ -1,0 +1,5 @@
+﻿=== cmdkey github entries ===
+=== GCM check ===
+git-credential-manager: 
+=== try read credential ===
+helper: 

@@ -13,6 +13,9 @@ const DIR_THUMB = path.join(IMG_ROOT, 'thumb');
 [DIR_ORIGIN, DIR_MID, DIR_THUMB].forEach(d => {
   if (!fs.existsSync(d)) fs.mkdirSync(d, { recursive: true });
 });
+
+app.use('/', express.static(path.join(__dirname, 'public')));
+
 app.use(express.json());
 app.use('/images', express.static(IMG_ROOT));
 const upload = multer({ storage: multer.memoryStorage() });
