@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <title>Lehuye Artist List</title>
   <link rel="stylesheet" href="/style.css">
-
 </head>
 
 <body>
@@ -39,37 +38,46 @@
   </footer>
   <input type="file" id="fileInput" accept="image/*">
 
-
   <!-- 添加/编辑画家弹窗 -->
   <div class="modal-mask" id="modal">
     <h3 id="modalTitle">新增艺术家</h3>
     <div class="modal-box">
-      <div class="modal-left">
-      <textarea id="jsonImport" rows="8" placeholder=""></textarea>
-</div>
-      <div class="modal-right">
+      <div class="modal-item" style="flex: .5;">
         <div class="form-row">
-          <label>国家</label>
+          <label>添加须知
+            <span class="form-desc">编号：编号由 国家/地区+创作者/公司/企业/团体 生日或发布日期+两位数 构成，两位数主要是解决冲突同时同期的作品，这构成了一部作品创作风格的唯一编号  </span>
+            <span class="form-desc">描述：主要是针对创作作品的描述可以根据对于作品的见解添加修改，主要是突出作品的创作风格，描述的内容不限，以Markdown的格式进行</span>
+            <span class="form-desc">生日：对于创作者/公司/企业/团体生日或发布日期不详的 如原创作者不详，即使用作品发布日期或是作品第一次出处日期</span>
+          </label>
+          <div class="combobox-wrap"></div>
+        </div>
+      </div>
+      <div class="modal-item">
+        <textarea id="jsonImport" rows="8" placeholder="粘贴完整JSON，可一键填充表单"></textarea>
+      </div>
+
+      <div class="modal-item">
+        <div class="form-row">
+          <label>国家 <span class="form-desc">作品或作者所归属的区域，遵循ISO 3166</span></label>
           <div class="combobox-wrap">
             <input id="selCountryInput" type="text" autocomplete="off" placeholder="输入筛选国家">
             <div class="combobox-dropdown" id="countryDropdown"></div>
           </div>
         </div>
-
         <div class="form-row">
-          <label>中文名</label>
+          <label>中文名 <span class="form-desc">自然人译名 / 机构法人名称</span></label>
           <input id="cnName" type="text">
         </div>
         <div class="form-row">
-          <label>英文名</label>
+          <label>英文名<span class="form-desc">原始拉丁拼写，保留大小写、连字符</span></label>
           <input id="enName" type="text">
         </div>
         <div class="form-row">
-          <label>birth_8（8位数字，例如 14550101）</label>
-          <input id="birth8" type="text">
+          <label>birth_8（8位数字 YYYYMMDD）<span class="form-desc">创作者生日；无法考证留空</span></label>
+          <input id="birth8" type="text" maxlength="8">
         </div>
         <div class="form-row">
-          <label>简介 desc</label>
+          <label>简介<span class="form-desc">单行客观描述：时代+地域+门类+风格+成就，禁止主观评价</span></label>
           <textarea id="desc" rows="3"></textarea>
         </div>
         <div class="modal-actions">
@@ -79,7 +87,6 @@
       </div>
     </div>
   </div>
-
 
   <script>
     const fileInput = document.getElementById('fileInput');

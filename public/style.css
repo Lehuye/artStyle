@@ -172,7 +172,7 @@ body {
   min-width: 980px;
   display: flex;
   gap:2rem;
-  justify-content: space-between;
+  flex-direction: row;
   background: #151518;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 14px;
@@ -182,9 +182,8 @@ body {
   margin-top: 0;
   color: #fff;
 }
-.modal-left{flex: 1;}
-.modal-left textarea{width: 100%; height: 100%; background-color: #000; color: white; padding:1rem; box-sizing: border-box;}
-.modal-right{flex:1}
+.modal-item{flex: 1;}
+.modal-item textarea{width: 100%; height: 100%; background-color: #000; color: white; padding:1rem; box-sizing: border-box;}
 .form-row {
   margin-bottom: 12px;
 }
@@ -210,6 +209,11 @@ body {
 .form-row select:focus,
 .form-row textarea:focus {
   border-color: #00dfd8;
+}
+.form-desc{
+  display: block;
+  font-size: 12px;
+  opacity: .5;
 }
 .modal-actions {
   display: flex;

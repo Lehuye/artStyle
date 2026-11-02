@@ -25,6 +25,36 @@ A lightweight app built with **Node.js + Express + Sharp + Electron** that manag
 
 ---
 
+## 规则 · Rules
+
+> 本项目的使用、素材入库、提交内容遵循以下约束
+> The following constraints apply to usage, asset import and content submission.
+
+1. **素材版权 Copyright**
+仅上传你拥有版权、可商用或者开源授权的参考图与素材；禁止导入侵权、色情、暴力、违法违规图像内容。
+Only upload images you own, or with valid open-source/commercial licenses. Infringing, pornographic, violent or illegal assets are prohibited.
+
+2. **风格标注规范 Style Tagging**
+标签尽量精简，优先使用英文关键词；区分【画风标签】【媒介标签】【艺术家标签】【色彩标签】，不要堆砌无意义描述。
+Use concise English tags. Separate tags into style, medium, artist and color groups, avoid redundant descriptions.
+
+3. **图片入库规范 Image Import**
+推荐统一长边尺寸，优先 WebP 格式压缩存储；原始大图会自动触发内置压缩脚本，避免仓库体积无限膨胀。
+WebP format is recommended for storage. Raw large images will be auto-compressed to prevent excessive repo size.
+
+4. **提示词模板 Prompt Template**
+模板区分正向/反向提示词，支持变量占位符；不要硬编码水印、平台专属限制词。
+Templates support positive / negative prompt separation with placeholders. Do not hardcode watermark or platform-specific restrictions.
+
+5. **二次分发 Redistribution**
+本项目代码开源可二次修改，但内置素材（你导入的参考图）不属于项目开源范围，分发时请剥离私人素材库。
+The source code is open for modification. Imported reference images are NOT covered by the open-source license, remove them before redistribution.
+
+6. **风格参考边界 Reference Limitation**
+工具仅用于**风格灵感参考**，不用于复刻、仿制受版权保护的艺术家作品用于商用。
+This tool is only for inspiration. Do not copy protected artist works for commercial usage.
+---
+
 ## 项目简介 · Introduction
 
 **Art Style** 是一个面向 AI 绘画 / 视觉风格研究场景的艺术家资料库。它以「国家 → 艺术家」为组织维度，将全球知名画家、插画师与动画工作室的档案以 JSON 文件形式存储，并通过浏览器提供可视化的卡片式浏览、检索与维护界面。
